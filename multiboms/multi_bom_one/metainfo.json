@@ -1,0 +1,2176 @@
+{
+    "machines_list": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "maintenances": [
+        {
+            "id": 402,
+            "machineid": 3,
+            "start_date": "2022-08-30 13:00:00.000000",
+            "end_date": "2022-08-30 14:00:00.000000"
+        }
+    ],
+    "prod_machines": [
+        {
+            "productid": 1,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 180,
+                    "execution_time": 506
+                }
+            ]
+        },
+        {
+            "productid": 2,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 180,
+                    "execution_time": 205
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 420,
+                    "execution_time": 204
+                }
+            ]
+        },
+        {
+            "productid": 4,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 457
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 420,
+                    "execution_time": 437
+                }
+            ]
+        },
+        {
+            "productid": 5,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 300,
+                    "execution_time": 652
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 180,
+                    "execution_time": 681
+                }
+            ]
+        },
+        {
+            "productid": 6,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 360,
+                    "execution_time": 63
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "productid": 7,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 420,
+                    "execution_time": 136
+                }
+            ]
+        },
+        {
+            "productid": 9,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 180,
+                    "execution_time": 587
+                }
+            ]
+        },
+        {
+            "productid": 10,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 180,
+                    "execution_time": 506
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 240,
+                    "execution_time": 546
+                }
+            ]
+        },
+        {
+            "productid": 12,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 240,
+                    "execution_time": 633
+                }
+            ]
+        },
+        {
+            "productid": 13,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 180,
+                    "execution_time": 65
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 600,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "productid": 16,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 273
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 261
+                }
+            ]
+        },
+        {
+            "productid": 17,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 120,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "productid": 19,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 420,
+                    "execution_time": 681
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 420,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 20,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 540,
+                    "execution_time": 130
+                }
+            ]
+        },
+        {
+            "productid": 21,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 195
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 600,
+                    "execution_time": 187
+                }
+            ]
+        },
+        {
+            "productid": 23,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 391
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 374
+                }
+            ]
+        },
+        {
+            "productid": 25,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 136
+                }
+            ]
+        },
+        {
+            "productid": 27,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 120,
+                    "execution_time": 457
+                }
+            ]
+        },
+        {
+            "productid": 28,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 60,
+                    "execution_time": 633
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 60,
+                    "execution_time": 683
+                }
+            ]
+        },
+        {
+            "productid": 30,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 540,
+                    "execution_time": 683
+                }
+            ]
+        },
+        {
+            "productid": 33,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 420,
+                    "execution_time": 187
+                }
+            ]
+        },
+        {
+            "productid": 35,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 240,
+                    "execution_time": 205
+                }
+            ]
+        },
+        {
+            "productid": 36,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 683
+                }
+            ]
+        },
+        {
+            "productid": 39,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 633
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 40,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 60,
+                    "execution_time": 272
+                }
+            ]
+        },
+        {
+            "productid": 41,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 190
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 180,
+                    "execution_time": 205
+                }
+            ]
+        },
+        {
+            "productid": 42,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 499
+                }
+            ]
+        },
+        {
+            "productid": 43,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 240,
+                    "execution_time": 506
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 540,
+                    "execution_time": 544
+                }
+            ]
+        },
+        {
+            "productid": 44,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 240,
+                    "execution_time": 62
+                }
+            ]
+        },
+        {
+            "productid": 45,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 570
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 60,
+                    "execution_time": 615
+                }
+            ]
+        },
+        {
+            "productid": 46,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 60,
+                    "execution_time": 476
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 240,
+                    "execution_time": 437
+                }
+            ]
+        },
+        {
+            "productid": 47,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 540,
+                    "execution_time": 273
+                }
+            ]
+        },
+        {
+            "productid": 49,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 360,
+                    "execution_time": 380
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 540,
+                    "execution_time": 391
+                }
+            ]
+        },
+        {
+            "productid": 51,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 240,
+                    "execution_time": 476
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 300,
+                    "execution_time": 437
+                }
+            ]
+        },
+        {
+            "productid": 52,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 506
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 540,
+                    "execution_time": 522
+                }
+            ]
+        },
+        {
+            "productid": 53,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 316
+                }
+            ]
+        },
+        {
+            "productid": 54,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 65
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 240,
+                    "execution_time": 62
+                }
+            ]
+        },
+        {
+            "productid": 55,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 68
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 360,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "productid": 57,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 136
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 60,
+                    "execution_time": 136
+                }
+            ]
+        },
+        {
+            "productid": 59,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 240,
+                    "execution_time": 63
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 120,
+                    "execution_time": 62
+                }
+            ]
+        },
+        {
+            "productid": 60,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 205
+                }
+            ]
+        },
+        {
+            "productid": 61,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 63
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 360,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "productid": 62,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 600,
+                    "execution_time": 615
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 180,
+                    "execution_time": 612
+                }
+            ]
+        },
+        {
+            "productid": 63,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 300,
+                    "execution_time": 499
+                }
+            ]
+        },
+        {
+            "productid": 64,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 300,
+                    "execution_time": 410
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 480,
+                    "execution_time": 408
+                }
+            ]
+        },
+        {
+            "productid": 65,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 240,
+                    "execution_time": 62
+                }
+            ]
+        },
+        {
+            "productid": 66,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 540,
+                    "execution_time": 410
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 480,
+                    "execution_time": 408
+                }
+            ]
+        },
+        {
+            "productid": 69,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 540,
+                    "execution_time": 587
+                }
+            ]
+        },
+        {
+            "productid": 72,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 600,
+                    "execution_time": 612
+                }
+            ]
+        },
+        {
+            "productid": 73,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 180,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 74,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 480,
+                    "execution_time": 130
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 540,
+                    "execution_time": 124
+                }
+            ]
+        },
+        {
+            "productid": 75,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 420,
+                    "execution_time": 570
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 300,
+                    "execution_time": 615
+                }
+            ]
+        },
+        {
+            "productid": 76,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 420,
+                    "execution_time": 681
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 540,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 78,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 420,
+                    "execution_time": 326
+                }
+            ]
+        },
+        {
+            "productid": 79,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 457
+                }
+            ]
+        },
+        {
+            "productid": 80,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 136
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 60,
+                    "execution_time": 136
+                }
+            ]
+        },
+        {
+            "productid": 81,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 180,
+                    "execution_time": 522
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 499
+                }
+            ]
+        },
+        {
+            "productid": 84,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 120,
+                    "execution_time": 253
+                }
+            ]
+        },
+        {
+            "productid": 85,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 180,
+                    "execution_time": 253
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 300,
+                    "execution_time": 249
+                }
+            ]
+        },
+        {
+            "productid": 87,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 341
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 540,
+                    "execution_time": 326
+                }
+            ]
+        },
+        {
+            "productid": 88,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 180,
+                    "execution_time": 633
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 652
+                }
+            ]
+        },
+        {
+            "productid": 89,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 420,
+                    "execution_time": 478
+                }
+            ]
+        },
+        {
+            "productid": 90,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 240,
+                    "execution_time": 316
+                }
+            ]
+        },
+        {
+            "productid": 91,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 120,
+                    "execution_time": 253
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 540,
+                    "execution_time": 272
+                }
+            ]
+        },
+        {
+            "productid": 92,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 300,
+                    "execution_time": 205
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 600,
+                    "execution_time": 204
+                }
+            ]
+        },
+        {
+            "productid": 93,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 261
+                }
+            ]
+        },
+        {
+            "productid": 94,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 420,
+                    "execution_time": 273
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 261
+                }
+            ]
+        },
+        {
+            "productid": 95,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 60,
+                    "execution_time": 126
+                }
+            ]
+        },
+        {
+            "productid": 97,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 120,
+                    "execution_time": 522
+                }
+            ]
+        },
+        {
+            "productid": 99,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 60,
+                    "execution_time": 190
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 120,
+                    "execution_time": 187
+                }
+            ]
+        },
+        {
+            "productid": 100,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 420,
+                    "execution_time": 681
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 360,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 101,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 300,
+                    "execution_time": 312
+                }
+            ]
+        },
+        {
+            "productid": 104,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 120,
+                    "execution_time": 457
+                }
+            ]
+        },
+        {
+            "productid": 105,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 300,
+                    "execution_time": 204
+                }
+            ]
+        },
+        {
+            "productid": 106,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 130
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 120,
+                    "execution_time": 124
+                }
+            ]
+        },
+        {
+            "productid": 108,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 300,
+                    "execution_time": 443
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 457
+                }
+            ]
+        },
+        {
+            "productid": 110,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 683
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 300,
+                    "execution_time": 681
+                }
+            ]
+        },
+        {
+            "productid": 113,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 360,
+                    "execution_time": 253
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 273
+                }
+            ]
+        },
+        {
+            "productid": 115,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 540,
+                    "execution_time": 506
+                }
+            ]
+        },
+        {
+            "productid": 116,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 60,
+                    "execution_time": 253
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 261
+                }
+            ]
+        },
+        {
+            "productid": 117,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 615
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 180,
+                    "execution_time": 612
+                }
+            ]
+        },
+        {
+            "productid": 118,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 60,
+                    "execution_time": 615
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 60,
+                    "execution_time": 612
+                }
+            ]
+        },
+        {
+            "productid": 119,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 300,
+                    "execution_time": 190
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 300,
+                    "execution_time": 195
+                }
+            ]
+        },
+        {
+            "productid": 121,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 391
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 420,
+                    "execution_time": 374
+                }
+            ]
+        },
+        {
+            "productid": 123,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 240,
+                    "execution_time": 273
+                }
+            ]
+        },
+        {
+            "productid": 124,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 570
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 615
+                }
+            ]
+        },
+        {
+            "productid": 125,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 540,
+                    "execution_time": 126
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 130
+                }
+            ]
+        },
+        {
+            "productid": 126,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 312
+                }
+            ]
+        },
+        {
+            "productid": 129,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 180,
+                    "execution_time": 63
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 600,
+                    "execution_time": 62
+                }
+            ]
+        },
+        {
+            "productid": 130,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 326
+                }
+            ]
+        },
+        {
+            "productid": 131,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 273
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 420,
+                    "execution_time": 272
+                }
+            ]
+        },
+        {
+            "productid": 134,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 126
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 60,
+                    "execution_time": 136
+                }
+            ]
+        },
+        {
+            "productid": 135,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 443
+                }
+            ]
+        },
+        {
+            "productid": 136,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 360,
+                    "execution_time": 68
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 540,
+                    "execution_time": 68
+                }
+            ]
+        },
+        {
+            "productid": 138,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 480,
+                    "execution_time": 652
+                }
+            ]
+        },
+        {
+            "productid": 141,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 124
+                }
+            ]
+        },
+        {
+            "productid": 142,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 60,
+                    "execution_time": 615
+                }
+            ]
+        },
+        {
+            "productid": 145,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 506
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 522
+                }
+            ]
+        },
+        {
+            "productid": 147,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 391
+                }
+            ]
+        },
+        {
+            "productid": 148,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 420,
+                    "execution_time": 408
+                }
+            ]
+        },
+        {
+            "productid": 149,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 457
+                }
+            ]
+        },
+        {
+            "productid": 151,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 587
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 120,
+                    "execution_time": 612
+                }
+            ]
+        },
+        {
+            "productid": 152,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 120,
+                    "execution_time": 506
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 120,
+                    "execution_time": 499
+                }
+            ]
+        },
+        {
+            "productid": 153,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 120,
+                    "execution_time": 340
+                }
+            ]
+        },
+        {
+            "productid": 154,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 480,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 155,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 130
+                }
+            ]
+        },
+        {
+            "productid": 156,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 300,
+                    "execution_time": 341
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 360,
+                    "execution_time": 340
+                }
+            ]
+        },
+        {
+            "productid": 157,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 360,
+                    "execution_time": 190
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 420,
+                    "execution_time": 205
+                }
+            ]
+        },
+        {
+            "productid": 158,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 600,
+                    "execution_time": 341
+                }
+            ]
+        },
+        {
+            "productid": 161,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 391
+                }
+            ]
+        },
+        {
+            "productid": 162,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 633
+                }
+            ]
+        },
+        {
+            "productid": 163,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 60,
+                    "execution_time": 253
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 180,
+                    "execution_time": 273
+                }
+            ]
+        },
+        {
+            "productid": 165,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 300,
+                    "execution_time": 506
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 120,
+                    "execution_time": 499
+                }
+            ]
+        },
+        {
+            "productid": 167,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 480,
+                    "execution_time": 546
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 360,
+                    "execution_time": 499
+                }
+            ]
+        },
+        {
+            "productid": 168,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 546
+                }
+            ]
+        },
+        {
+            "productid": 170,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 570
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 180,
+                    "execution_time": 561
+                }
+            ]
+        },
+        {
+            "productid": 172,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 240,
+                    "execution_time": 408
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 300,
+                    "execution_time": 374
+                }
+            ]
+        },
+        {
+            "productid": 173,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 240,
+                    "execution_time": 62
+                }
+            ]
+        },
+        {
+            "productid": 174,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 180,
+                    "execution_time": 341
+                }
+            ]
+        },
+        {
+            "productid": 175,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 478
+                }
+            ]
+        },
+        {
+            "productid": 176,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 300,
+                    "execution_time": 341
+                }
+            ]
+        },
+        {
+            "productid": 179,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 540,
+                    "execution_time": 615
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 60,
+                    "execution_time": 587
+                }
+            ]
+        },
+        {
+            "productid": 180,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 480,
+                    "execution_time": 126
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 300,
+                    "execution_time": 124
+                }
+            ]
+        },
+        {
+            "productid": 181,
+            "machines": [
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 180,
+                    "execution_time": 624
+                }
+            ]
+        },
+        {
+            "productid": 182,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 360,
+                    "execution_time": 326
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 420,
+                    "execution_time": 312
+                }
+            ]
+        },
+        {
+            "productid": 183,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 240,
+                    "execution_time": 478
+                }
+            ]
+        },
+        {
+            "productid": 184,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 180,
+                    "execution_time": 204
+                }
+            ]
+        },
+        {
+            "productid": 185,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 443
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 120,
+                    "execution_time": 478
+                }
+            ]
+        },
+        {
+            "productid": 186,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 240,
+                    "execution_time": 587
+                },
+                {
+                    "id": 5,
+                    "name": "Machine_05",
+                    "oee": 0.961,
+                    "setup_time": 600,
+                    "execution_time": 561
+                }
+            ]
+        },
+        {
+            "productid": 188,
+            "machines": [
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 600,
+                    "execution_time": 457
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 360,
+                    "execution_time": 476
+                }
+            ]
+        },
+        {
+            "productid": 189,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 180,
+                    "execution_time": 380
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 240,
+                    "execution_time": 408
+                }
+            ]
+        },
+        {
+            "productid": 190,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 600,
+                    "execution_time": 506
+                },
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 540,
+                    "execution_time": 546
+                }
+            ]
+        },
+        {
+            "productid": 191,
+            "machines": [
+                {
+                    "id": 1,
+                    "name": "Machine_01",
+                    "oee": 0.947,
+                    "setup_time": 300,
+                    "execution_time": 633
+                },
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 180,
+                    "execution_time": 681
+                }
+            ]
+        },
+        {
+            "productid": 192,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 240,
+                    "execution_time": 681
+                }
+            ]
+        },
+        {
+            "productid": 193,
+            "machines": [
+                {
+                    "id": 4,
+                    "name": "Machine_04",
+                    "oee": 0.881,
+                    "setup_time": 120,
+                    "execution_time": 340
+                }
+            ]
+        },
+        {
+            "productid": 195,
+            "machines": [
+                {
+                    "id": 2,
+                    "name": "Machine_02",
+                    "oee": 0.878,
+                    "setup_time": 540,
+                    "execution_time": 136
+                },
+                {
+                    "id": 3,
+                    "name": "Machine_03",
+                    "oee": 0.919,
+                    "setup_time": 540,
+                    "execution_time": 130
+                }
+            ]
+        }
+    ]
+}

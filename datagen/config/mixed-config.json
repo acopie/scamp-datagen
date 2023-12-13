@@ -1,0 +1,166 @@
+{
+  "boms": [
+    {
+      "name": "BOM_Tubes",
+      "max_depth": 2,
+      "max_children": 2,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 5,
+      "max_alternatives_machines_number": 2,
+      "randomize_alternative_machines": false,
+      "output_file": "bom_tubes.json",
+      "start_date": "2022-08-25 00:00:00.000000",
+      "delivery_date": "2022-09-03 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 5
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0.6,
+      "maintenance_duration": {
+        "min_duration": 60,
+        "max_duration": 300,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 72,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.1,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "vertical_tree_depth": {
+        "min": 2,
+        "step": 1,
+        "max": 30
+      }
+    },
+    {
+      "name": "BOM_Windows",
+      "max_depth": 5,
+      "max_children": 2,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 5,
+      "max_alternatives_machines_number": 2,
+      "randomize_alternative_machines": false,
+      "output_file": "bom_windows.json",
+      "start_date": "2022-08-25 00:00:00.000000",
+      "delivery_date": "2022-09-03 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 5
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0.6,
+      "maintenance_duration": {
+        "min_duration": 60,
+        "max_duration": 300,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 72,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.1,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "vertical_tree_depth": {
+        "min": 2,
+        "step": 1,
+        "max": 10
+      }
+    },
+    {
+      "name": "BOM_Refrigerated",
+      "max_depth": 5,
+      "max_children": 5,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 5,
+      "max_alternatives_machines_number": 2,
+      "randomize_alternative_machines": false,
+      "output_file": "bom_refrigerated.json",
+      "start_date": "2022-08-25 00:00:00.000000",
+      "delivery_date": "2022-09-03 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 5
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0.6,
+      "maintenance_duration": {
+        "min_duration": 60,
+        "max_duration": 300,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 72,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.1,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "vertical_tree_depth": {
+        "min": 2,
+        "step": 1,
+        "max": 10
+      }
+    }
+  ]
+}

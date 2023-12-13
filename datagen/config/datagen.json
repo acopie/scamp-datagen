@@ -1,0 +1,739 @@
+{
+  "boms": [
+    {
+      "name": "Bom_SET2_2_2_10_5",
+      "max_depth": 2,
+      "max_children": 2,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_2_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_3_10_5",
+      "max_depth": 2,
+      "max_children": 3,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_3_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_4_10_5",
+      "max_depth": 2,
+      "max_children": 4,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_4_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_5_10_5",
+      "max_depth": 2,
+      "max_children": 5,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_5_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_6_10_5",
+      "max_depth": 2,
+      "max_children": 6,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_6_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_7_10_5",
+      "max_depth": 2,
+      "max_children": 7,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_7_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_8_10_5",
+      "max_depth": 2,
+      "max_children": 8,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_8_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_9_10_5",
+      "max_depth": 2,
+      "max_children": 9,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_9_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_10_10_5",
+      "max_depth": 2,
+      "max_children": 10,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_10_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_11_10_5",
+      "max_depth": 2,
+      "max_children": 11,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_11_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_12_10_5",
+      "max_depth": 2,
+      "max_children": 12,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_12_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_13_10_5",
+      "max_depth": 2,
+      "max_children": 13,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_13_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_14_10_5",
+      "max_depth": 2,
+      "max_children": 14,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_14_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_15_10_5",
+      "max_depth": 2,
+      "max_children": 15,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_15_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    },
+    {
+      "name": "Bom_SET2_2_16_10_5",
+      "max_depth": 2,
+      "max_children": 16,
+      "randomize_children": false,
+      "seed": 0,
+      "prod_number": 200,
+      "machines_number": 10,
+      "max_alternatives_machines_number": 5,
+      "randomize_alternative_machines": true,
+      "output_file": "bom_SET2_2_16_10_5.json",
+      "start_date": "2023-01-01 00:00:00.000000",
+      "delivery_date": "2023-03-01 00:00:00.000000",
+      "quantity": {
+        "min": 1,
+        "step": 1,
+        "max": 10
+      },
+      "allow_identical_machines": false,
+      "percent_of_identical_machines": 0,
+      "maintenance_duration": {
+        "min_duration": 180,
+        "max_duration": 360,
+        "step": 60,
+        "time_units": "minutes"
+      },
+      "maintenance_interval": {
+        "duration": 168,
+        "time_units": "hours"
+      },
+      "maintenance_probability": 0.25,
+      "unit_assembly_time": {
+        "min": 60,
+        "step": 60,
+        "max": 600,
+        "time_units": "seconds"
+      },
+      "oee": {
+        "min": 0.75,
+        "max": 1,
+        "distribution": "normal"
+      },
+      "setup_time": {
+        "min": 60,
+        "step": 30,
+        "max": 120,
+        "time_units": "minutes"
+      }
+    }
+  ]
+}

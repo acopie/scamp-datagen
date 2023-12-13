@@ -1,0 +1,189 @@
+{
+  "operationid": 376,
+  "productid": 113,
+  "code": "THBI",
+  "pname": "THBI",
+  "parentid": null,
+  "start_date": "2022-08-25 00:00:00.000000",
+  "delivery_date": "2022-09-05 00:00:00.000000",
+  "priority": 6,
+  "quantity": 5,
+  "name": "root",
+  "operations_list": [
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    385,
+    386,
+    387,
+    388,
+    389,
+    390,
+    391,
+    392
+  ],
+  "children": [
+    {
+      "parentid": 376,
+      "operationid": 377,
+      "productid": 90,
+      "code": "CAGU",
+      "pname": "CAGU",
+      "quantity": 4,
+      "children": [
+        {
+          "parentid": 377,
+          "operationid": 378,
+          "productid": 159,
+          "code": "ROEK",
+          "pname": "ROEK",
+          "quantity": 3
+        },
+        {
+          "parentid": 377,
+          "operationid": 379,
+          "productid": 174,
+          "code": "APTE",
+          "pname": "APTE",
+          "quantity": 4,
+          "children": [
+            {
+              "parentid": 379,
+              "operationid": 380,
+              "productid": 171,
+              "code": "AFUR",
+              "pname": "AFUR",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 380,
+                  "operationid": 381,
+                  "productid": 88,
+                  "code": "RHLL",
+                  "pname": "RHLL",
+                  "quantity": 4,
+                  "children": [
+                    {
+                      "parentid": 381,
+                      "operationid": 382,
+                      "productid": 57,
+                      "code": "SCOP",
+                      "pname": "SCOP",
+                      "quantity": 2,
+                      "children": [
+                        {
+                          "parentid": 382,
+                          "operationid": 383,
+                          "productid": 168,
+                          "code": "XEKV",
+                          "pname": "XEKV",
+                          "quantity": 1,
+                          "children": [
+                            {
+                              "parentid": 383,
+                              "operationid": 384,
+                              "raw_material_id": 219,
+                              "raw_material_quantity": 8,
+                              "productid": 99,
+                              "code": "HTCT",
+                              "pname": "HTCT",
+                              "quantity": 5
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 376,
+      "operationid": 385,
+      "productid": 156,
+      "code": "VFZB",
+      "pname": "VFZB",
+      "quantity": 5,
+      "children": [
+        {
+          "parentid": 385,
+          "operationid": 386,
+          "productid": 5,
+          "code": "CFVJ",
+          "pname": "CFVJ",
+          "quantity": 4
+        },
+        {
+          "parentid": 385,
+          "operationid": 387,
+          "productid": 124,
+          "code": "GJYS",
+          "pname": "GJYS",
+          "quantity": 5,
+          "children": [
+            {
+              "parentid": 387,
+              "operationid": 388,
+              "productid": 164,
+              "code": "KHGA",
+              "pname": "KHGA",
+              "quantity": 2,
+              "children": [
+                {
+                  "parentid": 388,
+                  "operationid": 389,
+                  "productid": 67,
+                  "code": "GSDR",
+                  "pname": "GSDR",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 389,
+                      "operationid": 390,
+                      "productid": 82,
+                      "code": "COVA",
+                      "pname": "COVA",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 390,
+                          "operationid": 391,
+                          "productid": 75,
+                          "code": "YOOJ",
+                          "pname": "YOOJ",
+                          "quantity": 2,
+                          "children": [
+                            {
+                              "parentid": 391,
+                              "operationid": 392,
+                              "raw_material_id": 203,
+                              "raw_material_quantity": 1,
+                              "productid": 121,
+                              "code": "RGDJ",
+                              "pname": "RGDJ",
+                              "quantity": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
