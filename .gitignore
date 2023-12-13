@@ -1,0 +1,10 @@
+.DS_Store
+venv/
+*.log
+*.pyc
+.idea/
+*.pages
+.vscode/settings.json
+datagen/boms/*
+datagen/boms/machines.json
+datagen/boms/products.json
