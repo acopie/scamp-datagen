@@ -21,6 +21,8 @@ from datagen.common.rootprod import RootProduct, RootNode
 from datagen.common.sequencer import Sequencer
 from datagen.common.scampdate import datemask
 from datagen.common.config import GENERATE_SIMPLE_TREE
+from datagen.common.stocks import Stocks
+from datagen.common.utility import check_and_create_if_not_exists, get_abs_file_path
 
 from datagen.multi.bom import MultiBomDecoder, MultiBoms, MultiBom
 from datagen.multi.maintenance import Maintenance
@@ -35,7 +37,7 @@ from datagen.multi.root_dir import RootDir
 from datagen.multi.prodmachine import ProdMachines, ProdMachinesAll
 from datagen.multi.sanity import SanityChecker
 from datagen.multi.stockgen import StockGeneratorMulti
-from datagen.common.stocks import Stocks
+
 
 
 def print_name(node: Node) -> None:
@@ -201,7 +203,7 @@ def process_bom(multi_bom: MultiBom) -> None:
         # print the tree to the console for visualization
         print(RenderTree(root))
 
-        node = import_tree(f"../multiboms/{RootDir().get()}/{OUTPUT_FILE}")
+        node = import_tree(get_abs_file_path(f"multiboms/{RootDir().get()}/{OUTPUT_FILE}"))
         render_tree(node)
 
         walk(root, print_name)
@@ -241,6 +243,9 @@ def start() -> None:
 
 
 if __name__ == "__main__":
+
+    check_and_create_if_not_exists("multiboms")
+    check_and_create_if_not_exists("temp")
 
     MultiBomDecoder.build()
 

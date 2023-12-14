@@ -14,7 +14,7 @@ from json import JSONEncoder, JSONDecoder, dumps, load
 from datagen.common.assembly import UnitAssemblyTime
 
 from datagen.common.sequencer import Sequencer
-from datagen.common.utility import get_abs_file_path
+from datagen.common.utility import get_abs_file_path, check_and_create_if_not_exists
 
 from datagen.multi.msequencer import MachineSequencer
 from datagen.multi.machines import Machine, Machines
@@ -29,22 +29,6 @@ generated_names_from_words = False
 
 # get the logger for this module
 log = logging.getLogger("main")
-
-
-# def load_words() -> List[str]:
-#     """
-#     Loads the words from the /usr/share/dict/words file. This file is present on Linux systems and
-#     contains a list of English words, one per line. This list is cached in memory for performance reasons.
-#     """
-#     words = []
-#     with open("/usr/share/dict/words", "r") as f:
-#         for line in f:
-#             words.append(line.strip())
-#     return words
-
-
-# # cache the words in memory
-# all_words = load_words()
 
 
 class RandomProductGenerator:
@@ -141,7 +125,9 @@ class RandomProductGenerator:
         """
 
         products = list()
-        with open(get_abs_file_path(f"multiboms/{self.multi_bom.machines_info.root_directory}/rand_products.json"), "r") as fp:
+
+        with open(get_abs_file_path(f"multiboms/{self.multi_bom.machines_info.root_directory}/rand_products.json"),
+                  "r") as fp:
             decoded = load(fp)
             for prod in decoded:
                 products.append(Product(prod['id'], prod['code'], prod['pname']))
@@ -165,7 +151,10 @@ class RandomProductGenerator:
         for p in RandomProductGenerator.all_products:
             encoded_products.append(encoder.encode(p))
 
-        with open(get_abs_file_path(f"multiboms/{self.multi_bom.machines_info.root_directory}/rand_products.json"), "w") as f:
+        check_and_create_if_not_exists(f"multiboms/{self.multi_bom.machines_info.root_directory}")
+
+        with open(get_abs_file_path(f"multiboms/{self.multi_bom.machines_info.root_directory}/rand_products.json"),
+                  "w") as f:
             f.write(dumps(encoded_products, default=lambda o: o.__dict__, indent=4))
             # dump(encoded_products, f, default=lambda o: o.__dict__, indent=4)
 

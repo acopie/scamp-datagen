@@ -15,6 +15,8 @@ from datagen.common.rootprod import RootProduct, RootNode
 from datagen.common.treeutil import NodeCounter
 from datagen.common.sequencer import Sequencer
 from datagen.common.config import PRINT_TABULAR_TREE_PATHS
+from datagen.common.stocks import Stocks
+from datagen.common.utility import get_abs_file_path
 
 from datagen.multi.quantity import Quantity
 from datagen.multi.metainfo import MetaInfo
@@ -23,7 +25,7 @@ from datagen.multi.pathprods import PathProducts
 from datagen.multi.utility import save_bom
 from datagen.multi.root_dir import RootDir
 from datagen.multi.prodmachine import ProdMachines, ProdMachinesAll
-from datagen.common.stocks import Stocks
+
 
 
 log = logging.getLogger("main")

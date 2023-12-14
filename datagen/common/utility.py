@@ -1,3 +1,9 @@
+"""
+This module contains ua collection of utility functions that are used by other modules
+
+@Author: Adrian
+"""
+
 import os
 import datetime
 import random
@@ -12,6 +18,18 @@ def get_abs_file_path(file: str) -> str:
     config_path = os.path.abspath(os.path.join(parent_dir, file))
 
     return config_path
+
+
+def check_and_create_if_not_exists(dir: str) -> None:
+    """
+    Checks if the directory exists and creates it if it doesn't
+
+    :param dir: the directory to be checked
+    :return: None
+    """
+    if not os.path.exists(get_abs_file_path(dir)):
+        # Create the directory
+        os.makedirs(get_abs_file_path(dir))
 
 
 def create_future_date() -> datetime:

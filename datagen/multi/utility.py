@@ -11,7 +11,7 @@ from datagen.multi.root_dir import RootDir
 MAX_DAYS = 30
 MAX_HOURS = 24
 
-RELATIVE_BOMS_DIR = "./multiboms"
+RELATIVE_BOMS_DIR = "../multiboms"
 
 
 def create_future_date() -> datetime:

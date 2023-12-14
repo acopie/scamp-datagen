@@ -15,7 +15,7 @@ from datagen.common.config import GENERATE_SIMPLE_TREE
 from datagen.common.importer import SProductDecoder
 from datagen.common.sequencer import Sequencer
 from datagen.common.rootprod import RootProduct, RootNode
-from datagen.common.utility import get_abs_file_path
+from datagen.common.utility import get_abs_file_path, check_and_create_if_not_exists
 from datagen.common.stocks import Stocks
 
 from datagen.mono.bomcache import BomCache
@@ -209,6 +209,7 @@ def nary_trees():
 
 
 if __name__ == "__main__":
+    check_and_create_if_not_exists("boms")
     nary_trees()
 
     # Sequencer().reset()
