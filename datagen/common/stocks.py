@@ -1,5 +1,5 @@
 """
-This file contains the elements related to product stocks in the data generator
+This module contains the elements related to product stocks in the data generator
 
 @author: Adrian
 """

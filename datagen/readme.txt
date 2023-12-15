@@ -1,11 +1,15 @@
 PLEASE DO NOT DELETE THIS FILE!!
 ===============================
 
+This data generator can be used to generate data that could be further be used by various planifications algorithms. The
+purpose of the generator is to build a Bill Of Materials (BOM), which is a tree structure that contains the operations
+involved in the production of a product.
+
 Types of data structures
 ========================
 
 The data generator is able to produce data in two main tree structures:
-1. n-ary trees with the level number and children per node number given in a configuration file called "datagen.json"
+1. n-ary trees with the levels number and children per node number given in a configuration file called "datagen.json"
 
                                     o
                                 /  /  \
@@ -16,7 +20,9 @@ The data generator is able to produce data in two main tree structures:
                         o   o   o   o   o   o   o
 
 2. mixed trees which are a combination between an n-ary tree and some "vertical" trees which are attached to the
-   children situated on the last level of the n-ary tree.
+   children situated on the last level of the n-ary tree. One can see these particular trees as a "vertical" extension,
+   which is attached to the last level of the n-ary tree. The depth of the vertical tree is configurable, as well as the
+   number of children per node.
 
                                     o
                                 /       \   \   \    \   \   \   \   \
@@ -37,37 +43,48 @@ The parameters used to generate the mixed trees can be found in the "mixed-trees
 Running the data generator
 ==========================
 
-The code which belongs to the "multi" module is related to multiple BOMs which are executed in a batch. The resulted
+The code which belongs to the "multi" module is related to multiple BOMs which are executed in a batch. This approach has
+the advantage that a specified set of machines could be used to participate to the creation of multiple BOMs. The resulted
 BOMs could be n-ary trees or a combination between n-ary trees and vertical trees. We named this structure "mixed trees".
 
-Pre-requisites: before executing the data generator in any of the two modes it is necessary to configure the parameters
-that will be used to produce the data. The parameters are stored in the "datagen/config/multi-config.json" file for the
-batch mode, while for the single BOM execution the config file is in datagen/config/datagen.json.
+Pre-requisites:
+===============
+Before executing the data generator in any of the two modes it is necessary to configure the parameters that will be
+used to produce the data. The parameters are stored in the "datagen/config/multi-config.json" file for the
+batch mode, while for the single BOM execution the config file is in "datagen/config/datagen.json".
 
 The parameters are more or less self-explanatory and can be changed according to the user's needs.
 
 However, there are a few sections in the configuration file which are worth mentioning:
 
-"outputs" section: is a list of BOMs, where te tree structure is defined.
+"outputs" section:
+=========
+
+This is a list of BOMs, where the tree structure is defined.
+
+
     "max_depth" and
     "max_children"
+
 refer to the n-ary tree and mean the depth and the maximum number of children per node.
+
     "vertical_tree_depth"
+
 refers to the vertical tree structure added to the n-ary tree. The depth of the vertical tree could be also 0, case in
 which "min" and "max" parameters must be set to 0
 
 The starting number of operations is taken from the "prod_number" parameter, while the number of raw materials is just a
 fraction of the "prod_number" (right now is hardcoded and set to 20%) but it will be externalized to be configurable.
 
-After executing the program, the BOMs are saved in datagen/multiboms folder, in a subfolder who's name is taken from the
+After executing the program, the BOMs are saved in "datagen/multiboms" folder, in a subfolder whose name is taken from the
 "root_directory" parameter in the configuration file.
 
 The data generator can be run in two modes:
 
-1. From the project IDE (PyCharm, Eclipse, etc.)
+1. From the project IDE (PyCharm, Visual Studio Code, Eclipse, etc.)
 
-In this case, to generate batch data corresponding to a n-ary tree, one can execute the main.py file from the "multi"
-package, while for executing a n-ary tree in a single BOM mode, one main execute main_all.py file from the "mono" package.
+In this case, to generate batch data corresponding to an n-ary tree, one can execute the "main.py" file from the "multi"
+package, while for executing a n-ary tree in a single BOM mode, one main execute "main_all.py" file from the "mono" package.
 
 2. From the command line (terminal)
 

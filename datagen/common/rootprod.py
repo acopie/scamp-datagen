@@ -1,3 +1,10 @@
+"""
+Module which holds the root product and the root node of the BOM tree. It is used to avoid the root product to be
+duplicated
+
+@author: Adrian
+"""
+
 
 from datagen.common.importer import SProduct
 from anytree import Node
@@ -11,7 +18,7 @@ class RootProduct:
     @author Adrian
     """
 
-    # instance: type['RootProduct'] = None
+    instance: type['RootProduct'] = None
     product: SProduct = None
 
     def __new__(cls, *args, **kwargs):
@@ -27,7 +34,10 @@ class RootProduct:
 
     @classmethod
     def reset(cls):
-        """Resets the existent root product to be used for another BOM"""
+        """
+        Resets the existent root product to be used for another BOM
+        """
+
         cls.product = None
 
 
@@ -48,13 +58,15 @@ class RootNode:
     @classmethod
     def add_node(cls, n: Node):
         """
-        Adds a root product which will be used at every product generation
+        Adds a root product which will be used at every product build
         """
         cls.node = n
 
     @classmethod
     def reset(cls):
-        """Resets the existent root product to be used for another BOM"""
+        """
+        Resets the existent root product to be used for another BOM
+        """
         cls.node = None
 
 

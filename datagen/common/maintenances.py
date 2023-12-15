@@ -1,6 +1,12 @@
-print(f"maintenances ---> {__name__}")
+"""
+This module holds the code related to the Maintenance objects generated during the product creation phase. Also contains
+the support for basic serialization and other management operations on the list of maintenances
+
+@author: Adrian
+"""
 
 from json import JSONEncoder
+
 import datagen.multi.maintenance
 
 

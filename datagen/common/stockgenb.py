@@ -4,19 +4,12 @@ This module is the base class for the stocks generation in the data generator.
 @author: Adrian
 """
 import random
-import os
 import string
 
 from abc import ABC, abstractmethod
 from typing import List
-from json import JSONEncoder, JSONDecoder, dumps, load
 
-from datagen.common.sequencer import Sequencer
-from datagen.common.utility import get_abs_file_path
-
-from datagen.common.stocks import Stock, Acquisition, Stocks
 from datagen.multi.randpgen import Product
-from datagen.multi.utility import create_future_date
 from datagen.multi.bom import MultiBom
 
 RAW_MATERIALS_PERCENT = 0.2

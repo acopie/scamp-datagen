@@ -1,3 +1,10 @@
+"""
+Module responsible for generating the unique ids for the data generator
+
+@author: Adrian
+"""
+
+
 class Sequencer(object):
     """
     Singleton class to generate unique ids for the data generator

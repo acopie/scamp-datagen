@@ -1,3 +1,10 @@
+"""
+Module containing the date and datetime classes used in the data generator
+
+@author: Adrian
+"""
+
+
 from datetime import datetime as system_datetime, date as system_date
 
 """
