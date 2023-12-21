@@ -1,7 +1,7 @@
 PLEASE DO NOT DELETE THIS FILE!!
 ===============================
 
-This data generator can be used to generate data that could be further be used by various planifications algorithms. The
+This data generator can be utilized to generate data that could be further be used by various planifications algorithms. The
 purpose of the generator is to build a Bill Of Materials (BOM), which is a tree structure that contains the operations
 involved in the production of a product.
 
