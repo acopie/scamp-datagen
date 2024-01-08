@@ -37,7 +37,7 @@ as the number of children per node.
                                             |
                                             o
 
-The parameters used to generate the mixed trees can be found in the "mixed-trees.json" file.
+The parameters used to generate the mixed trees can be found in the "multi-config.json" file.
 
 Running the data generator
 ==========================
