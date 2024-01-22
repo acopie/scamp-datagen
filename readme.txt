@@ -1,6 +1,10 @@
 NOTICE
 ======
-This product includes software developed at "West University of Timisoara, Romania", as part of the "SCAMP-ML - Statistici computaționale avansate pentru planificarea și urmărirea mediilor de producție" (Organismul Intermediar pentru Cercetare (OIC) - Program Operațional Competitivitate, Componenta 1 – Proiect Tehnologic Inovativ pentru regiuni mai puțin dezvoltate (fără București – Ilfov), axa prioritară - Cercetare, dezvoltare tehnologică și inovare (CDI)).
+This product includes software developed at "West University of Timisoara, Romania", as part of the 
+"SCAMP-ML - Statistici computaționale avansate pentru planificarea și urmărirea mediilor de producție" 
+(Organismul Intermediar pentru Cercetare (OIC) - Program Operațional Competitivitate, Componenta 1 – Proiect
+Tehnologic Inovativ pentru regiuni mai puțin dezvoltate (fără București – Ilfov), axa prioritară - Cercetare, 
+dezvoltare tehnologică și inovare (CDI)).
 
 DEVELOPERS
 ==========
