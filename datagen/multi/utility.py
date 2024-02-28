@@ -6,12 +6,13 @@ from json import dumps
 from anytree.exporter import JsonExporter
 
 from datagen.multi.root_dir import RootDir
+import datagen.common.utility as cu
 
 
 MAX_DAYS = 30
 MAX_HOURS = 24
 
-RELATIVE_BOMS_DIR = "../multiboms"
+RELATIVE_BOMS_DIR = "../datagen/multiboms"
 
 
 def create_future_date() -> datetime:
@@ -61,7 +62,7 @@ def save_metainfo(bom_file, metainfo):
         os.makedirs(destination_path)
 
     os.chdir(destination_path)
-    with open(bom_file, 'w') as f:
+    with open(os.path.join(cu.get_abs_file_path(destination_path), bom_file), 'w') as f:
         f.write(dumps(metainfo, default=lambda o: o.__dict__, indent=4))
 
     # restore the initial directory

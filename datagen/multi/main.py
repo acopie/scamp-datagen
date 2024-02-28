@@ -198,7 +198,7 @@ def process_bom(multi_bom: MultiBom) -> None:
         root_node.operations_list = MetaInfo().get_operations()
 
         # export the generated tree (BOM) in a json file
-        export_tree(root, f"{OUTPUT_FILE}", False)
+        export_tree(root, get_abs_file_path(f"multiboms/{RootDir().get()}/{OUTPUT_FILE}"), False)
 
         # print the tree to the console for visualization
         print(RenderTree(root))
@@ -215,8 +215,8 @@ def process_bom(multi_bom: MultiBom) -> None:
             # render the smaller tree for debugging purposes
             print(RenderTree(simple_tree_root_node))
 
-            simple_tree_node = import_tree(f"../multiboms/{multi_bom.machines_info.root_directory}/{OUTPUT_FILE}")
-            simple_render_tree(simple_tree_root_node, crt_bom)
+            simple_tree_node = import_tree(get_abs_file_path(f"multiboms/{RootDir().get()}/{OUTPUT_FILE}"))
+            simple_render_tree(simple_tree_root_node, crt_bom, OUTPUT_FILE)
 
     # update the metainfo node with the right information
     metainfo = {"machines_list": MetaInfo().get_machines(),

@@ -73,7 +73,7 @@ def export_tree(n: Node, file_path: str, onscreen: bool = True) -> None:
 def import_tree(file_path: str) -> Node:
     """
     Deserialize a tree from its associated JSON file
-    :param file_path: the path to the file containing the onject serialization
+    :param file_path: the path to the file containing the object serialization
     :return: the Python tree object
     """
 
@@ -90,14 +90,14 @@ def render_tree(node: Node) -> None:
             f"{line.pre} [{line.node.productid}]  [{line.node.parentid}] [{line.node.code}]  [{line.node.pname}]")
 
 
-def simple_render_tree(node: Node, bom) -> None:
+def simple_render_tree(node: Node, bom, OUTPUT_FILE) -> None:
     rendered_tree = ""
     for line in RenderTree(node):
         rendered_tree += f"{line.pre} [{line.node.operationid}]  [{line.node.parentid}] [{line.node.code}]\n"
         print(
             f"{line.pre} [{line.node.operationid}]  [{line.node.parentid}] [{line.node.code}]")
 
-    with open(f"../multiboms/{RootDir().get()}/{bom.output_file}.tree", "w") as f:
+    with open(get_abs_file_path(f"multiboms/{RootDir().get()}/{OUTPUT_FILE}.tree"), "w") as f:
         f.write(rendered_tree)
 
 def export_dot(node, file_path) -> None:
