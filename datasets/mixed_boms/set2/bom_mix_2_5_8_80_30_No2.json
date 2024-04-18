@@ -1,0 +1,174 @@
+{
+  "operationid": 8571,
+  "productid": 53,
+  "code": "ESWG",
+  "pname": "ESWG",
+  "parentid": null,
+  "start_date": "2000-08-25 00:00:00.000000",
+  "delivery_date": "2022-09-03 00:00:00.000000",
+  "priority": 5,
+  "quantity": 50,
+  "name": "root",
+  "operations_list": [
+    8571,
+    8572,
+    8573,
+    8574,
+    8575,
+    8576,
+    8577,
+    8578,
+    8579,
+    8580,
+    8581,
+    8582,
+    8583,
+    8584,
+    8585,
+    8586
+  ],
+  "children": [
+    {
+      "parentid": 8571,
+      "operationid": 8572,
+      "productid": 83,
+      "code": "DPYK",
+      "pname": "DPYK",
+      "quantity": 2,
+      "children": [
+        {
+          "parentid": 8572,
+          "operationid": 8573,
+          "productid": 71,
+          "code": "TVYN",
+          "pname": "TVYN",
+          "quantity": 1,
+          "children": [
+            {
+              "parentid": 8573,
+              "operationid": 8574,
+              "productid": 30,
+              "code": "PBCP",
+              "pname": "PBCP",
+              "quantity": 3,
+              "children": [
+                {
+                  "parentid": 8574,
+                  "operationid": 8575,
+                  "raw_material_id": 120,
+                  "raw_material_quantity": 8,
+                  "productid": 60,
+                  "code": "ZGJR",
+                  "pname": "ZGJR",
+                  "quantity": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parentid": 8572,
+          "operationid": 8576,
+          "productid": 35,
+          "code": "FVCR",
+          "pname": "FVCR",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "parentid": 8571,
+      "operationid": 8577,
+      "productid": 53,
+      "code": "ESWG",
+      "pname": "ESWG",
+      "quantity": 2,
+      "children": [
+        {
+          "parentid": 8577,
+          "operationid": 8578,
+          "productid": 73,
+          "code": "THAM",
+          "pname": "THAM",
+          "quantity": 1
+        },
+        {
+          "parentid": 8577,
+          "operationid": 8579,
+          "productid": 75,
+          "code": "MEBH",
+          "pname": "MEBH",
+          "quantity": 3
+        },
+        {
+          "parentid": 8577,
+          "operationid": 8580,
+          "productid": 69,
+          "code": "YVGL",
+          "pname": "YVGL",
+          "quantity": 1,
+          "children": [
+            {
+              "parentid": 8580,
+              "operationid": 8581,
+              "productid": 13,
+              "code": "GTCX",
+              "pname": "GTCX",
+              "quantity": 3,
+              "children": [
+                {
+                  "parentid": 8581,
+                  "operationid": 8582,
+                  "productid": 91,
+                  "code": "ENFI",
+                  "pname": "ENFI",
+                  "quantity": 2,
+                  "children": [
+                    {
+                      "parentid": 8582,
+                      "operationid": 8583,
+                      "productid": 56,
+                      "code": "MLKQ",
+                      "pname": "MLKQ",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 8583,
+                          "operationid": 8584,
+                          "productid": 36,
+                          "code": "XYHE",
+                          "pname": "XYHE",
+                          "quantity": 3,
+                          "children": [
+                            {
+                              "parentid": 8584,
+                              "operationid": 8585,
+                              "raw_material_id": 117,
+                              "raw_material_quantity": 4,
+                              "productid": 100,
+                              "code": "URCF",
+                              "pname": "URCF",
+                              "quantity": 3
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "parentid": 8577,
+          "operationid": 8586,
+          "productid": 93,
+          "code": "GZFY",
+          "pname": "GZFY",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

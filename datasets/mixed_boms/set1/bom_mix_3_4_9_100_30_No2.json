@@ -1,0 +1,264 @@
+{
+  "operationid": 1417,
+  "productid": 69,
+  "code": "CBEB",
+  "pname": "CBEB",
+  "parentid": null,
+  "start_date": "2000-08-25 00:00:00.000000",
+  "delivery_date": "2022-09-03 00:00:00.000000",
+  "priority": 9,
+  "quantity": 10,
+  "name": "root",
+  "operations_list": [
+    1417,
+    1418,
+    1419,
+    1420,
+    1421,
+    1422,
+    1423,
+    1424,
+    1425,
+    1426,
+    1427,
+    1428,
+    1429,
+    1430,
+    1431,
+    1432,
+    1433,
+    1434,
+    1435,
+    1436,
+    1437,
+    1438,
+    1439,
+    1440
+  ],
+  "children": [
+    {
+      "parentid": 1417,
+      "operationid": 1418,
+      "productid": 23,
+      "code": "NTHT",
+      "pname": "NTHT",
+      "quantity": 3,
+      "children": [
+        {
+          "parentid": 1418,
+          "operationid": 1419,
+          "productid": 67,
+          "code": "NBBL",
+          "pname": "NBBL",
+          "quantity": 3,
+          "children": [
+            {
+              "parentid": 1419,
+              "operationid": 1420,
+              "productid": 12,
+              "code": "MVUK",
+              "pname": "MVUK",
+              "quantity": 1
+            },
+            {
+              "parentid": 1419,
+              "operationid": 1421,
+              "productid": 48,
+              "code": "SLHL",
+              "pname": "SLHL",
+              "quantity": 5,
+              "children": [
+                {
+                  "parentid": 1421,
+                  "operationid": 1422,
+                  "productid": 4,
+                  "code": "NXYV",
+                  "pname": "NXYV",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 1422,
+                      "operationid": 1423,
+                      "productid": 78,
+                      "code": "TFHM",
+                      "pname": "TFHM",
+                      "quantity": 2,
+                      "children": [
+                        {
+                          "parentid": 1423,
+                          "operationid": 1424,
+                          "productid": 56,
+                          "code": "ZGKX",
+                          "pname": "ZGKX",
+                          "quantity": 1,
+                          "children": [
+                            {
+                              "parentid": 1424,
+                              "operationid": 1425,
+                              "productid": 62,
+                              "code": "OPXN",
+                              "pname": "OPXN",
+                              "quantity": 5,
+                              "children": [
+                                {
+                                  "parentid": 1425,
+                                  "operationid": 1426,
+                                  "productid": 85,
+                                  "code": "AWJT",
+                                  "pname": "AWJT",
+                                  "quantity": 4,
+                                  "children": [
+                                    {
+                                      "parentid": 1426,
+                                      "operationid": 1427,
+                                      "raw_material_id": 108,
+                                      "raw_material_quantity": 7,
+                                      "productid": 72,
+                                      "code": "VGUN",
+                                      "pname": "VGUN",
+                                      "quantity": 5
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parentid": 1419,
+              "operationid": 1428,
+              "productid": 63,
+              "code": "OTOR",
+              "pname": "OTOR",
+              "quantity": 1
+            }
+          ]
+        },
+        {
+          "parentid": 1418,
+          "operationid": 1429,
+          "productid": 14,
+          "code": "NHFX",
+          "pname": "NHFX",
+          "quantity": 3,
+          "children": [
+            {
+              "parentid": 1429,
+              "operationid": 1430,
+              "productid": 10,
+              "code": "WRPV",
+              "pname": "WRPV",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 1430,
+                  "operationid": 1431,
+                  "productid": 34,
+                  "code": "WMAJ",
+                  "pname": "WMAJ",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 1431,
+                      "operationid": 1432,
+                      "productid": 62,
+                      "code": "OPXN",
+                      "pname": "OPXN",
+                      "quantity": 5,
+                      "children": [
+                        {
+                          "parentid": 1432,
+                          "operationid": 1433,
+                          "productid": 77,
+                          "code": "TZKC",
+                          "pname": "TZKC",
+                          "quantity": 2,
+                          "children": [
+                            {
+                              "parentid": 1433,
+                              "operationid": 1434,
+                              "productid": 15,
+                              "code": "KFZS",
+                              "pname": "KFZS",
+                              "quantity": 2,
+                              "children": [
+                                {
+                                  "parentid": 1434,
+                                  "operationid": 1435,
+                                  "raw_material_id": 113,
+                                  "raw_material_quantity": 10,
+                                  "productid": 7,
+                                  "code": "BKLG",
+                                  "pname": "BKLG",
+                                  "quantity": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parentid": 1429,
+              "operationid": 1436,
+              "productid": 68,
+              "code": "NLAI",
+              "pname": "NLAI",
+              "quantity": 5
+            }
+          ]
+        },
+        {
+          "parentid": 1418,
+          "operationid": 1437,
+          "productid": 19,
+          "code": "GPZR",
+          "pname": "GPZR",
+          "quantity": 5,
+          "children": [
+            {
+              "parentid": 1437,
+              "operationid": 1438,
+              "productid": 29,
+              "code": "DUTN",
+              "pname": "DUTN",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 1438,
+                  "operationid": 1439,
+                  "productid": 68,
+                  "code": "NLAI",
+                  "pname": "NLAI",
+                  "quantity": 5,
+                  "children": [
+                    {
+                      "parentid": 1439,
+                      "operationid": 1440,
+                      "raw_material_id": 107,
+                      "raw_material_quantity": 1,
+                      "productid": 77,
+                      "code": "TZKC",
+                      "pname": "TZKC",
+                      "quantity": 2
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

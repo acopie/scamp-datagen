@@ -1,0 +1,2308 @@
+{
+  "operationid": 0,
+  "productid": 0,
+  "code": "root",
+  "pname": "root",
+  "name": "root",
+  "parentid": null,
+  "quantity": 1,
+  "machines": [
+    {
+      "id": 0,
+      "name": "Machine_00",
+      "oee": 1,
+      "execution_time": 0,
+      "setup_time": 0
+    }
+  ],
+  "children": [
+    {
+      "operationid": 112,
+      "productid": 112,
+      "code": "F_comp1_operation2",
+      "pname": "F_comp1_operation2",
+      "name": "F_comp1_operation2",
+      "parentid": 0,
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 9,
+          "name": "Machine_9",
+          "oee": 1,
+          "execution_time": 4,
+          "setup_time": 0
+        }
+      ],
+      "children": [
+        {
+          "operationid": 111,
+          "productid": 111,
+          "code": "F_comp1_operation1",
+          "pname": "F_comp1_operation1",
+          "name": "F_comp1_operation1",
+          "parentid": 112,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 6,
+              "name": "Machine_6",
+              "oee": 1,
+              "execution_time": 7,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 122,
+              "productid": 122,
+              "code": "F_comp2_operation2",
+              "pname": "F_comp2_operation2",
+              "name": "F_comp2_operation2",
+              "parentid": 111,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 8,
+                  "name": "Machine_8",
+                  "oee": 1,
+                  "execution_time": 2,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 121,
+                  "productid": 121,
+                  "code": "F_comp2_operation1",
+                  "pname": "F_comp2_operation1",
+                  "name": "F_comp2_operation1",
+                  "parentid": 122,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 11,
+                      "name": "Machine_11",
+                      "oee": 1,
+                      "execution_time": 15,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "operationid": 134,
+              "productid": 134,
+              "code": "F_comp3_operation4",
+              "pname": "F_comp3_operation4",
+              "name": "F_comp3_operation4",
+              "parentid": 111,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 14,
+                  "name": "Machine_14",
+                  "oee": 1,
+                  "execution_time": 3,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 133,
+                  "productid": 133,
+                  "code": "F_comp3_operation3",
+                  "pname": "F_comp3_operation3",
+                  "name": "F_comp3_operation3",
+                  "parentid": 134,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 7,
+                      "name": "Machine_7",
+                      "oee": 1,
+                      "execution_time": 6,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 132,
+                      "productid": 132,
+                      "code": "F_comp3_operation2",
+                      "pname": "F_comp3_operation2",
+                      "name": "F_comp3_operation2",
+                      "parentid": 133,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 9,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 131,
+                          "productid": 131,
+                          "code": "F_comp3_operation1",
+                          "pname": "F_comp3_operation1",
+                          "name": "F_comp3_operation1",
+                          "parentid": 132,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 13,
+                              "name": "Machine_13",
+                              "oee": 1,
+                              "execution_time": 2,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "operationid": 143,
+              "productid": 143,
+              "code": "F_comp4_operation3",
+              "pname": "F_comp4_operation3",
+              "name": "F_comp4_operation3",
+              "parentid": 111,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 10,
+                  "name": "Machine_10",
+                  "oee": 1,
+                  "execution_time": 5,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 142,
+                  "productid": 142,
+                  "code": "F_comp4_operation2",
+                  "pname": "F_comp4_operation2",
+                  "name": "F_comp4_operation2",
+                  "parentid": 143,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 13,
+                      "name": "Machine_13",
+                      "oee": 1,
+                      "execution_time": 10,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 141,
+                      "productid": 141,
+                      "code": "F_comp4_operation1",
+                      "pname": "F_comp4_operation1",
+                      "name": "F_comp4_operation1",
+                      "parentid": 142,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 1,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "operationid": 155,
+              "productid": 155,
+              "code": "F_comp5_operation5",
+              "pname": "F_comp5_operation5",
+              "name": "F_comp5_operation5",
+              "parentid": 111,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 12,
+                  "name": "Machine_12",
+                  "oee": 1,
+                  "execution_time": 1,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 154,
+                  "productid": 154,
+                  "code": "F_comp5_operation4",
+                  "pname": "F_comp5_operation4",
+                  "name": "F_comp5_operation4",
+                  "parentid": 155,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 9,
+                      "name": "Machine_9",
+                      "oee": 1,
+                      "execution_time": 8,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 153,
+                      "productid": 153,
+                      "code": "F_comp5_operation3",
+                      "pname": "F_comp5_operation3",
+                      "name": "F_comp5_operation3",
+                      "parentid": 154,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 11,
+                          "name": "Machine_11",
+                          "oee": 1,
+                          "execution_time": 7,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 152,
+                          "productid": 152,
+                          "code": "F_comp5_operation2",
+                          "pname": "F_comp5_operation2",
+                          "name": "F_comp5_operation2",
+                          "parentid": 153,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 7,
+                              "name": "Machine_7",
+                              "oee": 1,
+                              "execution_time": 3,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "operationid": 151,
+                              "productid": 151,
+                              "code": "F_comp5_operation1",
+                              "pname": "F_comp5_operation1",
+                              "name": "F_comp5_operation1",
+                              "parentid": 152,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 15,
+                                  "name": "Machine_15",
+                                  "oee": 1,
+                                  "execution_time": 4,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "operationid": 162,
+              "productid": 162,
+              "code": "F_comp6_operation2",
+              "pname": "F_comp6_operation2",
+              "name": "F_comp6_operation2",
+              "parentid": 111,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 7,
+                  "name": "Machine_7",
+                  "oee": 1,
+                  "execution_time": 3,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 161,
+                  "productid": 161,
+                  "code": "F_comp6_operation1",
+                  "pname": "F_comp6_operation1",
+                  "name": "F_comp6_operation1",
+                  "parentid": 162,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 8,
+                      "name": "Machine_8",
+                      "oee": 1,
+                      "execution_time": 11,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "operationid": 211,
+      "productid": 211,
+      "code": "T_comp1_operation1",
+      "pname": "T_comp1_operation1",
+      "name": "T_comp1_operation1",
+      "parentid": 0,
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_3",
+          "oee": 1,
+          "execution_time": 8,
+          "setup_time": 0
+        }
+      ],
+      "children": [
+        {
+          "operationid": 222,
+          "productid": 222,
+          "code": "T_comp2_operation2",
+          "pname": "T_comp2_operation2",
+          "name": "T_comp2_operation2",
+          "parentid": 211,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 8,
+              "name": "Machine_8",
+              "oee": 1,
+              "execution_time": 3,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 221,
+              "productid": 221,
+              "code": "T_comp2_operation1",
+              "pname": "T_comp2_operation1",
+              "name": "T_comp2_operation1",
+              "parentid": 222,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 4,
+                  "name": "Machine_4",
+                  "oee": 1,
+                  "execution_time": 8,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 242,
+                  "productid": 242,
+                  "code": "T_comp4_operation2",
+                  "pname": "T_comp4_operation2",
+                  "name": "T_comp4_operation2",
+                  "parentid": 221,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 13,
+                      "name": "Machine_13",
+                      "oee": 1,
+                      "execution_time": 5,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 241,
+                      "productid": 241,
+                      "code": "T_comp4_operation1",
+                      "pname": "T_comp4_operation1",
+                      "name": "T_comp4_operation1",
+                      "parentid": 242,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 12,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "operationid": 253,
+                  "productid": 253,
+                  "code": "T_comp5_operation3",
+                  "pname": "T_comp5_operation3",
+                  "name": "T_comp5_operation3",
+                  "parentid": 221,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 14,
+                      "name": "Machine_14",
+                      "oee": 1,
+                      "execution_time": 3,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 252,
+                      "productid": 252,
+                      "code": "T_comp5_operation2",
+                      "pname": "T_comp5_operation2",
+                      "name": "T_comp5_operation2",
+                      "parentid": 253,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 8,
+                          "name": "Machine_8",
+                          "oee": 1,
+                          "execution_time": 7,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 251,
+                          "productid": 251,
+                          "code": "T_comp5_operation1",
+                          "pname": "T_comp5_operation1",
+                          "name": "T_comp5_operation1",
+                          "parentid": 252,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 11,
+                              "name": "Machine_11",
+                              "oee": 1,
+                              "execution_time": 8,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operationid": 235,
+          "productid": 235,
+          "code": "T_comp3_operation5",
+          "pname": "T_comp3_operation5",
+          "name": "T_comp3_operation5",
+          "parentid": 211,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 10,
+              "name": "Machine_10",
+              "oee": 1,
+              "execution_time": 1,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 234,
+              "productid": 234,
+              "code": "T_comp3_operation4",
+              "pname": "T_comp3_operation4",
+              "name": "T_comp3_operation4",
+              "parentid": 235,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 12,
+                  "name": "Machine_12",
+                  "oee": 1,
+                  "execution_time": 6,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 233,
+                  "productid": 233,
+                  "code": "T_comp3_operation3",
+                  "pname": "T_comp3_operation3",
+                  "name": "T_comp3_operation3",
+                  "parentid": 234,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 7,
+                      "name": "Machine_7",
+                      "oee": 1,
+                      "execution_time": 4,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 232,
+                      "productid": 232,
+                      "code": "T_comp3_operation2",
+                      "pname": "T_comp3_operation2",
+                      "name": "T_comp3_operation2",
+                      "parentid": 233,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 14,
+                          "name": "Machine_14",
+                          "oee": 1,
+                          "execution_time": 9,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 231,
+                          "productid": 231,
+                          "code": "T_comp3_operation1",
+                          "pname": "T_comp3_operation1",
+                          "name": "T_comp3_operation1",
+                          "parentid": 232,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 15,
+                              "name": "Machine_15",
+                              "oee": 1,
+                              "execution_time": 2,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "operationid": 312,
+      "productid": 312,
+      "code": "T_comp1_operation2",
+      "pname": "T_comp1_operation2",
+      "name": "T_comp1_operation2",
+      "parentid": 0,
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_1",
+          "oee": 1,
+          "execution_time": 10,
+          "setup_time": 0
+        }
+      ],
+      "children": [
+        {
+          "operationid": 311,
+          "productid": 311,
+          "code": "T_comp1_operation1",
+          "pname": "T_comp1_operation1",
+          "name": "T_comp1_operation1",
+          "parentid": 312,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_1",
+              "oee": 1,
+              "execution_time": 10,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 322,
+              "productid": 322,
+              "code": "T_comp2_operation2",
+              "pname": "T_comp2_operation2",
+              "name": "T_comp2_operation2",
+              "parentid": 311,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 15,
+                  "name": "Machine_15",
+                  "oee": 1,
+                  "execution_time": 3,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 321,
+                  "productid": 321,
+                  "code": "T_comp2_operation1",
+                  "pname": "T_comp2_operation1",
+                  "name": "T_comp2_operation1",
+                  "parentid": 322,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 2,
+                      "name": "Machine_2",
+                      "oee": 1,
+                      "execution_time": 4,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 344,
+                      "productid": 344,
+                      "code": "T_comp4_operation4",
+                      "pname": "T_comp4_operation4",
+                      "name": "T_comp4_operation4",
+                      "parentid": 321,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 11,
+                          "name": "Machine_11",
+                          "oee": 1,
+                          "execution_time": 8,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 343,
+                          "productid": 343,
+                          "code": "T_comp4_operation3",
+                          "pname": "T_comp4_operation3",
+                          "name": "T_comp4_operation3",
+                          "parentid": 344,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 10,
+                              "name": "Machine_10",
+                              "oee": 1,
+                              "execution_time": 4,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "operationid": 342,
+                              "productid": 342,
+                              "code": "T_comp4_operation2",
+                              "pname": "T_comp4_operation2",
+                              "name": "T_comp4_operation2",
+                              "parentid": 343,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 7,
+                                  "name": "Machine_7",
+                                  "oee": 1,
+                                  "execution_time": 2,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": [
+                                {
+                                  "operationid": 341,
+                                  "productid": 341,
+                                  "code": "T_comp4_operation1",
+                                  "pname": "T_comp4_operation1",
+                                  "name": "T_comp4_operation1",
+                                  "parentid": 342,
+                                  "quantity": 1,
+                                  "machines": [
+                                    {
+                                      "id": 8,
+                                      "name": "Machine_8",
+                                      "oee": 1,
+                                      "execution_time": 9,
+                                      "setup_time": 0
+                                    }
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "operationid": 353,
+                      "productid": 353,
+                      "code": "T_comp5_operation3",
+                      "pname": "T_comp5_operation3",
+                      "name": "T_comp5_operation3",
+                      "parentid": 321,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 7,
+                          "name": "Machine_7",
+                          "oee": 1,
+                          "execution_time": 3,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 352,
+                          "productid": 352,
+                          "code": "T_comp5_operation2",
+                          "pname": "T_comp5_operation2",
+                          "name": "T_comp5_operation2",
+                          "parentid": 353,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 15,
+                              "name": "Machine_15",
+                              "oee": 1,
+                              "execution_time": 8,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "operationid": 351,
+                              "productid": 351,
+                              "code": "T_comp5_operation1",
+                              "pname": "T_comp5_operation1",
+                              "name": "T_comp5_operation1",
+                              "parentid": 352,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 13,
+                                  "name": "Machine_13",
+                                  "oee": 1,
+                                  "execution_time": 7,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "operationid": 334,
+              "productid": 334,
+              "code": "T_comp3_operation4",
+              "pname": "T_comp3_operation4",
+              "name": "T_comp3_operation4",
+              "parentid": 311,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 8,
+                  "name": "Machine_8",
+                  "oee": 1,
+                  "execution_time": 1,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 333,
+                  "productid": 333,
+                  "code": "T_comp3_operation3",
+                  "pname": "T_comp3_operation3",
+                  "name": "T_comp3_operation3",
+                  "parentid": 334,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 11,
+                      "name": "Machine_11",
+                      "oee": 1,
+                      "execution_time": 2,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 332,
+                      "productid": 332,
+                      "code": "T_comp3_operation2",
+                      "pname": "T_comp3_operation2",
+                      "name": "T_comp3_operation2",
+                      "parentid": 333,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 331,
+                          "productid": 331,
+                          "code": "T_comp3_operation1",
+                          "pname": "T_comp3_operation1",
+                          "name": "T_comp3_operation1",
+                          "parentid": 332,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 10,
+                              "name": "Machine_10",
+                              "oee": 1,
+                              "execution_time": 2,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "operationid": 411,
+      "productid": 411,
+      "code": "T_comp1_operation1",
+      "pname": "T_comp1_operation1",
+      "name": "T_comp1_operation1",
+      "parentid": 0,
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 5,
+          "name": "Machine_5",
+          "oee": 1,
+          "execution_time": 11,
+          "setup_time": 0
+        }
+      ],
+      "children": [
+        {
+          "operationid": 422,
+          "productid": 422,
+          "code": "T_comp2_operation2",
+          "pname": "T_comp2_operation2",
+          "name": "T_comp2_operation2",
+          "parentid": 411,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 14,
+              "name": "Machine_14",
+              "oee": 1,
+              "execution_time": 3,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 421,
+              "productid": 421,
+              "code": "T_comp2_operation1",
+              "pname": "T_comp2_operation1",
+              "name": "T_comp2_operation1",
+              "parentid": 422,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 6,
+                  "name": "Machine_6",
+                  "oee": 1,
+                  "execution_time": 8,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 441,
+                  "productid": 441,
+                  "code": "T_comp4_operation1",
+                  "pname": "T_comp4_operation1",
+                  "name": "T_comp4_operation1",
+                  "parentid": 421,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_1",
+                      "oee": 1,
+                      "execution_time": 6,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 462,
+                      "productid": 462,
+                      "code": "T_comp6_operation2",
+                      "pname": "T_comp6_operation2",
+                      "name": "T_comp6_operation2",
+                      "parentid": 441,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 6,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 461,
+                          "productid": 461,
+                          "code": "T_comp6_operation1",
+                          "pname": "T_comp6_operation1",
+                          "name": "T_comp6_operation1",
+                          "parentid": 462,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 2,
+                              "name": "Machine_2",
+                              "oee": 1,
+                              "execution_time": 7,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "operationid": 484,
+                              "productid": 484,
+                              "code": "T_comp8_operation4",
+                              "pname": "T_comp8_operation4",
+                              "name": "T_comp8_operation4",
+                              "parentid": 461,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 7,
+                                  "name": "Machine_7",
+                                  "oee": 1,
+                                  "execution_time": 3,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": [
+                                {
+                                  "operationid": 483,
+                                  "productid": 483,
+                                  "code": "T_comp8_operation3",
+                                  "pname": "T_comp8_operation3",
+                                  "name": "T_comp8_operation3",
+                                  "parentid": 484,
+                                  "quantity": 1,
+                                  "machines": [
+                                    {
+                                      "id": 11,
+                                      "name": "Machine_11",
+                                      "oee": 1,
+                                      "execution_time": 2,
+                                      "setup_time": 0
+                                    }
+                                  ],
+                                  "children": [
+                                    {
+                                      "operationid": 482,
+                                      "productid": 482,
+                                      "code": "T_comp8_operation2",
+                                      "pname": "T_comp8_operation2",
+                                      "name": "T_comp8_operation2",
+                                      "parentid": 483,
+                                      "quantity": 1,
+                                      "machines": [
+                                        {
+                                          "id": 10,
+                                          "name": "Machine_10",
+                                          "oee": 1,
+                                          "execution_time": 13,
+                                          "setup_time": 0
+                                        }
+                                      ],
+                                      "children": [
+                                        {
+                                          "operationid": 481,
+                                          "productid": 481,
+                                          "code": "T_comp8_operation1",
+                                          "pname": "T_comp8_operation1",
+                                          "name": "T_comp8_operation1",
+                                          "parentid": 482,
+                                          "quantity": 1,
+                                          "machines": [
+                                            {
+                                              "id": 9,
+                                              "name": "Machine_9",
+                                              "oee": 1,
+                                              "execution_time": 5,
+                                              "setup_time": 0
+                                            }
+                                          ],
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "operationid": 492,
+                              "productid": 492,
+                              "code": "T_comp9_operation2",
+                              "pname": "T_comp9_operation2",
+                              "name": "T_comp9_operation2",
+                              "parentid": 461,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 8,
+                                  "name": "Machine_8",
+                                  "oee": 1,
+                                  "execution_time": 5,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": [
+                                {
+                                  "operationid": 491,
+                                  "productid": 491,
+                                  "code": "T_comp9_operation1",
+                                  "pname": "T_comp9_operation1",
+                                  "name": "T_comp9_operation1",
+                                  "parentid": 492,
+                                  "quantity": 1,
+                                  "machines": [
+                                    {
+                                      "id": 14,
+                                      "name": "Machine_14",
+                                      "oee": 1,
+                                      "execution_time": 8,
+                                      "setup_time": 0
+                                    }
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "operationid": 472,
+                      "productid": 472,
+                      "code": "T_comp7_operation2",
+                      "pname": "T_comp7_operation2",
+                      "name": "T_comp7_operation2",
+                      "parentid": 441,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 8,
+                          "name": "Machine_8",
+                          "oee": 1,
+                          "execution_time": 5,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 471,
+                          "productid": 471,
+                          "code": "T_comp7_operation1",
+                          "pname": "T_comp7_operation1",
+                          "name": "T_comp7_operation1",
+                          "parentid": 472,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 11,
+                              "name": "Machine_11",
+                              "oee": 1,
+                              "execution_time": 10,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "operationid": 453,
+                  "productid": 453,
+                  "code": "T_comp5_operation3",
+                  "pname": "T_comp5_operation3",
+                  "name": "T_comp5_operation3",
+                  "parentid": 421,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 11,
+                      "name": "Machine_11",
+                      "oee": 1,
+                      "execution_time": 2,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 452,
+                      "productid": 452,
+                      "code": "T_comp5_operation2",
+                      "pname": "T_comp5_operation2",
+                      "name": "T_comp5_operation2",
+                      "parentid": 453,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 10,
+                          "name": "Machine_10",
+                          "oee": 1,
+                          "execution_time": 11,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 451,
+                          "productid": 451,
+                          "code": "T_comp5_operation1",
+                          "pname": "T_comp5_operation1",
+                          "name": "T_comp5_operation1",
+                          "parentid": 452,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 14,
+                              "name": "Machine_14",
+                              "oee": 1,
+                              "execution_time": 7,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operationid": 435,
+          "productid": 435,
+          "code": "T_comp3_operation5",
+          "pname": "T_comp3_operation5",
+          "name": "T_comp3_operation5",
+          "parentid": 411,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 10,
+              "name": "Machine_10",
+              "oee": 1,
+              "execution_time": 8,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 434,
+              "productid": 434,
+              "code": "T_comp3_operation4",
+              "pname": "T_comp3_operation4",
+              "name": "T_comp3_operation4",
+              "parentid": 435,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 9,
+                  "name": "Machine_9",
+                  "oee": 1,
+                  "execution_time": 4,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 433,
+                  "productid": 433,
+                  "code": "T_comp3_operation3",
+                  "pname": "T_comp3_operation3",
+                  "name": "T_comp3_operation3",
+                  "parentid": 434,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 13,
+                      "name": "Machine_13",
+                      "oee": 1,
+                      "execution_time": 5,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 432,
+                      "productid": 432,
+                      "code": "T_comp3_operation2",
+                      "pname": "T_comp3_operation2",
+                      "name": "T_comp3_operation2",
+                      "parentid": 433,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 7,
+                          "name": "Machine_7",
+                          "oee": 1,
+                          "execution_time": 9,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 431,
+                          "productid": 431,
+                          "code": "T_comp3_operation1",
+                          "pname": "T_comp3_operation1",
+                          "name": "T_comp3_operation1",
+                          "parentid": 432,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 15,
+                              "name": "Machine_15",
+                              "oee": 1,
+                              "execution_time": 1,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "operationid": 511,
+      "productid": 511,
+      "code": "C_comp1_operation1",
+      "pname": "C_comp1_operation1",
+      "name": "C_comp1_operation1",
+      "parentid": 0,
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_2",
+          "oee": 1,
+          "execution_time": 13,
+          "setup_time": 0
+        }
+      ],
+      "children": [
+        {
+          "operationid": 522,
+          "productid": 522,
+          "code": "C_comp2_operation2",
+          "pname": "C_comp2_operation2",
+          "name": "C_comp2_operation2",
+          "parentid": 511,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 15,
+              "name": "Machine_15",
+              "oee": 1,
+              "execution_time": 4,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 521,
+              "productid": 521,
+              "code": "C_comp2_operation1",
+              "pname": "C_comp2_operation1",
+              "name": "C_comp2_operation1",
+              "parentid": 522,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 3,
+                  "name": "Machine_3",
+                  "oee": 1,
+                  "execution_time": 10,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 562,
+                  "productid": 562,
+                  "code": "C_comp6_operation2",
+                  "pname": "C_comp6_operation2",
+                  "name": "C_comp6_operation2",
+                  "parentid": 521,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 12,
+                      "name": "Machine_12",
+                      "oee": 1,
+                      "execution_time": 10,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 561,
+                      "productid": 561,
+                      "code": "C_comp6_operation1",
+                      "pname": "C_comp6_operation1",
+                      "name": "C_comp6_operation1",
+                      "parentid": 562,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 10,
+                          "name": "Machine_10",
+                          "oee": 1,
+                          "execution_time": 9,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "operationid": 573,
+                  "productid": 573,
+                  "code": "C_comp7_operation3",
+                  "pname": "C_comp7_operation3",
+                  "name": "C_comp7_operation3",
+                  "parentid": 521,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 9,
+                      "name": "Machine_9",
+                      "oee": 1,
+                      "execution_time": 1,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 572,
+                      "productid": 572,
+                      "code": "C_comp7_operation2",
+                      "pname": "C_comp7_operation2",
+                      "name": "C_comp7_operation2",
+                      "parentid": 573,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 13,
+                          "name": "Machine_13",
+                          "oee": 1,
+                          "execution_time": 9,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 571,
+                          "productid": 571,
+                          "code": "C_comp7_operation1",
+                          "pname": "C_comp7_operation1",
+                          "name": "C_comp7_operation1",
+                          "parentid": 572,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 15,
+                              "name": "Machine_15",
+                              "oee": 1,
+                              "execution_time": 11,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "operationid": 582,
+                  "productid": 582,
+                  "code": "C_comp8_operation2",
+                  "pname": "C_comp8_operation2",
+                  "name": "C_comp8_operation2",
+                  "parentid": 521,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 7,
+                      "name": "Machine_7",
+                      "oee": 1,
+                      "execution_time": 8,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 581,
+                      "productid": 581,
+                      "code": "C_comp8_operation1",
+                      "pname": "C_comp8_operation1",
+                      "name": "C_comp8_operation1",
+                      "parentid": 582,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 8,
+                          "name": "Machine_8",
+                          "oee": 1,
+                          "execution_time": 2,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operationid": 532,
+          "productid": 532,
+          "code": "C_comp3_operation2",
+          "pname": "C_comp3_operation2",
+          "name": "C_comp3_operation2",
+          "parentid": 511,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 9,
+              "name": "Machine_9",
+              "oee": 1,
+              "execution_time": 5,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 531,
+              "productid": 531,
+              "code": "C_comp3_operation1",
+              "pname": "C_comp3_operation1",
+              "name": "C_comp3_operation1",
+              "parentid": 532,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 4,
+                  "name": "Machine_4",
+                  "oee": 1,
+                  "execution_time": 5,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 593,
+                  "productid": 593,
+                  "code": "C_comp9_operation3",
+                  "pname": "C_comp9_operation3",
+                  "name": "C_comp9_operation3",
+                  "parentid": 531,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 13,
+                      "name": "Machine_13",
+                      "oee": 1,
+                      "execution_time": 6,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 592,
+                      "productid": 592,
+                      "code": "C_comp9_operation2",
+                      "pname": "C_comp9_operation2",
+                      "name": "C_comp9_operation2",
+                      "parentid": 593,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 15,
+                          "name": "Machine_15",
+                          "oee": 1,
+                          "execution_time": 3,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 591,
+                          "productid": 591,
+                          "code": "C_comp9_operation1",
+                          "pname": "C_comp9_operation1",
+                          "name": "C_comp9_operation1",
+                          "parentid": 592,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 9,
+                              "name": "Machine_9",
+                              "oee": 1,
+                              "execution_time": 14,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "operationid": 5105,
+                  "productid": 5105,
+                  "code": "C_comp10_operation5",
+                  "pname": "C_comp10_operation5",
+                  "name": "C_comp10_operation5",
+                  "parentid": 531,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 11,
+                      "name": "Machine_11",
+                      "oee": 1,
+                      "execution_time": 1,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5104,
+                      "productid": 5104,
+                      "code": "C_comp10_operation4",
+                      "pname": "C_comp10_operation4",
+                      "name": "C_comp10_operation4",
+                      "parentid": 5105,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 14,
+                          "name": "Machine_14",
+                          "oee": 1,
+                          "execution_time": 8,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 5103,
+                          "productid": 5103,
+                          "code": "C_comp10_operation3",
+                          "pname": "C_comp10_operation3",
+                          "name": "C_comp10_operation3",
+                          "parentid": 5104,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 12,
+                              "name": "Machine_12",
+                              "oee": 1,
+                              "execution_time": 4,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "operationid": 5102,
+                              "productid": 5102,
+                              "code": "C_comp10_operation2",
+                              "pname": "C_comp10_operation2",
+                              "name": "C_comp10_operation2",
+                              "parentid": 5103,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 8,
+                                  "name": "Machine_8",
+                                  "oee": 1,
+                                  "execution_time": 7,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": [
+                                {
+                                  "operationid": 5101,
+                                  "productid": 5101,
+                                  "code": "C_comp10_operation1",
+                                  "pname": "C_comp10_operation1",
+                                  "name": "C_comp10_operation1",
+                                  "parentid": 5102,
+                                  "quantity": 1,
+                                  "machines": [
+                                    {
+                                      "id": 7,
+                                      "name": "Machine_7",
+                                      "oee": 1,
+                                      "execution_time": 5,
+                                      "setup_time": 0
+                                    }
+                                  ],
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operationid": 542,
+          "productid": 542,
+          "code": "C_comp4_operation2",
+          "pname": "C_comp4_operation2",
+          "name": "C_comp4_operation2",
+          "parentid": 511,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 7,
+              "name": "Machine_7",
+              "oee": 1,
+              "execution_time": 6,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 541,
+              "productid": 541,
+              "code": "C_comp4_operation1",
+              "pname": "C_comp4_operation1",
+              "name": "C_comp4_operation1",
+              "parentid": 542,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 5,
+                  "name": "Machine_5",
+                  "oee": 1,
+                  "execution_time": 4,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 5114,
+                  "productid": 5114,
+                  "code": "C_comp11_operation4",
+                  "pname": "C_comp11_operation4",
+                  "name": "C_comp11_operation4",
+                  "parentid": 541,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 10,
+                      "name": "Machine_10",
+                      "oee": 1,
+                      "execution_time": 4,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5113,
+                      "productid": 5113,
+                      "code": "C_comp11_operation3",
+                      "pname": "C_comp11_operation3",
+                      "name": "C_comp11_operation3",
+                      "parentid": 5114,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 14,
+                          "name": "Machine_14",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 5112,
+                          "productid": 5112,
+                          "code": "C_comp11_operation2",
+                          "pname": "C_comp11_operation2",
+                          "name": "C_comp11_operation2",
+                          "parentid": 5113,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 12,
+                              "name": "Machine_12",
+                              "oee": 1,
+                              "execution_time": 3,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "operationid": 5111,
+                              "productid": 5111,
+                              "code": "C_comp11_operation1",
+                              "pname": "C_comp11_operation1",
+                              "name": "C_comp11_operation1",
+                              "parentid": 5112,
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 13,
+                                  "name": "Machine_13",
+                                  "oee": 1,
+                                  "execution_time": 1,
+                                  "setup_time": 0
+                                }
+                              ],
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "operationid": 5123,
+                  "productid": 5123,
+                  "code": "C_comp12_operation3",
+                  "pname": "C_comp12_operation3",
+                  "name": "C_comp12_operation3",
+                  "parentid": 541,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 11,
+                      "name": "Machine_11",
+                      "oee": 1,
+                      "execution_time": 4,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5122,
+                      "productid": 5122,
+                      "code": "C_comp12_operation2",
+                      "pname": "C_comp12_operation2",
+                      "name": "C_comp12_operation2",
+                      "parentid": 5123,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 8,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 5121,
+                          "productid": 5121,
+                          "code": "C_comp12_operation1",
+                          "pname": "C_comp12_operation1",
+                          "name": "C_comp12_operation1",
+                          "parentid": 5122,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 8,
+                              "name": "Machine_8",
+                              "oee": 1,
+                              "execution_time": 7,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "operationid": 552,
+          "productid": 552,
+          "code": "C_comp5_operation2",
+          "pname": "C_comp5_operation2",
+          "name": "C_comp5_operation2",
+          "parentid": 511,
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 13,
+              "name": "Machine_13",
+              "oee": 1,
+              "execution_time": 4,
+              "setup_time": 0
+            }
+          ],
+          "children": [
+            {
+              "operationid": 551,
+              "productid": 551,
+              "code": "C_comp5_operation1",
+              "pname": "C_comp5_operation1",
+              "name": "C_comp5_operation1",
+              "parentid": 552,
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 6,
+                  "name": "Machine_6",
+                  "oee": 1,
+                  "execution_time": 11,
+                  "setup_time": 0
+                }
+              ],
+              "children": [
+                {
+                  "operationid": 5132,
+                  "productid": 5132,
+                  "code": "C_comp13_operation2",
+                  "pname": "C_comp13_operation2",
+                  "name": "C_comp13_operation2",
+                  "parentid": 551,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 10,
+                      "name": "Machine_10",
+                      "oee": 1,
+                      "execution_time": 7,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5131,
+                      "productid": 5131,
+                      "code": "C_comp13_operation1",
+                      "pname": "C_comp13_operation1",
+                      "name": "C_comp13_operation1",
+                      "parentid": 5132,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 13,
+                          "name": "Machine_13",
+                          "oee": 1,
+                          "execution_time": 5,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "operationid": 5143,
+                  "productid": 5143,
+                  "code": "C_comp14_operation3",
+                  "pname": "C_comp14_operation3",
+                  "name": "C_comp14_operation3",
+                  "parentid": 551,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 14,
+                      "name": "Machine_14",
+                      "oee": 1,
+                      "execution_time": 2,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5142,
+                      "productid": 5142,
+                      "code": "C_comp14_operation2",
+                      "pname": "C_comp14_operation2",
+                      "name": "C_comp14_operation2",
+                      "parentid": 5143,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 7,
+                          "name": "Machine_7",
+                          "oee": 1,
+                          "execution_time": 13,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 5141,
+                          "productid": 5141,
+                          "code": "C_comp14_operation1",
+                          "pname": "C_comp14_operation1",
+                          "name": "C_comp14_operation1",
+                          "parentid": 5142,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 12,
+                              "name": "Machine_12",
+                              "oee": 1,
+                              "execution_time": 5,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "operationid": 5152,
+                  "productid": 5152,
+                  "code": "C_comp15_operation2",
+                  "pname": "C_comp15_operation2",
+                  "name": "C_comp15_operation2",
+                  "parentid": 551,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 8,
+                      "name": "Machine_8",
+                      "oee": 1,
+                      "execution_time": 12,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5151,
+                      "productid": 5151,
+                      "code": "C_comp15_operation1",
+                      "pname": "C_comp15_operation1",
+                      "name": "C_comp15_operation1",
+                      "parentid": 5152,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 14,
+                          "name": "Machine_14",
+                          "oee": 1,
+                          "execution_time": 1,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "operationid": 5163,
+                  "productid": 5163,
+                  "code": "C_comp16_operation3",
+                  "pname": "C_comp16_operation3",
+                  "name": "C_comp16_operation3",
+                  "parentid": 551,
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 15,
+                      "name": "Machine_15",
+                      "oee": 1,
+                      "execution_time": 6,
+                      "setup_time": 0
+                    }
+                  ],
+                  "children": [
+                    {
+                      "operationid": 5162,
+                      "productid": 5162,
+                      "code": "C_comp16_operation2",
+                      "pname": "C_comp16_operation2",
+                      "name": "C_comp16_operation2",
+                      "parentid": 5163,
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 9,
+                          "name": "Machine_9",
+                          "oee": 1,
+                          "execution_time": 4,
+                          "setup_time": 0
+                        }
+                      ],
+                      "children": [
+                        {
+                          "operationid": 5161,
+                          "productid": 5161,
+                          "code": "C_comp16_operation1",
+                          "pname": "C_comp16_operation1",
+                          "name": "C_comp16_operation1",
+                          "parentid": 5162,
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 11,
+                              "name": "Machine_11",
+                              "oee": 1,
+                              "execution_time": 10,
+                              "setup_time": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-02-01 00:01:30.000000",
+  "metainfo": {
+    "operations_list": [
+      0,
+      5121,
+      5122,
+      5123,
+      521,
+      522,
+      5131,
+      5132,
+      531,
+      532,
+      5141,
+      5142,
+      5143,
+      541,
+      542,
+      5151,
+      5152,
+      551,
+      552,
+      5161,
+      5162,
+      5163,
+      561,
+      562,
+      311,
+      312,
+      571,
+      572,
+      573,
+      321,
+      322,
+      581,
+      582,
+      331,
+      332,
+      333,
+      334,
+      591,
+      592,
+      593,
+      341,
+      342,
+      343,
+      344,
+      351,
+      352,
+      353,
+      111,
+      112,
+      121,
+      122,
+      131,
+      132,
+      133,
+      134,
+      141,
+      142,
+      143,
+      151,
+      152,
+      153,
+      154,
+      155,
+      411,
+      161,
+      162,
+      421,
+      422,
+      431,
+      432,
+      433,
+      434,
+      435,
+      441,
+      451,
+      452,
+      453,
+      461,
+      462,
+      211,
+      471,
+      472,
+      221,
+      222,
+      481,
+      482,
+      483,
+      484,
+      231,
+      232,
+      233,
+      234,
+      235,
+      491,
+      492,
+      5101,
+      5102,
+      5103,
+      241,
+      242,
+      5104,
+      5105,
+      5111,
+      5112,
+      5113,
+      5114,
+      251,
+      252,
+      253,
+      511
+    ],
+    "machines_list": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "maintenances": []
+  }
+}

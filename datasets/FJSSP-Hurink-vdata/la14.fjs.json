@@ -1,0 +1,3144 @@
+{
+  "operationid": 0,
+  "productid": 0,
+  "code": "root",
+  "pname": "root",
+  "name": "root",
+  "parentid": null,
+  "quantity": 1,
+  "machines": [
+    {
+      "id": 0,
+      "name": "Machine_00",
+      "oee": 1,
+      "execution_time": 0,
+      "setup_time": 0
+    }
+  ],
+  "children": [
+    {
+      "operationid": 105,
+      "productid": 105,
+      "code": "Job_100_o5",
+      "pname": "Job_100_o5",
+      "name": "Job_100_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 104,
+          "productid": 104,
+          "code": "Job_100_o4",
+          "pname": "Job_100_o4",
+          "name": "Job_100_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 103,
+              "productid": 103,
+              "code": "Job_100_o3",
+              "pname": "Job_100_o3",
+              "name": "Job_100_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 102,
+                  "productid": 102,
+                  "code": "Job_100_o2",
+                  "pname": "Job_100_o2",
+                  "name": "Job_100_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 101,
+                      "productid": 101,
+                      "code": "Job_100_o1",
+                      "pname": "Job_100_o1",
+                      "name": "Job_100_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 5,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 5,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 102
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 58,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 58,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 103
+                }
+              ],
+              "machines": [
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 44,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 104
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 9,
+              "setup_time": 0
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 9,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 9,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 105
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 58,
+          "setup_time": 0
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 58,
+          "setup_time": 0
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 58,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 205,
+      "productid": 205,
+      "code": "Job_200_o5",
+      "pname": "Job_200_o5",
+      "name": "Job_200_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 204,
+          "productid": 204,
+          "code": "Job_200_o4",
+          "pname": "Job_200_o4",
+          "name": "Job_200_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 203,
+              "productid": 203,
+              "code": "Job_200_o3",
+              "pname": "Job_200_o3",
+              "name": "Job_200_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 202,
+                  "productid": 202,
+                  "code": "Job_200_o2",
+                  "pname": "Job_200_o2",
+                  "name": "Job_200_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 201,
+                      "productid": 201,
+                      "code": "Job_200_o1",
+                      "pname": "Job_200_o1",
+                      "name": "Job_200_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 89,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 89,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 89,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 89,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 202
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 96,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 203
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 97,
+                  "setup_time": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 97,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 97,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 97,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 204
+            }
+          ],
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 84,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 205
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 77,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 77,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 305,
+      "productid": 305,
+      "code": "Job_300_o5",
+      "pname": "Job_300_o5",
+      "name": "Job_300_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 304,
+          "productid": 304,
+          "code": "Job_300_o4",
+          "pname": "Job_300_o4",
+          "name": "Job_300_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 303,
+              "productid": 303,
+              "code": "Job_300_o3",
+              "pname": "Job_300_o3",
+              "name": "Job_300_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 302,
+                  "productid": 302,
+                  "code": "Job_300_o2",
+                  "pname": "Job_300_o2",
+                  "name": "Job_300_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 301,
+                      "productid": 301,
+                      "code": "Job_300_o1",
+                      "pname": "Job_300_o1",
+                      "name": "Job_300_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 81,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 81,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 302
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 85,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 85,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 303
+                }
+              ],
+              "machines": [
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 87,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 87,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 87,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 304
+            }
+          ],
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 39,
+              "setup_time": 0
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 39,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 39,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 305
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 77,
+          "setup_time": 0
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 77,
+          "setup_time": 0
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 77,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 77,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 405,
+      "productid": 405,
+      "code": "Job_400_o5",
+      "pname": "Job_400_o5",
+      "name": "Job_400_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 404,
+          "productid": 404,
+          "code": "Job_400_o4",
+          "pname": "Job_400_o4",
+          "name": "Job_400_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 403,
+              "productid": 403,
+              "code": "Job_400_o3",
+              "pname": "Job_400_o3",
+              "name": "Job_400_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 402,
+                  "productid": 402,
+                  "code": "Job_400_o2",
+                  "pname": "Job_400_o2",
+                  "name": "Job_400_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 401,
+                      "productid": 401,
+                      "code": "Job_400_o1",
+                      "pname": "Job_400_o1",
+                      "name": "Job_400_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 402
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 57,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 57,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 57,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 403
+                }
+              ],
+              "machines": [
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 73,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 73,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 73,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 73,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 404
+            }
+          ],
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 21,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 405
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 31,
+          "setup_time": 0
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 31,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 505,
+      "productid": 505,
+      "code": "Job_500_o5",
+      "pname": "Job_500_o5",
+      "name": "Job_500_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 504,
+          "productid": 504,
+          "code": "Job_500_o4",
+          "pname": "Job_500_o4",
+          "name": "Job_500_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 503,
+              "productid": 503,
+              "code": "Job_500_o3",
+              "pname": "Job_500_o3",
+              "name": "Job_500_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 502,
+                  "productid": 502,
+                  "code": "Job_500_o2",
+                  "pname": "Job_500_o2",
+                  "name": "Job_500_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 501,
+                      "productid": 501,
+                      "code": "Job_500_o1",
+                      "pname": "Job_500_o1",
+                      "name": "Job_500_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 48,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 48,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 48,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 48,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 502
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 71,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 71,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 71,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 503
+                }
+              ],
+              "machines": [
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 70,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 504
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 40,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 40,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 505
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 49,
+          "setup_time": 0
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 49,
+          "setup_time": 0
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 49,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 49,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 605,
+      "productid": 605,
+      "code": "Job_600_o5",
+      "pname": "Job_600_o5",
+      "name": "Job_600_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 604,
+          "productid": 604,
+          "code": "Job_600_o4",
+          "pname": "Job_600_o4",
+          "name": "Job_600_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 603,
+              "productid": 603,
+              "code": "Job_600_o3",
+              "pname": "Job_600_o3",
+              "name": "Job_600_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 602,
+                  "productid": 602,
+                  "code": "Job_600_o2",
+                  "pname": "Job_600_o2",
+                  "name": "Job_600_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 601,
+                      "productid": 601,
+                      "code": "Job_600_o1",
+                      "pname": "Job_600_o1",
+                      "name": "Job_600_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 10,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 602
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 603
+                }
+              ],
+              "machines": [
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 34,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 34,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 604
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 80,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 80,
+              "setup_time": 0
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 80,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 605
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 22,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 22,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 705,
+      "productid": 705,
+      "code": "Job_700_o5",
+      "pname": "Job_700_o5",
+      "name": "Job_700_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 704,
+          "productid": 704,
+          "code": "Job_700_o4",
+          "pname": "Job_700_o4",
+          "name": "Job_700_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 703,
+              "productid": 703,
+              "code": "Job_700_o3",
+              "pname": "Job_700_o3",
+              "name": "Job_700_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 702,
+                  "productid": 702,
+                  "code": "Job_700_o2",
+                  "pname": "Job_700_o2",
+                  "name": "Job_700_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 701,
+                      "productid": 701,
+                      "code": "Job_700_o1",
+                      "pname": "Job_700_o1",
+                      "name": "Job_700_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 17,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 17,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 17,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 702
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 55,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 55,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 55,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 55,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 703
+                }
+              ],
+              "machines": [
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 91,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 91,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 91,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 91,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 704
+            }
+          ],
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 75,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 705
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 7,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 7,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 805,
+      "productid": 805,
+      "code": "Job_800_o5",
+      "pname": "Job_800_o5",
+      "name": "Job_800_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 804,
+          "productid": 804,
+          "code": "Job_800_o4",
+          "pname": "Job_800_o4",
+          "name": "Job_800_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 803,
+              "productid": 803,
+              "code": "Job_800_o3",
+              "pname": "Job_800_o3",
+              "name": "Job_800_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 802,
+                  "productid": 802,
+                  "code": "Job_800_o2",
+                  "pname": "Job_800_o2",
+                  "name": "Job_800_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 801,
+                      "productid": 801,
+                      "code": "Job_800_o1",
+                      "pname": "Job_800_o1",
+                      "name": "Job_800_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 47,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 47,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 802
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 62,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 803
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 72,
+                  "setup_time": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 72,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 72,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 72,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 804
+            }
+          ],
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 35,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 35,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 805
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 11,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 11,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 905,
+      "productid": 905,
+      "code": "Job_900_o5",
+      "pname": "Job_900_o5",
+      "name": "Job_900_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 904,
+          "productid": 904,
+          "code": "Job_900_o4",
+          "pname": "Job_900_o4",
+          "name": "Job_900_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 903,
+              "productid": 903,
+              "code": "Job_900_o3",
+              "pname": "Job_900_o3",
+              "name": "Job_900_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 902,
+                  "productid": 902,
+                  "code": "Job_900_o2",
+                  "pname": "Job_900_o2",
+                  "name": "Job_900_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 901,
+                      "productid": 901,
+                      "code": "Job_900_o1",
+                      "pname": "Job_900_o1",
+                      "name": "Job_900_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 90,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 902
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 94,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 94,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 94,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 94,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 94,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 903
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 50,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 50,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 50,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 50,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 904
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 64,
+              "setup_time": 0
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 64,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 905
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 75,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 75,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1005,
+      "productid": 1005,
+      "code": "Job_1000_o5",
+      "pname": "Job_1000_o5",
+      "name": "Job_1000_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1004,
+          "productid": 1004,
+          "code": "Job_1000_o4",
+          "pname": "Job_1000_o4",
+          "name": "Job_1000_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1003,
+              "productid": 1003,
+              "code": "Job_1000_o3",
+              "pname": "Job_1000_o3",
+              "name": "Job_1000_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1002,
+                  "productid": 1002,
+                  "code": "Job_1000_o2",
+                  "pname": "Job_1000_o2",
+                  "name": "Job_1000_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1001,
+                      "productid": 1001,
+                      "code": "Job_1000_o1",
+                      "pname": "Job_1000_o1",
+                      "name": "Job_1000_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 15,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1002
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 67,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 67,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1003
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 12,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 12,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1004
+            }
+          ],
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 20,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 20,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 20,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1005
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 71,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 71,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1105,
+      "productid": 1105,
+      "code": "Job_1100_o5",
+      "pname": "Job_1100_o5",
+      "name": "Job_1100_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1104,
+          "productid": 1104,
+          "code": "Job_1100_o4",
+          "pname": "Job_1100_o4",
+          "name": "Job_1100_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1103,
+              "productid": 1103,
+              "code": "Job_1100_o3",
+              "pname": "Job_1100_o3",
+              "name": "Job_1100_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1102,
+                  "productid": 1102,
+                  "code": "Job_1100_o2",
+                  "pname": "Job_1100_o2",
+                  "name": "Job_1100_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1101,
+                      "productid": 1101,
+                      "code": "Job_1100_o1",
+                      "pname": "Job_1100_o1",
+                      "name": "Job_1100_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 93,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 93,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 93,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1102
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 29,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 29,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1103
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1104
+            }
+          ],
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 57,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 57,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1105
+        }
+      ],
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 68,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 68,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 68,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1205,
+      "productid": 1205,
+      "code": "Job_1200_o5",
+      "pname": "Job_1200_o5",
+      "name": "Job_1200_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1204,
+          "productid": 1204,
+          "code": "Job_1200_o4",
+          "pname": "Job_1200_o4",
+          "name": "Job_1200_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1203,
+              "productid": 1203,
+              "code": "Job_1200_o3",
+              "pname": "Job_1200_o3",
+              "name": "Job_1200_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1202,
+                  "productid": 1202,
+                  "code": "Job_1200_o2",
+                  "pname": "Job_1200_o2",
+                  "name": "Job_1200_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1201,
+                      "productid": 1201,
+                      "code": "Job_1200_o1",
+                      "pname": "Job_1200_o1",
+                      "name": "Job_1200_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 77,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 77,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 77,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 77,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1202
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 93,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 93,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1203
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 58,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 58,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1204
+            }
+          ],
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 70,
+              "setup_time": 0
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 70,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1205
+        }
+      ],
+      "machines": [
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 7,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1305,
+      "productid": 1305,
+      "code": "Job_1300_o5",
+      "pname": "Job_1300_o5",
+      "name": "Job_1300_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1304,
+          "productid": 1304,
+          "code": "Job_1300_o4",
+          "pname": "Job_1300_o4",
+          "name": "Job_1300_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1303,
+              "productid": 1303,
+              "code": "Job_1300_o3",
+              "pname": "Job_1300_o3",
+              "name": "Job_1300_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1302,
+                  "productid": 1302,
+                  "code": "Job_1300_o2",
+                  "pname": "Job_1300_o2",
+                  "name": "Job_1300_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1301,
+                      "productid": 1301,
+                      "code": "Job_1300_o1",
+                      "pname": "Job_1300_o1",
+                      "name": "Job_1300_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 63,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 63,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1302
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 27,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 27,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 27,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 27,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1303
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 95,
+                  "setup_time": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 95,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 95,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1304
+            }
+          ],
+          "machines": [
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 6,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1305
+        }
+      ],
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 82,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 82,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1405,
+      "productid": 1405,
+      "code": "Job_1400_o5",
+      "pname": "Job_1400_o5",
+      "name": "Job_1400_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1404,
+          "productid": 1404,
+          "code": "Job_1400_o4",
+          "pname": "Job_1400_o4",
+          "name": "Job_1400_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1403,
+              "productid": 1403,
+              "code": "Job_1400_o3",
+              "pname": "Job_1400_o3",
+              "name": "Job_1400_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1402,
+                  "productid": 1402,
+                  "code": "Job_1400_o2",
+                  "pname": "Job_1400_o2",
+                  "name": "Job_1400_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1401,
+                      "productid": 1401,
+                      "code": "Job_1400_o1",
+                      "pname": "Job_1400_o1",
+                      "name": "Job_1400_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 36,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 36,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 36,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1402
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 26,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 26,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 26,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1403
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 48,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 48,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1404
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 56,
+              "setup_time": 0
+            },
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 56,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 56,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1405
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 87,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1505,
+      "productid": 1505,
+      "code": "Job_1500_o5",
+      "pname": "Job_1500_o5",
+      "name": "Job_1500_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1504,
+          "productid": 1504,
+          "code": "Job_1500_o4",
+          "pname": "Job_1500_o4",
+          "name": "Job_1500_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1503,
+              "productid": 1503,
+              "code": "Job_1500_o3",
+              "pname": "Job_1500_o3",
+              "name": "Job_1500_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1502,
+                  "productid": 1502,
+                  "code": "Job_1500_o2",
+                  "pname": "Job_1500_o2",
+                  "name": "Job_1500_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1501,
+                      "productid": 1501,
+                      "code": "Job_1500_o1",
+                      "pname": "Job_1500_o1",
+                      "name": "Job_1500_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 36,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 36,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1502
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 8,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1503
+                }
+              ],
+              "machines": [
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 15,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 15,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1504
+            }
+          ],
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 76,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 76,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1505
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 36,
+          "setup_time": 0
+        },
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 36,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 36,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 36,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1605,
+      "productid": 1605,
+      "code": "Job_1600_o5",
+      "pname": "Job_1600_o5",
+      "name": "Job_1600_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1604,
+          "productid": 1604,
+          "code": "Job_1600_o4",
+          "pname": "Job_1600_o4",
+          "name": "Job_1600_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1603,
+              "productid": 1603,
+              "code": "Job_1600_o3",
+              "pname": "Job_1600_o3",
+              "name": "Job_1600_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1602,
+                  "productid": 1602,
+                  "code": "Job_1600_o2",
+                  "pname": "Job_1600_o2",
+                  "name": "Job_1600_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1601,
+                      "productid": 1601,
+                      "code": "Job_1600_o1",
+                      "pname": "Job_1600_o1",
+                      "name": "Job_1600_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 78,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 78,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 78,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1602
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 84,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1603
+                }
+              ],
+              "machines": [
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 41,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 41,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1604
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 30,
+              "setup_time": 0
+            },
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 30,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 30,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1605
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 76,
+          "setup_time": 0
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 76,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 76,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1705,
+      "productid": 1705,
+      "code": "Job_1700_o5",
+      "pname": "Job_1700_o5",
+      "name": "Job_1700_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1704,
+          "productid": 1704,
+          "code": "Job_1700_o4",
+          "pname": "Job_1700_o4",
+          "name": "Job_1700_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1703,
+              "productid": 1703,
+              "code": "Job_1700_o3",
+              "pname": "Job_1700_o3",
+              "name": "Job_1700_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1702,
+                  "productid": 1702,
+                  "code": "Job_1700_o2",
+                  "pname": "Job_1700_o2",
+                  "name": "Job_1700_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1701,
+                      "productid": 1701,
+                      "code": "Job_1700_o1",
+                      "pname": "Job_1700_o1",
+                      "name": "Job_1700_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 78,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 78,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 78,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1702
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 75,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 75,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1703
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 88,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 88,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1704
+            }
+          ],
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 13,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1705
+        }
+      ],
+      "machines": [
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 81,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 81,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1805,
+      "productid": 1805,
+      "code": "Job_1800_o5",
+      "pname": "Job_1800_o5",
+      "name": "Job_1800_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1804,
+          "productid": 1804,
+          "code": "Job_1800_o4",
+          "pname": "Job_1800_o4",
+          "name": "Job_1800_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1803,
+              "productid": 1803,
+              "code": "Job_1800_o3",
+              "pname": "Job_1800_o3",
+              "name": "Job_1800_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1802,
+                  "productid": 1802,
+                  "code": "Job_1800_o2",
+                  "pname": "Job_1800_o2",
+                  "name": "Job_1800_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1801,
+                      "productid": 1801,
+                      "code": "Job_1800_o1",
+                      "pname": "Job_1800_o1",
+                      "name": "Job_1800_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 1,
+                          "name": "Machine_01",
+                          "oee": 1,
+                          "execution_time": 54,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 54,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 3,
+                          "name": "Machine_03",
+                          "oee": 1,
+                          "execution_time": 54,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1802
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 1,
+                      "name": "Machine_01",
+                      "oee": 1,
+                      "execution_time": 40,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 40,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 40,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1803
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 13,
+                  "setup_time": 0
+                },
+                {
+                  "id": 3,
+                  "name": "Machine_03",
+                  "oee": 1,
+                  "execution_time": 13,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1804
+            }
+          ],
+          "machines": [
+            {
+              "id": 2,
+              "name": "Machine_02",
+              "oee": 1,
+              "execution_time": 82,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 82,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1805
+        }
+      ],
+      "machines": [
+        {
+          "id": 2,
+          "name": "Machine_02",
+          "oee": 1,
+          "execution_time": 29,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 29,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 29,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 1905,
+      "productid": 1905,
+      "code": "Job_1900_o5",
+      "pname": "Job_1900_o5",
+      "name": "Job_1900_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 1904,
+          "productid": 1904,
+          "code": "Job_1900_o4",
+          "pname": "Job_1900_o4",
+          "name": "Job_1900_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 1903,
+              "productid": 1903,
+              "code": "Job_1900_o3",
+              "pname": "Job_1900_o3",
+              "name": "Job_1900_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 1902,
+                  "productid": 1902,
+                  "code": "Job_1900_o2",
+                  "pname": "Job_1900_o2",
+                  "name": "Job_1900_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 1901,
+                      "productid": 1901,
+                      "code": "Job_1900_o1",
+                      "pname": "Job_1900_o1",
+                      "name": "Job_1900_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 2,
+                          "name": "Machine_02",
+                          "oee": 1,
+                          "execution_time": 26,
+                          "setup_time": 0
+                        },
+                        {
+                          "id": 5,
+                          "name": "Machine_05",
+                          "oee": 1,
+                          "execution_time": 26,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 1902
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 4,
+                      "name": "Machine_04",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 1,
+                      "execution_time": 82,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 1903
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                },
+                {
+                  "id": 2,
+                  "name": "Machine_02",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                },
+                {
+                  "id": 4,
+                  "name": "Machine_04",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                },
+                {
+                  "id": 5,
+                  "name": "Machine_05",
+                  "oee": 1,
+                  "execution_time": 52,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 1904
+            }
+          ],
+          "machines": [
+            {
+              "id": 4,
+              "name": "Machine_04",
+              "oee": 1,
+              "execution_time": 6,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 6,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 1905
+        }
+      ],
+      "machines": [
+        {
+          "id": 1,
+          "name": "Machine_01",
+          "oee": 1,
+          "execution_time": 6,
+          "setup_time": 0
+        },
+        {
+          "id": 3,
+          "name": "Machine_03",
+          "oee": 1,
+          "execution_time": 6,
+          "setup_time": 0
+        },
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 6,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    },
+    {
+      "operationid": 2005,
+      "productid": 2005,
+      "code": "Job_2000_o5",
+      "pname": "Job_2000_o5",
+      "name": "Job_2000_o5",
+      "quantity": 1,
+      "children": [
+        {
+          "operationid": 2004,
+          "productid": 2004,
+          "code": "Job_2000_o4",
+          "pname": "Job_2000_o4",
+          "name": "Job_2000_o4",
+          "quantity": 1,
+          "children": [
+            {
+              "operationid": 2003,
+              "productid": 2003,
+              "code": "Job_2000_o3",
+              "pname": "Job_2000_o3",
+              "name": "Job_2000_o3",
+              "quantity": 1,
+              "children": [
+                {
+                  "operationid": 2002,
+                  "productid": 2002,
+                  "code": "Job_2000_o2",
+                  "pname": "Job_2000_o2",
+                  "name": "Job_2000_o2",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "operationid": 2001,
+                      "productid": 2001,
+                      "code": "Job_2000_o1",
+                      "pname": "Job_2000_o1",
+                      "name": "Job_2000_o1",
+                      "quantity": 1,
+                      "children": [],
+                      "machines": [
+                        {
+                          "id": 4,
+                          "name": "Machine_04",
+                          "oee": 1,
+                          "execution_time": 54,
+                          "setup_time": 0
+                        }
+                      ],
+                      "parentid": 2002
+                    }
+                  ],
+                  "machines": [
+                    {
+                      "id": 2,
+                      "name": "Machine_02",
+                      "oee": 1,
+                      "execution_time": 64,
+                      "setup_time": 0
+                    },
+                    {
+                      "id": 3,
+                      "name": "Machine_03",
+                      "oee": 1,
+                      "execution_time": 64,
+                      "setup_time": 0
+                    }
+                  ],
+                  "parentid": 2003
+                }
+              ],
+              "machines": [
+                {
+                  "id": 1,
+                  "name": "Machine_01",
+                  "oee": 1,
+                  "execution_time": 54,
+                  "setup_time": 0
+                }
+              ],
+              "parentid": 2004
+            }
+          ],
+          "machines": [
+            {
+              "id": 1,
+              "name": "Machine_01",
+              "oee": 1,
+              "execution_time": 32,
+              "setup_time": 0
+            },
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 1,
+              "execution_time": 32,
+              "setup_time": 0
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 1,
+              "execution_time": 32,
+              "setup_time": 0
+            }
+          ],
+          "parentid": 2005
+        }
+      ],
+      "machines": [
+        {
+          "id": 4,
+          "name": "Machine_04",
+          "oee": 1,
+          "execution_time": 88,
+          "setup_time": 0
+        },
+        {
+          "id": 5,
+          "name": "Machine_05",
+          "oee": 1,
+          "execution_time": 88,
+          "setup_time": 0
+        }
+      ],
+      "parentid": 0
+    }
+  ],
+  "start_date": "2023-01-01 00:00:00.000000",
+  "delivery_date": "2023-02-01 01:29:06.000000",
+  "metainfo": {
+    "operations_list": [
+      0,
+      1600,
+      1601,
+      1602,
+      1603,
+      1604,
+      1605,
+      1100,
+      1101,
+      1102,
+      1103,
+      1104,
+      1105,
+      600,
+      601,
+      602,
+      603,
+      604,
+      605,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      1700,
+      1701,
+      1702,
+      1703,
+      1704,
+      1705,
+      1200,
+      1201,
+      1202,
+      1203,
+      1204,
+      1205,
+      700,
+      701,
+      702,
+      703,
+      704,
+      705,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      1800,
+      1801,
+      1802,
+      1803,
+      1804,
+      1805,
+      1300,
+      1301,
+      1302,
+      1303,
+      1304,
+      1305,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      300,
+      301,
+      302,
+      303,
+      304,
+      305,
+      1900,
+      1901,
+      1902,
+      1903,
+      1904,
+      1905,
+      1400,
+      1401,
+      1402,
+      1403,
+      1404,
+      1405,
+      900,
+      901,
+      902,
+      903,
+      904,
+      905,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      1500,
+      1501,
+      1502,
+      1503,
+      1504,
+      1505,
+      1000,
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      500,
+      501,
+      502,
+      503,
+      504,
+      505
+    ],
+    "machines_list": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "maintenances": []
+  }
+}

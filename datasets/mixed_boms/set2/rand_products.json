@@ -1,0 +1,6722 @@
+[
+    {
+        "id": 1,
+        "code": "FNKA",
+        "pname": "AFID",
+        "machines": [
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 67,
+                "name": "Machine_67",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "code": "PJGY",
+        "pname": "TVEQ",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 22,
+                "name": "Machine_22",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "code": "RJXD",
+        "pname": "VZTM",
+        "machines": [
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "code": "RDTM",
+        "pname": "IDSW",
+        "machines": [
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "code": "KINL",
+        "pname": "STJA",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "code": "TEGK",
+        "pname": "ISMB",
+        "machines": [
+            {
+                "id": 12,
+                "name": "Machine_12",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "code": "TXJB",
+        "pname": "FYYH",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "code": "LNTZ",
+        "pname": "NEJX",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 12,
+                "name": "Machine_12",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "code": "IAXL",
+        "pname": "BIFN",
+        "machines": [
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "code": "XANK",
+        "pname": "KQWL",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "code": "EAMN",
+        "pname": "PNKF",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 120,
+                "execution_time": 130
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 136
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "code": "AABL",
+        "pname": "EDQG",
+        "machines": [
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "code": "GTCX",
+        "pname": "QWXN",
+        "machines": [
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "code": "XTIL",
+        "pname": "PYAS",
+        "machines": [
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 14,
+                "name": "Machine_14",
+                "oee": 0.887,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "code": "ZUOW",
+        "pname": "LBNF",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "code": "ZTZR",
+        "pname": "HEVY",
+        "machines": [
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "code": "INDF",
+        "pname": "AWID",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 59,
+                "name": "Machine_59",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "code": "UYFD",
+        "pname": "PZZE",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 67,
+                "name": "Machine_67",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "code": "LCVI",
+        "pname": "PXOM",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 22,
+                "name": "Machine_22",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 46,
+                "name": "Machine_46",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 54,
+                "name": "Machine_54",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 180,
+                "execution_time": 301
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "code": "XRDR",
+        "pname": "WTVR",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "code": "JIBS",
+        "pname": "MOLJ",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 8,
+                "name": "Machine_08",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 12,
+                "name": "Machine_12",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "code": "SPDT",
+        "pname": "YWNU",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 14,
+                "name": "Machine_14",
+                "oee": 0.887,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "code": "SJBW",
+        "pname": "KDHF",
+        "machines": [
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "code": "XJRA",
+        "pname": "ZFPS",
+        "machines": [
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "code": "PPIZ",
+        "pname": "AFZS",
+        "machines": [
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "code": "AYIZ",
+        "pname": "RYWM",
+        "machines": [
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "code": "FLUL",
+        "pname": "YASU",
+        "machines": [
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 67,
+                "name": "Machine_67",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "code": "IJGU",
+        "pname": "TFCJ",
+        "machines": [
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "code": "OPYG",
+        "pname": "TXWX",
+        "machines": [
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "code": "PBCP",
+        "pname": "QZBY",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "code": "LWCB",
+        "pname": "NILT",
+        "machines": [
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "code": "DQVF",
+        "pname": "ZZGG",
+        "machines": [
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 14,
+                "name": "Machine_14",
+                "oee": 0.887,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "code": "JADS",
+        "pname": "HMNL",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 12,
+                "name": "Machine_12",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "code": "DLMM",
+        "pname": "NTCX",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 54,
+                "name": "Machine_54",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 67,
+                "name": "Machine_67",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "code": "FVCR",
+        "pname": "FQHQ",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 14,
+                "name": "Machine_14",
+                "oee": 0.887,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 58,
+                "name": "Machine_58",
+                "oee": 0.933,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "code": "XYHE",
+        "pname": "QAJJ",
+        "machines": [
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "code": "RLCN",
+        "pname": "WMFT",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "code": "XDJR",
+        "pname": "WLAO",
+        "machines": [
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 14,
+                "name": "Machine_14",
+                "oee": 0.887,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "code": "NAIS",
+        "pname": "ZRBB",
+        "machines": [
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "code": "LINP",
+        "pname": "MQLI",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 22,
+                "name": "Machine_22",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "code": "YILL",
+        "pname": "NHUQ",
+        "machines": [
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "code": "UNUK",
+        "pname": "OVLR",
+        "machines": [
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "code": "ANUG",
+        "pname": "QVFW",
+        "machines": [
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "code": "ESUA",
+        "pname": "UOBR",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "code": "HAXI",
+        "pname": "PNYV",
+        "machines": [
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "code": "WMTH",
+        "pname": "OGQV",
+        "machines": [
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 58,
+                "name": "Machine_58",
+                "oee": 0.933,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "code": "WGHW",
+        "pname": "SHQY",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "code": "QUAN",
+        "pname": "VHKY",
+        "machines": [
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "code": "SGHS",
+        "pname": "BRRC",
+        "machines": [
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "code": "SMUG",
+        "pname": "ZPFC",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "code": "RBLN",
+        "pname": "KCRZ",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "code": "PWPI",
+        "pname": "FBPL",
+        "machines": [
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "code": "ESWG",
+        "pname": "CNWZ",
+        "machines": [
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "code": "FWYT",
+        "pname": "IIUR",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 54,
+                "name": "Machine_54",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 58,
+                "name": "Machine_58",
+                "oee": 0.933,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "code": "XHVJ",
+        "pname": "ERMM",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "code": "MLKQ",
+        "pname": "OSCF",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "code": "XXVP",
+        "pname": "LAYX",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 59,
+                "name": "Machine_59",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "code": "NXMY",
+        "pname": "VTTV",
+        "machines": [
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "code": "DHLU",
+        "pname": "QIKS",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "code": "ZGJR",
+        "pname": "VWEA",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "code": "IMPN",
+        "pname": "WKDL",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "code": "PBPW",
+        "pname": "ZRKO",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 46,
+                "name": "Machine_46",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "code": "BNSP",
+        "pname": "TIEI",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 69,
+                "name": "Machine_69",
+                "oee": 0.946,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "code": "MPTZ",
+        "pname": "ZEIK",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 22,
+                "name": "Machine_22",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "code": "FXNS",
+        "pname": "SFAN",
+        "machines": [
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "code": "QYNO",
+        "pname": "VUQA",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 22,
+                "name": "Machine_22",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "code": "HXTB",
+        "pname": "WABA",
+        "machines": [
+            {
+                "id": 12,
+                "name": "Machine_12",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "code": "EQGB",
+        "pname": "VOKO",
+        "machines": [
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 12,
+                "name": "Machine_12",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 59,
+                "name": "Machine_59",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "code": "YVGL",
+        "pname": "JJBY",
+        "machines": [
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "code": "OSSR",
+        "pname": "UQRM",
+        "machines": [
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 54,
+                "name": "Machine_54",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "code": "TVYN",
+        "pname": "AJVF",
+        "machines": [
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 46,
+                "name": "Machine_46",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "code": "ESOR",
+        "pname": "BMBP",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 70,
+                "name": "Machine_70",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "code": "THAM",
+        "pname": "BAMF",
+        "machines": [
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 14,
+                "name": "Machine_14",
+                "oee": 0.887,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 180,
+                "execution_time": 130
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 60,
+                "execution_time": 120
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 120,
+                "execution_time": 128
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 60,
+                "execution_time": 136
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "code": "VBNE",
+        "pname": "DQCD",
+        "machines": [
+            {
+                "id": 44,
+                "name": "Machine_44",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "code": "MEBH",
+        "pname": "HCNS",
+        "machines": [
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "code": "BXLM",
+        "pname": "JDZA",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "code": "JLMP",
+        "pname": "GGCI",
+        "machines": [
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "code": "DTOE",
+        "pname": "HGLE",
+        "machines": [
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "code": "YKEQ",
+        "pname": "QXYD",
+        "machines": [
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "code": "LRUQ",
+        "pname": "XKWV",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 24,
+                "name": "Machine_24",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "code": "CGJY",
+        "pname": "GMJA",
+        "machines": [
+            {
+                "id": 1,
+                "name": "Machine_01",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 43,
+                "name": "Machine_43",
+                "oee": 0.945,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "code": "ZKZT",
+        "pname": "VERT",
+        "machines": [
+            {
+                "id": 3,
+                "name": "Machine_03",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 26,
+                "name": "Machine_26",
+                "oee": 0.976,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "code": "DPYK",
+        "pname": "PPZU",
+        "machines": [
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 71,
+                "name": "Machine_71",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "code": "ZQJO",
+        "pname": "TWXK",
+        "machines": [
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 80,
+                "name": "Machine_80",
+                "oee": 0.876,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "code": "SLKO",
+        "pname": "VEBO",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 38,
+                "name": "Machine_38",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 39,
+                "name": "Machine_39",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "code": "LZRJ",
+        "pname": "IVSU",
+        "machines": [
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "code": "PITY",
+        "pname": "RZPH",
+        "machines": [
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 46,
+                "name": "Machine_46",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "code": "UMLY",
+        "pname": "ODHU",
+        "machines": [
+            {
+                "id": 8,
+                "name": "Machine_08",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 23,
+                "name": "Machine_23",
+                "oee": 0.962,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 58,
+                "name": "Machine_58",
+                "oee": 0.933,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "code": "SGUE",
+        "pname": "HEKD",
+        "machines": [
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "code": "FKMC",
+        "pname": "RKET",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 74,
+                "name": "Machine_74",
+                "oee": 0.997,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "code": "ENFI",
+        "pname": "ZBIA",
+        "machines": [
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 35,
+                "name": "Machine_35",
+                "oee": 0.875,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 46,
+                "name": "Machine_46",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 240
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 240
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "code": "DEWA",
+        "pname": "TSJR",
+        "machines": [
+            {
+                "id": 4,
+                "name": "Machine_04",
+                "oee": 0.928,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 16,
+                "name": "Machine_16",
+                "oee": 0.914,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 20,
+                "name": "Machine_20",
+                "oee": 0.975,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 22,
+                "name": "Machine_22",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 45,
+                "name": "Machine_45",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 50,
+                "name": "Machine_50",
+                "oee": 0.927,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 54,
+                "name": "Machine_54",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 76,
+                "name": "Machine_76",
+                "oee": 0.918,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "code": "GZFY",
+        "pname": "GZKE",
+        "machines": [
+            {
+                "id": 28,
+                "name": "Machine_28",
+                "oee": 0.923,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 59,
+                "name": "Machine_59",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "code": "HSIK",
+        "pname": "HYMM",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 18,
+                "name": "Machine_18",
+                "oee": 0.966,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 42,
+                "name": "Machine_42",
+                "oee": 0.912,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 46,
+                "name": "Machine_46",
+                "oee": 0.963,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 52,
+                "name": "Machine_52",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 53,
+                "name": "Machine_53",
+                "oee": 0.926,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 56,
+                "name": "Machine_56",
+                "oee": 0.857,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 75,
+                "name": "Machine_75",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 77,
+                "name": "Machine_77",
+                "oee": 0.932,
+                "setup_time": 300,
+                "execution_time": 60
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 60
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "code": "OGFN",
+        "pname": "UAHV",
+        "machines": [
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "code": "KFDA",
+        "pname": "JCVF",
+        "machines": [
+            {
+                "id": 5,
+                "name": "Machine_05",
+                "oee": 0.89,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 25,
+                "name": "Machine_25",
+                "oee": 0.949,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 41,
+                "name": "Machine_41",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 55,
+                "name": "Machine_55",
+                "oee": 0.862,
+                "setup_time": 300,
+                "execution_time": 180
+            },
+            {
+                "id": 65,
+                "name": "Machine_65",
+                "oee": 0.874,
+                "setup_time": 300,
+                "execution_time": 180
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "code": "JKWZ",
+        "pname": "SYMR",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 78,
+                "name": "Machine_78",
+                "oee": 0.995,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "code": "EWEZ",
+        "pname": "WDMH",
+        "machines": [
+            {
+                "id": 2,
+                "name": "Machine_02",
+                "oee": 0.921,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 9,
+                "name": "Machine_09",
+                "oee": 0.896,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 10,
+                "name": "Machine_10",
+                "oee": 0.863,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 15,
+                "name": "Machine_15",
+                "oee": 0.973,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 17,
+                "name": "Machine_17",
+                "oee": 0.901,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 19,
+                "name": "Machine_19",
+                "oee": 0.871,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 29,
+                "name": "Machine_29",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 30,
+                "name": "Machine_30",
+                "oee": 0.9,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 31,
+                "name": "Machine_31",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 34,
+                "name": "Machine_34",
+                "oee": 0.899,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 40,
+                "name": "Machine_40",
+                "oee": 0.919,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 47,
+                "name": "Machine_47",
+                "oee": 0.854,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 49,
+                "name": "Machine_49",
+                "oee": 0.895,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 51,
+                "name": "Machine_51",
+                "oee": 0.931,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 57,
+                "name": "Machine_57",
+                "oee": 0.905,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 62,
+                "name": "Machine_62",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 63,
+                "name": "Machine_63",
+                "oee": 0.929,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 68,
+                "name": "Machine_68",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 73,
+                "name": "Machine_73",
+                "oee": 0.922,
+                "setup_time": 300,
+                "execution_time": 300
+            },
+            {
+                "id": 79,
+                "name": "Machine_79",
+                "oee": 0.937,
+                "setup_time": 240,
+                "execution_time": 320
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "code": "VHJV",
+        "pname": "AODH",
+        "machines": [
+            {
+                "id": 6,
+                "name": "Machine_06",
+                "oee": 0.911,
+                "setup_time": 300,
+                "execution_time": 300
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "code": "URCF",
+        "pname": "HRMK",
+        "machines": [
+            {
+                "id": 7,
+                "name": "Machine_07",
+                "oee": 0.906,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 11,
+                "name": "Machine_11",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 13,
+                "name": "Machine_13",
+                "oee": 0.935,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 21,
+                "name": "Machine_21",
+                "oee": 0.92,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 27,
+                "name": "Machine_27",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 32,
+                "name": "Machine_32",
+                "oee": 0.917,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 33,
+                "name": "Machine_33",
+                "oee": 0.992,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 36,
+                "name": "Machine_36",
+                "oee": 0.938,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 37,
+                "name": "Machine_37",
+                "oee": 0.964,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 48,
+                "name": "Machine_48",
+                "oee": 0.978,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 54,
+                "name": "Machine_54",
+                "oee": 0.934,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 60,
+                "name": "Machine_60",
+                "oee": 0.924,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 61,
+                "name": "Machine_61",
+                "oee": 0.943,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 64,
+                "name": "Machine_64",
+                "oee": 0.948,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 66,
+                "name": "Machine_66",
+                "oee": 0.958,
+                "setup_time": 300,
+                "execution_time": 120
+            },
+            {
+                "id": 72,
+                "name": "Machine_72",
+                "oee": 0.99,
+                "setup_time": 300,
+                "execution_time": 120
+            }
+        ]
+    }
+]
