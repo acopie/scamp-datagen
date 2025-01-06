@@ -1,0 +1,169 @@
+{
+  "operationid": 275298,
+  "productid": 49,
+  "code": "SESN",
+  "pname": "SESN",
+  "parentid": null,
+  "start_date": "2000-08-25 00:00:00.000000",
+  "delivery_date": "2022-09-03 00:00:00.000000",
+  "priority": 8,
+  "quantity": 4,
+  "name": "root",
+  "operations_list": [
+    275298,
+    275299,
+    275300,
+    275301,
+    275302,
+    275303,
+    275304,
+    275305,
+    275306,
+    275307,
+    275308,
+    275309,
+    275310,
+    275311,
+    275312
+  ],
+  "children": [
+    {
+      "parentid": 275298,
+      "operationid": 275299,
+      "productid": 111,
+      "code": "EUNU",
+      "pname": "EUNU",
+      "quantity": 2,
+      "children": [
+        {
+          "parentid": 275299,
+          "operationid": 275300,
+          "productid": 24,
+          "code": "IIXO",
+          "pname": "IIXO",
+          "quantity": 2,
+          "children": [
+            {
+              "parentid": 275300,
+              "operationid": 275301,
+              "productid": 76,
+              "code": "KHDZ",
+              "pname": "KHDZ",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 275301,
+                  "operationid": 275302,
+                  "productid": 102,
+                  "code": "KJBD",
+                  "pname": "KJBD",
+                  "quantity": 4,
+                  "children": [
+                    {
+                      "parentid": 275302,
+                      "operationid": 275303,
+                      "productid": 126,
+                      "code": "ZDCZ",
+                      "pname": "ZDCZ",
+                      "quantity": 5,
+                      "children": [
+                        {
+                          "parentid": 275303,
+                          "operationid": 275304,
+                          "productid": 25,
+                          "code": "KONW",
+                          "pname": "KONW",
+                          "quantity": 3,
+                          "children": [
+                            {
+                              "parentid": 275304,
+                              "operationid": 275305,
+                              "raw_material_id": 160,
+                              "raw_material_quantity": 1,
+                              "productid": 80,
+                              "code": "BPDM",
+                              "pname": "BPDM",
+                              "quantity": 3
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parentid": 275300,
+              "operationid": 275306,
+              "productid": 118,
+              "code": "RROH",
+              "pname": "RROH",
+              "quantity": 4,
+              "children": [
+                {
+                  "parentid": 275306,
+                  "operationid": 275307,
+                  "productid": 30,
+                  "code": "KLWF",
+                  "pname": "KLWF",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 275307,
+                      "operationid": 275308,
+                      "productid": 116,
+                      "code": "EOFA",
+                      "pname": "EOFA",
+                      "quantity": 2,
+                      "children": [
+                        {
+                          "parentid": 275308,
+                          "operationid": 275309,
+                          "productid": 139,
+                          "code": "NXON",
+                          "pname": "NXON",
+                          "quantity": 6,
+                          "children": [
+                            {
+                              "parentid": 275309,
+                              "operationid": 275310,
+                              "productid": 74,
+                              "code": "HNVC",
+                              "pname": "HNVC",
+                              "quantity": 3,
+                              "children": [
+                                {
+                                  "parentid": 275310,
+                                  "operationid": 275311,
+                                  "raw_material_id": 179,
+                                  "raw_material_quantity": 10,
+                                  "productid": 80,
+                                  "code": "BPDM",
+                                  "pname": "BPDM",
+                                  "quantity": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "parentid": 275300,
+              "operationid": 275312,
+              "productid": 101,
+              "code": "NCUT",
+              "pname": "NCUT",
+              "quantity": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
