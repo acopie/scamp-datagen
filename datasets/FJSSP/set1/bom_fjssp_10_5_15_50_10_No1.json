@@ -1,0 +1,996 @@
+{
+  "operationid": 159076,
+  "productid": 57,
+  "code": "EPVX",
+  "pname": "EPVX",
+  "parentid": null,
+  "start_date": "2000-08-25 00:00:00.000000",
+  "delivery_date": "2022-09-03 00:00:00.000000",
+  "priority": 5,
+  "quantity": 2,
+  "name": "root",
+  "operations_list": [
+    159076,
+    159077,
+    159078,
+    159079,
+    159080,
+    159081,
+    159082,
+    159083,
+    159084,
+    159085,
+    159086,
+    159087,
+    159088,
+    159089,
+    159090,
+    159091,
+    159092,
+    159093,
+    159094,
+    159095,
+    159096,
+    159097,
+    159098,
+    159099,
+    159100,
+    159101,
+    159102,
+    159103,
+    159104,
+    159105,
+    159106,
+    159107,
+    159108,
+    159109,
+    159110,
+    159111,
+    159112,
+    159113,
+    159114,
+    159115,
+    159116,
+    159117,
+    159118,
+    159119,
+    159120,
+    159121,
+    159122,
+    159123,
+    159124,
+    159125,
+    159126,
+    159127,
+    159128,
+    159129,
+    159130,
+    159131,
+    159132,
+    159133,
+    159134,
+    159135,
+    159136,
+    159137,
+    159138,
+    159139,
+    159140,
+    159141,
+    159142,
+    159143,
+    159144,
+    159145,
+    159146,
+    159147,
+    159148,
+    159149,
+    159150,
+    159151,
+    159152,
+    159153,
+    159154,
+    159155,
+    159156,
+    159157,
+    159158,
+    159159,
+    159160,
+    159161,
+    159162,
+    159163,
+    159164,
+    159165
+  ],
+  "children": [
+    {
+      "parentid": 159076,
+      "operationid": 159077,
+      "productid": 2,
+      "code": "HZOD",
+      "pname": "HZOD",
+      "quantity": 5,
+      "children": [
+        {
+          "parentid": 159077,
+          "operationid": 159078,
+          "productid": 31,
+          "code": "MLHR",
+          "pname": "MLHR",
+          "quantity": 1,
+          "children": [
+            {
+              "parentid": 159078,
+              "operationid": 159079,
+              "productid": 135,
+              "code": "JZFR",
+              "pname": "JZFR",
+              "quantity": 3,
+              "children": [
+                {
+                  "parentid": 159079,
+                  "operationid": 159080,
+                  "productid": 75,
+                  "code": "ZAWB",
+                  "pname": "ZAWB",
+                  "quantity": 2,
+                  "children": [
+                    {
+                      "parentid": 159080,
+                      "operationid": 159081,
+                      "productid": 21,
+                      "code": "JJLG",
+                      "pname": "JJLG",
+                      "quantity": 1,
+                      "children": [
+                        {
+                          "parentid": 159081,
+                          "operationid": 159082,
+                          "productid": 46,
+                          "code": "HJOW",
+                          "pname": "HJOW",
+                          "quantity": 4,
+                          "children": [
+                            {
+                              "parentid": 159082,
+                              "operationid": 159083,
+                              "productid": 58,
+                              "code": "EULG",
+                              "pname": "EULG",
+                              "quantity": 5,
+                              "children": [
+                                {
+                                  "parentid": 159083,
+                                  "operationid": 159084,
+                                  "productid": 49,
+                                  "code": "HJQD",
+                                  "pname": "HJQD",
+                                  "quantity": 3,
+                                  "children": [
+                                    {
+                                      "parentid": 159084,
+                                      "operationid": 159085,
+                                      "productid": 138,
+                                      "code": "KIVZ",
+                                      "pname": "KIVZ",
+                                      "quantity": 2,
+                                      "children": [
+                                        {
+                                          "parentid": 159085,
+                                          "operationid": 159086,
+                                          "raw_material_id": 180,
+                                          "raw_material_quantity": 7,
+                                          "productid": 38,
+                                          "code": "VXEH",
+                                          "pname": "VXEH",
+                                          "quantity": 3
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159087,
+      "productid": 46,
+      "code": "HJOW",
+      "pname": "HJOW",
+      "quantity": 5,
+      "children": [
+        {
+          "parentid": 159087,
+          "operationid": 159088,
+          "productid": 116,
+          "code": "IRYQ",
+          "pname": "IRYQ",
+          "quantity": 1,
+          "children": [
+            {
+              "parentid": 159088,
+              "operationid": 159089,
+              "productid": 53,
+              "code": "HFZZ",
+              "pname": "HFZZ",
+              "quantity": 3,
+              "children": [
+                {
+                  "parentid": 159089,
+                  "operationid": 159090,
+                  "productid": 38,
+                  "code": "VXEH",
+                  "pname": "VXEH",
+                  "quantity": 5,
+                  "children": [
+                    {
+                      "parentid": 159090,
+                      "operationid": 159091,
+                      "productid": 31,
+                      "code": "MLHR",
+                      "pname": "MLHR",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 159091,
+                          "operationid": 159092,
+                          "productid": 148,
+                          "code": "YWQM",
+                          "pname": "YWQM",
+                          "quantity": 4,
+                          "children": [
+                            {
+                              "parentid": 159092,
+                              "operationid": 159093,
+                              "productid": 8,
+                              "code": "HCOV",
+                              "pname": "HCOV",
+                              "quantity": 2,
+                              "children": [
+                                {
+                                  "parentid": 159093,
+                                  "operationid": 159094,
+                                  "productid": 71,
+                                  "code": "ADDL",
+                                  "pname": "ADDL",
+                                  "quantity": 4,
+                                  "children": [
+                                    {
+                                      "parentid": 159094,
+                                      "operationid": 159095,
+                                      "productid": 95,
+                                      "code": "AETI",
+                                      "pname": "AETI",
+                                      "quantity": 4,
+                                      "children": [
+                                        {
+                                          "parentid": 159095,
+                                          "operationid": 159096,
+                                          "productid": 134,
+                                          "code": "AMMF",
+                                          "pname": "AMMF",
+                                          "quantity": 5,
+                                          "children": [
+                                            {
+                                              "parentid": 159096,
+                                              "operationid": 159097,
+                                              "productid": 98,
+                                              "code": "HTXM",
+                                              "pname": "HTXM",
+                                              "quantity": 1,
+                                              "children": [
+                                                {
+                                                  "parentid": 159097,
+                                                  "operationid": 159098,
+                                                  "raw_material_id": 176,
+                                                  "raw_material_quantity": 7,
+                                                  "productid": 137,
+                                                  "code": "OPIM",
+                                                  "pname": "OPIM",
+                                                  "quantity": 4
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159099,
+      "productid": 51,
+      "code": "UROL",
+      "pname": "UROL",
+      "quantity": 1,
+      "children": [
+        {
+          "parentid": 159099,
+          "operationid": 159100,
+          "productid": 123,
+          "code": "JLCP",
+          "pname": "JLCP",
+          "quantity": 3,
+          "children": [
+            {
+              "parentid": 159100,
+              "operationid": 159101,
+              "productid": 76,
+              "code": "QNEW",
+              "pname": "QNEW",
+              "quantity": 3,
+              "children": [
+                {
+                  "parentid": 159101,
+                  "operationid": 159102,
+                  "productid": 83,
+                  "code": "DDXX",
+                  "pname": "DDXX",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 159102,
+                      "operationid": 159103,
+                      "productid": 49,
+                      "code": "HJQD",
+                      "pname": "HJQD",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 159103,
+                          "operationid": 159104,
+                          "productid": 14,
+                          "code": "BYMM",
+                          "pname": "BYMM",
+                          "quantity": 5,
+                          "children": [
+                            {
+                              "parentid": 159104,
+                              "operationid": 159105,
+                              "raw_material_id": 151,
+                              "raw_material_quantity": 2,
+                              "productid": 135,
+                              "code": "JZFR",
+                              "pname": "JZFR",
+                              "quantity": 3
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159106,
+      "productid": 65,
+      "code": "ASUR",
+      "pname": "ASUR",
+      "quantity": 5,
+      "children": [
+        {
+          "parentid": 159106,
+          "operationid": 159107,
+          "productid": 82,
+          "code": "TLIE",
+          "pname": "TLIE",
+          "quantity": 2,
+          "children": [
+            {
+              "parentid": 159107,
+              "operationid": 159108,
+              "productid": 6,
+              "code": "SACV",
+              "pname": "SACV",
+              "quantity": 5,
+              "children": [
+                {
+                  "parentid": 159108,
+                  "operationid": 159109,
+                  "productid": 124,
+                  "code": "YDCY",
+                  "pname": "YDCY",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 159109,
+                      "operationid": 159110,
+                      "productid": 41,
+                      "code": "TWMP",
+                      "pname": "TWMP",
+                      "quantity": 5,
+                      "children": [
+                        {
+                          "parentid": 159110,
+                          "operationid": 159111,
+                          "raw_material_id": 157,
+                          "raw_material_quantity": 7,
+                          "productid": 55,
+                          "code": "VSCU",
+                          "pname": "VSCU",
+                          "quantity": 2
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159112,
+      "productid": 100,
+      "code": "HTJV",
+      "pname": "HTJV",
+      "quantity": 5,
+      "children": [
+        {
+          "parentid": 159112,
+          "operationid": 159113,
+          "productid": 15,
+          "code": "RBNS",
+          "pname": "RBNS",
+          "quantity": 3,
+          "children": [
+            {
+              "parentid": 159113,
+              "operationid": 159114,
+              "productid": 1,
+              "code": "NKFR",
+              "pname": "NKFR",
+              "quantity": 5,
+              "children": [
+                {
+                  "parentid": 159114,
+                  "operationid": 159115,
+                  "productid": 25,
+                  "code": "ZIHY",
+                  "pname": "ZIHY",
+                  "quantity": 2,
+                  "children": [
+                    {
+                      "parentid": 159115,
+                      "operationid": 159116,
+                      "productid": 141,
+                      "code": "GRSN",
+                      "pname": "GRSN",
+                      "quantity": 2,
+                      "children": [
+                        {
+                          "parentid": 159116,
+                          "operationid": 159117,
+                          "productid": 107,
+                          "code": "QRYS",
+                          "pname": "QRYS",
+                          "quantity": 2,
+                          "children": [
+                            {
+                              "parentid": 159117,
+                              "operationid": 159118,
+                              "productid": 80,
+                              "code": "DGFO",
+                              "pname": "DGFO",
+                              "quantity": 4,
+                              "children": [
+                                {
+                                  "parentid": 159118,
+                                  "operationid": 159119,
+                                  "productid": 86,
+                                  "code": "PBFU",
+                                  "pname": "PBFU",
+                                  "quantity": 3,
+                                  "children": [
+                                    {
+                                      "parentid": 159119,
+                                      "operationid": 159120,
+                                      "productid": 22,
+                                      "code": "NVWK",
+                                      "pname": "NVWK",
+                                      "quantity": 3,
+                                      "children": [
+                                        {
+                                          "parentid": 159120,
+                                          "operationid": 159121,
+                                          "productid": 31,
+                                          "code": "MLHR",
+                                          "pname": "MLHR",
+                                          "quantity": 1,
+                                          "children": [
+                                            {
+                                              "parentid": 159121,
+                                              "operationid": 159122,
+                                              "productid": 124,
+                                              "code": "YDCY",
+                                              "pname": "YDCY",
+                                              "quantity": 2,
+                                              "children": [
+                                                {
+                                                  "parentid": 159122,
+                                                  "operationid": 159123,
+                                                  "raw_material_id": 170,
+                                                  "raw_material_quantity": 3,
+                                                  "productid": 148,
+                                                  "code": "YWQM",
+                                                  "pname": "YWQM",
+                                                  "quantity": 4
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159124,
+      "productid": 150,
+      "code": "MNIZ",
+      "pname": "MNIZ",
+      "quantity": 3,
+      "children": [
+        {
+          "parentid": 159124,
+          "operationid": 159125,
+          "productid": 19,
+          "code": "YGLY",
+          "pname": "YGLY",
+          "quantity": 2,
+          "children": [
+            {
+              "parentid": 159125,
+              "operationid": 159126,
+              "productid": 54,
+              "code": "JYBT",
+              "pname": "JYBT",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 159126,
+                  "operationid": 159127,
+                  "productid": 31,
+                  "code": "MLHR",
+                  "pname": "MLHR",
+                  "quantity": 2,
+                  "children": [
+                    {
+                      "parentid": 159127,
+                      "operationid": 159128,
+                      "productid": 116,
+                      "code": "IRYQ",
+                      "pname": "IRYQ",
+                      "quantity": 5,
+                      "children": [
+                        {
+                          "parentid": 159128,
+                          "operationid": 159129,
+                          "productid": 52,
+                          "code": "TKVC",
+                          "pname": "TKVC",
+                          "quantity": 4,
+                          "children": [
+                            {
+                              "parentid": 159129,
+                              "operationid": 159130,
+                              "productid": 97,
+                              "code": "QYPT",
+                              "pname": "QYPT",
+                              "quantity": 4,
+                              "children": [
+                                {
+                                  "parentid": 159130,
+                                  "operationid": 159131,
+                                  "raw_material_id": 177,
+                                  "raw_material_quantity": 10,
+                                  "productid": 131,
+                                  "code": "EBIV",
+                                  "pname": "EBIV",
+                                  "quantity": 3
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159132,
+      "productid": 18,
+      "code": "OZOD",
+      "pname": "OZOD",
+      "quantity": 5,
+      "children": [
+        {
+          "parentid": 159132,
+          "operationid": 159133,
+          "productid": 129,
+          "code": "OEYZ",
+          "pname": "OEYZ",
+          "quantity": 1,
+          "children": [
+            {
+              "parentid": 159133,
+              "operationid": 159134,
+              "productid": 34,
+              "code": "GXDM",
+              "pname": "GXDM",
+              "quantity": 5,
+              "children": [
+                {
+                  "parentid": 159134,
+                  "operationid": 159135,
+                  "productid": 146,
+                  "code": "ZEWZ",
+                  "pname": "ZEWZ",
+                  "quantity": 2,
+                  "children": [
+                    {
+                      "parentid": 159135,
+                      "operationid": 159136,
+                      "productid": 2,
+                      "code": "HZOD",
+                      "pname": "HZOD",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 159136,
+                          "operationid": 159137,
+                          "productid": 57,
+                          "code": "EPVX",
+                          "pname": "EPVX",
+                          "quantity": 5,
+                          "children": [
+                            {
+                              "parentid": 159137,
+                              "operationid": 159138,
+                              "raw_material_id": 177,
+                              "raw_material_quantity": 1,
+                              "productid": 113,
+                              "code": "EJHP",
+                              "pname": "EJHP",
+                              "quantity": 2
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159139,
+      "productid": 103,
+      "code": "BLHS",
+      "pname": "BLHS",
+      "quantity": 2,
+      "children": [
+        {
+          "parentid": 159139,
+          "operationid": 159140,
+          "productid": 56,
+          "code": "WLJZ",
+          "pname": "WLJZ",
+          "quantity": 5,
+          "children": [
+            {
+              "parentid": 159140,
+              "operationid": 159141,
+              "productid": 51,
+              "code": "UROL",
+              "pname": "UROL",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 159141,
+                  "operationid": 159142,
+                  "productid": 17,
+                  "code": "OODC",
+                  "pname": "OODC",
+                  "quantity": 5,
+                  "children": [
+                    {
+                      "parentid": 159142,
+                      "operationid": 159143,
+                      "productid": 23,
+                      "code": "OOKJ",
+                      "pname": "OOKJ",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 159143,
+                          "operationid": 159144,
+                          "productid": 89,
+                          "code": "FWRY",
+                          "pname": "FWRY",
+                          "quantity": 2,
+                          "children": [
+                            {
+                              "parentid": 159144,
+                              "operationid": 159145,
+                              "productid": 130,
+                              "code": "GKQY",
+                              "pname": "GKQY",
+                              "quantity": 5,
+                              "children": [
+                                {
+                                  "parentid": 159145,
+                                  "operationid": 159146,
+                                  "productid": 136,
+                                  "code": "TYPJ",
+                                  "pname": "TYPJ",
+                                  "quantity": 1,
+                                  "children": [
+                                    {
+                                      "parentid": 159146,
+                                      "operationid": 159147,
+                                      "productid": 53,
+                                      "code": "HFZZ",
+                                      "pname": "HFZZ",
+                                      "quantity": 3,
+                                      "children": [
+                                        {
+                                          "parentid": 159147,
+                                          "operationid": 159148,
+                                          "raw_material_id": 165,
+                                          "raw_material_quantity": 9,
+                                          "productid": 61,
+                                          "code": "HVAZ",
+                                          "pname": "HVAZ",
+                                          "quantity": 4
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159149,
+      "productid": 122,
+      "code": "EGLG",
+      "pname": "EGLG",
+      "quantity": 1,
+      "children": [
+        {
+          "parentid": 159149,
+          "operationid": 159150,
+          "productid": 59,
+          "code": "FURB",
+          "pname": "FURB",
+          "quantity": 3,
+          "children": [
+            {
+              "parentid": 159150,
+              "operationid": 159151,
+              "productid": 98,
+              "code": "HTXM",
+              "pname": "HTXM",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 159151,
+                  "operationid": 159152,
+                  "productid": 18,
+                  "code": "OZOD",
+                  "pname": "OZOD",
+                  "quantity": 5,
+                  "children": [
+                    {
+                      "parentid": 159152,
+                      "operationid": 159153,
+                      "productid": 28,
+                      "code": "GGSS",
+                      "pname": "GGSS",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 159153,
+                          "operationid": 159154,
+                          "productid": 42,
+                          "code": "TQVI",
+                          "pname": "TQVI",
+                          "quantity": 4,
+                          "children": [
+                            {
+                              "parentid": 159154,
+                              "operationid": 159155,
+                              "productid": 73,
+                              "code": "YBNK",
+                              "pname": "YBNK",
+                              "quantity": 5,
+                              "children": [
+                                {
+                                  "parentid": 159155,
+                                  "operationid": 159156,
+                                  "raw_material_id": 157,
+                                  "raw_material_quantity": 8,
+                                  "productid": 64,
+                                  "code": "UNJI",
+                                  "pname": "UNJI",
+                                  "quantity": 5
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parentid": 159076,
+      "operationid": 159157,
+      "productid": 15,
+      "code": "RBNS",
+      "pname": "RBNS",
+      "quantity": 1,
+      "children": [
+        {
+          "parentid": 159157,
+          "operationid": 159158,
+          "productid": 148,
+          "code": "YWQM",
+          "pname": "YWQM",
+          "quantity": 5,
+          "children": [
+            {
+              "parentid": 159158,
+              "operationid": 159159,
+              "productid": 60,
+              "code": "CYRX",
+              "pname": "CYRX",
+              "quantity": 1,
+              "children": [
+                {
+                  "parentid": 159159,
+                  "operationid": 159160,
+                  "productid": 66,
+                  "code": "FXGQ",
+                  "pname": "FXGQ",
+                  "quantity": 1,
+                  "children": [
+                    {
+                      "parentid": 159160,
+                      "operationid": 159161,
+                      "productid": 108,
+                      "code": "RSEU",
+                      "pname": "RSEU",
+                      "quantity": 3,
+                      "children": [
+                        {
+                          "parentid": 159161,
+                          "operationid": 159162,
+                          "productid": 3,
+                          "code": "PYYX",
+                          "pname": "PYYX",
+                          "quantity": 1,
+                          "children": [
+                            {
+                              "parentid": 159162,
+                              "operationid": 159163,
+                              "productid": 142,
+                              "code": "GEXY",
+                              "pname": "GEXY",
+                              "quantity": 5,
+                              "children": [
+                                {
+                                  "parentid": 159163,
+                                  "operationid": 159164,
+                                  "productid": 109,
+                                  "code": "PSCO",
+                                  "pname": "PSCO",
+                                  "quantity": 4,
+                                  "children": [
+                                    {
+                                      "parentid": 159164,
+                                      "operationid": 159165,
+                                      "raw_material_id": 155,
+                                      "raw_material_quantity": 6,
+                                      "productid": 119,
+                                      "code": "OMYG",
+                                      "pname": "OMYG",
+                                      "quantity": 2
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
