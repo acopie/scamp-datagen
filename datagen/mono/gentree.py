@@ -79,7 +79,7 @@ def import_tree(file_path: str) -> Node:
 def render_tree(node: Node) -> None:
     for line in RenderTree(node):
         print(
-            f"{line.pre} [{line.node.productid}]  [{line.node.parentid}] [{line.node.code}]  [{line.node.pname}] [{line.node.machines}]")
+            f"{line.pre} [opid={line.node.operationid}] [{line.node.productid}]  [{line.node.parentid}] [{line.node.code}]  [{line.node.pname}] [{line.node.machines}]")
 
 
 def simple_render_tree(node: Node, bom) -> None:

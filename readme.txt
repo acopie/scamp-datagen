@@ -18,7 +18,7 @@ Daniela Zaharie daniela.zaharie@e-uvt.ro
 
 COPYRIGHT
 =========
-Copyright 2021-2023, West University of Timisoara, Timisoara, Romania
+Copyright 2021-2023, West University of Timișoara, Timișoara, Romania
     https://www.uvt.ro/
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,13 +37,13 @@ limitations under the License.
 PLEASE DO NOT DELETE THIS FILE!!
 ===============================
 
-This data generator can be utilized to generate data that could be further be used by various planifications algorithms. The purpose of the generator is to build a Bill Of Materials (BOM), 
+This data generator can be utilized to generate data that could be further be used by various planification algorithms. The purpose of the generator is to build a Bill Of Materials (BOM),
 which is a tree structure that contains the operations involved in the production of a product.
 
 Types of data structures
 ========================
 
-The data generator is able to produce data in two main tree structures:
+The data generator is able to produce data (operations graphs) in two main tree structures:
 
 1. n-ary trees with the levels number and children per node number given in a configuration file called "datagen.json"
 
@@ -75,11 +75,12 @@ as the number of children per node.
 
 The parameters used to generate the mixed trees can be found in the "multi-config.json" file.
 
+
 Running the data generator
 ==========================
 
 The code which belongs to the "multi" module is related to multiple BOMs which are executed in a batch. This approach has the advantage that a specified set of 
-machines could be used to participate to the creation of multiple BOMs. The resulted BOMs could be n-ary trees or a combination between n-ary trees and vertical trees. 
+machines could be used to participate in the creation of multiple BOMs. The resulted BOMs could be n-ary trees or a combination between n-ary trees and vertical trees.
 We named this structure "mixed trees".
 
 Pre-requisites:
@@ -111,12 +112,13 @@ and set to 20%) but it will be externalized to be configurable.
 
 After executing the program, the BOMs are saved in "datagen/multiboms" folder, in a subfolder whose name is taken from the "root_directory" parameter in the configuration file.
 
-The data generator can be run in two modes:
+The data generator can be run in the following modes:
 
 1. From the project IDE (PyCharm, Visual Studio Code, Eclipse, etc.)
 
-In this case, to generate batch data corresponding to an n-ary tree, one can execute the "main.py" file from the "multi" package, while for executing a n-ary tree in a single 
-BOM mode, one main execute "main_all.py" file from the "mono" package.
+In this case, to generate:
+ - batch data corresponding to an n-ary tree, one can execute the "main.py" file from the "multi" package;
+ - n-ary tree in a single BOM mode, one can execute "main_all.py" file from the "mono" package.
 
 2. From the command line (terminal)
 
@@ -127,6 +129,35 @@ The following steps are required:
 
 1. Change directory to the root of the project
 2. Run the following command: 'source venv/bin/activate'
-3. Run the command: 'python rungenerator.py {mono|multi}
+3. Run the command: 'python rungenerator.py {mono|multi} -c "configurationFilePath"
+e.g.:
+- python rungenerator.py mono    -c config/datagen.json
+- python rungenerator.py multi   -c config/multi-config.json
+- python rungenerator.py variate -c config/variants-config.json
 
 
+Using generator to generate variants of an existing instance
+============================================================
+The generator can be used to generate instance by modifying an existing  instance generated  in "mono" style. The following variants of perturbation are supported:
+- operations graph perturbation by removing or adding leaf operations. The number operations can be specified like an absolute value, or like a percentage (e.g. remove 50% of leaf operations, add number of nodes eqaul with 50% from the total number of nodes)
+- operation machine alternatives modification by:
+ (1) use existing machine set and add/remove alternative machines per operation. In this case additional parameters  can be set:
+   (i) modified_operations_percentage - percentage of total operation that are suffering modification in machine alternatives list; default value=0.5.
+   (ii) favor_machine_alternatives_increase_percentage - percentage that specifies if the appending or removing alternative machines from alternatives list is preferred; default value=0.5.
+   (iii) min_alternatives/max_alternatives machines alternatives for the altered nodes, if the parameters are not specifies min_alternatives is considered to be 1 and max_alternatives is the maximum number of the alternative from the start instance.
+ (2) increase / decrease existing machine set number.In this case additional parameters  can be set:
+  (i) machine_no - number of machines that are added/removed from instance machine list
+  (ii) min_alternatives/max_alternatives machines alternatives for all nodes, if the parameters are not specifies min_alternatives is considered to be 1 and max_alternatives is the maximum number of the alternative from the start instance.
+
+1. From the project IDE (PyCharm, Visual Studio Code, Eclipse, etc.)
+
+In this case, to generate variants of an existing instance, one can execute "main.py" file from the "mono_variants" package.
+
+2. From the command line (terminal)
+
+The following steps are required:
+
+1. Change directory to the root of the project
+2. Run the following command: 'source venv/bin/activate'
+3. Run the command: 'python rungenerator.py variate -c "configurationFilePath"
+e.g.: python rungenerator.py variate -c config/variants-config.json

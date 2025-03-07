@@ -3,14 +3,19 @@ This module is related to the machines information in the system
 
 @author: Adrian
 """
-
+import random
 
 class UnitAssemblyTime:
-    def __init__(self, min: int, max: int, step: int, time_units: str):
+    def __init__(self, min: int, max: int, step: int, time_units: str, seed : int = None):
         self.min = min
         self.max = max
         self.step = step
         self.time_units = time_units
+        if seed is not None:
+            random.seed(seed)
+
+    def generate_value(self) -> int:
+        return random.randint(self.min, self.max)
 
 
 class MaintenanceDuration:
@@ -35,11 +40,16 @@ class OEE:
 
 
 class SetupTime:
-    def __init__(self, min: int, max: int, step: int, time_units: str):
+    def __init__(self, min: int, max: int, step: int, time_units: str, seed : int = None):
         self.min = min
         self.max = max
         self.step = step
         self.time_units = time_units
+        if seed is not None:
+            random.seed(seed)
+
+    def generate_value(self) -> int:
+        return random.randint(self.min, self.max)
 
 
 class MachineInfo:

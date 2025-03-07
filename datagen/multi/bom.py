@@ -165,7 +165,7 @@ class MultiBomDecoder(JSONDecoder):
             return MultiBoms.get_all()
 
     @classmethod
-    def build(cls):
+    def build(cls, configuration_file_path):
         """
         Reads the multi-config.json file and builds the multi-BOMs
         """
@@ -174,7 +174,8 @@ class MultiBomDecoder(JSONDecoder):
         try:
             import os
             crt_dir = os.getcwd()
-            with open(get_abs_file_path(MULTICONFIG_FILE), "r") as f:
+            #with open(get_abs_file_path(MULTICONFIG_FILE), "r") as f:
+            with open(get_abs_file_path(configuration_file_path), "r") as f:
                 data = load(f)
                 cls.decode(data)
         except FileNotFoundError:

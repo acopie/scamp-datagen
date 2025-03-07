@@ -1,0 +1,73 @@
+{ "instance_variants" : 
+  [
+    {
+      "initial_instance_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms/bom_SET2_2_2_10_5.json",
+      "seed": 110,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms",
+      "generated_instances_name": "bom_SET2_2_2_10_5_remove_ops",
+      "operations_graph_perturbation" : {
+        "type" : "remove_leaf_operation",
+        "value_type": "absolute",
+        "value": 2
+      }
+    },
+
+    {
+      "initial_instance_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms/bom_SET2_2_2_10_5.json",
+      "seed": 110,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms",
+      "generated_instances_name": "bom_SET2_2_2_10_5_add_ops",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "absolute",
+        "value": 2
+      }
+    },
+
+    {
+      "initial_instance_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms/bom_SET2_2_2_10_5.json",
+      "seed": 110,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms",
+      "generated_instances_name": "bom_SET2_2_2_10_5_machine_reassignment",
+      "machine_assignment_perturbation" : {
+        "type" : "reassign",
+        "modified_operations_percentage" : 50,
+        "favor_machine_alternatives_increase_percentage" : 50,
+        "min_alternatives": 2,
+        "max_alternatives": 6
+      }
+    },
+
+    {
+      "initial_instance_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms/bom_SET2_2_2_10_5.json",
+      "seed": 110,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms",
+      "generated_instances_name": "bom_SET2_2_2_10_5_machine_new_increase",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 15,
+        "min_alternatives": 2,
+        "max_alternatives": 6
+      }
+    },
+
+     {
+      "initial_instance_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms/bom_SET2_2_2_10_5.json",
+      "seed": 110,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/flaviamicota/work/scamp-ml/scamp-datagen/datagen/boms",
+      "generated_instances_name": "bom_SET2_2_2_10_5_machine_new_decrease",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 5,
+        "min_alternatives": 2,
+        "max_alternatives": 3
+      }
+    }
+  ]
+}
+

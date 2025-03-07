@@ -243,10 +243,11 @@ class BomDecoder(JSONDecoder):
         return KeyError(f"No such a key {key} in dictionary")
 
     @classmethod
-    def build(cls):
+    def build(cls, configuration_file_path):
         try:
             log.info("Importing the BOMs config file...")
-            with open(get_abs_file_path("config/datagen.json")) as f:
+            #with open(get_abs_file_path("config/datagen.json")) as f:
+            with open(get_abs_file_path(configuration_file_path)) as f:
                 encoded_boms = json.load(f)
                 cls.boms = cls.decode(encoded_boms)
             return cls.boms

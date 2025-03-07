@@ -195,14 +195,14 @@ def bom_process(bom: datagen.mono.boms_processing.Bom):
         simple_render_tree(simple_tree_root_node, bom)
 
 
-def nary_trees():
+def nary_trees(configuration_file_path):
     """
     Generates an n-ary tree with the number of levels and children per node specified in the configuration file
     """
     Sequencer().reset()
 
     # generate the list of all the BOMs defined in the system
-    all_boms = datagen.mono.boms_processing.BomDecoder.build()
+    all_boms = datagen.mono.boms_processing.BomDecoder.build(configuration_file_path)
 
     for b in all_boms:
         bom_process(b)
@@ -210,7 +210,7 @@ def nary_trees():
 
 if __name__ == "__main__":
     check_and_create_if_not_exists("boms")
-    nary_trees()
+    nary_trees('config/datagen.json')
 
     # Sequencer().reset()
     #

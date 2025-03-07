@@ -232,8 +232,8 @@ def process_bom(multi_bom: MultiBom) -> None:
     print("End of sanity check...")
 
 
-def start() -> None:
-    MultiBomDecoder.build()
+def start(configuration_file_path : str) -> None:
+    MultiBomDecoder.build(configuration_file_path)
 
     # all the BOMS in the system
     all_boms = MultiBoms.get_all()
@@ -247,7 +247,7 @@ if __name__ == "__main__":
     check_and_create_if_not_exists("multiboms")
     check_and_create_if_not_exists("temp")
 
-    MultiBomDecoder.build()
+    MultiBomDecoder.build("config/multi-config.json")
 
     # all the BOMS in the system
     all_boms = MultiBoms.get_all()
