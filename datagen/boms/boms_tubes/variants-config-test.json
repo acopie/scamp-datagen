@@ -1,0 +1,133 @@
+{ "instance_variants" :
+  [
+    {
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/test",
+      "generated_instances_name": "p70",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 70
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+     {
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+       "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/test",
+      "generated_instances_name": "p80",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 80
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_1.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_2.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_3.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_4.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/test",
+      "generated_instances_name": "m30",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 30,
+        "min_alternatives": 2,
+        "max_alternatives": 5
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_1.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_2.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_3.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_4.json",
+        "./boms/boms_tubes/test/bom_tubes_p70_ao17_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/test",
+      "generated_instances_name": "m10",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 10,
+        "min_alternatives": 1,
+        "max_alternatives": 4
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_1.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_2.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_3.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_4.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/test",
+      "generated_instances_name": "m35",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 35,
+        "min_alternatives": 3,
+        "max_alternatives": 6
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_1.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_2.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_3.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_4.json",
+        "./boms/boms_tubes/test/bom_tubes_p80_ao18_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/test",
+      "generated_instances_name": "m13",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 13,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    }
+
+  ]
+}
+

@@ -1,0 +1,320 @@
+{ "instance_variants" :
+  [{
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "p10",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 10
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+     {
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "p20",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 20
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "p30",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 30
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "p40",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 40
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": ["./boms/boms_tubes/bom_tubes.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "p50",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 50
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m25",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 25,
+        "min_alternatives": 2,
+        "max_alternatives": 6
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p10_ao11_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m10",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 10,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m30",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 30,
+        "min_alternatives": 2,
+        "max_alternatives": 4
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p20_ao12_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m13",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 13,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m30",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 30,
+        "min_alternatives": 1,
+        "max_alternatives": 4
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p30_ao13_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m10",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 10,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+     {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_5.json"
+      ],
+      "seed": 110,
+       "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m35",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 35,
+        "min_alternatives": 2,
+        "max_alternatives": 5
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p40_ao14_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m12",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 12,
+        "min_alternatives": 1,
+        "max_alternatives": 4
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+
+     {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_5.json"
+      ],
+      "seed": 110,
+       "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m25",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 25,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+    {
+      "initial_instance_path": [
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_1.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_2.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_3.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_4.json",
+        "./boms/boms_tubes/train/bom_tubes_p50_ao15_am18_5.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "./boms/boms_tubes/train",
+      "generated_instances_name": "m10",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 10,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    }
+  ]
+}
+
