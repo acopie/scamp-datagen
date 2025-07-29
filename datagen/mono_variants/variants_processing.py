@@ -9,19 +9,39 @@ Basically it deserializes the variants.json file and make all the params availab
 import json
 import logging
 from json import JSONDecoder
+from enum import StrEnum, auto
+from anytree import Node, PreOrderIter
+
+import datagen.common.scampdate
 from datagen.common.utility import get_abs_file_path
 from datagen.mono_variants.load_instance import Instance
 from datagen.mono_variants.perturbations_types import OperationGraphPerturbationParam, MachinesAssignmentPerturbationsParams
-from enum import StrEnum, auto
-from anytree import Node, PreOrderIter
 from datagen.multi.quantity import Quantity
+from datagen.common.scampdate import datemask
+from datetime import datetime, timedelta
 import random
+
 
 log = logging.getLogger("main")
 
 class VALUE_TYPE(StrEnum):
     ABSOLUTE = auto()
     PERCENTAGE = auto()
+
+class RenumeratorionType(StrEnum):
+    RENUMEROTATE_OPERATIONS_STARTING_WITH = auto() #"renumerotate_operations_starting_with": 1,
+    RENUMEROTATE_MACHINES_STARTING_WITH = auto() #"renumerotate_machines_starting_with": 1
+
+class Renumerotation(object):
+    """
+    Class to store configuration information related to resource renumerotation
+    """
+    def __init__(self, apply : bool, strat_index : int = 1):
+        self.apply = apply
+        self.start_index = strat_index
+
+    def __repr__(self):
+        return f"({self.apply}, {self.start_index})"
 
 class PerturbationVariant(object):
     """
@@ -33,9 +53,13 @@ class PerturbationVariant(object):
     def __init__(self,
                  initial_instance_path: str,
                  seed: int,
+                 root_quantity_min: int,
+                 root_quantity_max: int,
                  generated_instances_number: int,
                  generated_instances_path: str,
-                 generated_instances_name: str
+                 generated_instances_name: str,
+                 renumerotation_operations : Renumerotation,
+                 renumerotation_machines: Renumerotation
                  ):
         # the instance file from which variants are generated
         self.initial_instance_path: str = initial_instance_path
@@ -43,7 +67,7 @@ class PerturbationVariant(object):
         # seed used to initialize the random generator
         self.seed: int = seed
 
-        #the number of vaiants files generated from the initial instance file
+        #the number of variants files generated from the initial instance file
         self.generated_instances_number: int = generated_instances_number
 
         self.generated_instances_path = generated_instances_path
@@ -51,7 +75,104 @@ class PerturbationVariant(object):
         #the name of generated instances files
         self.generated_instances_name: str = generated_instances_name
 
-class PertubationOperationGraph(PerturbationVariant):
+        #Quantity of the root node (product command demand)
+        if root_quantity_min > root_quantity_max:
+            raise f"Root quantity is not an valid interval ({root_quantity_min}, {root_quantity_max})"
+
+        self.root_quantity = Quantity({"min": root_quantity_min, "max" : root_quantity_max, "step":1})
+
+        #used to generare operation id in increasing order
+        self.renumerotation_operations = renumerotation_operations
+        # used to generare machine id in increasing order
+        self.renumerotation_machines = renumerotation_machines
+
+    def perturb(self, instance: Instance, op_net : Node):
+        """
+        Perturb template method
+        :param instance: the perturbation variant properties
+        :param new_op_net: the operation graph
+        :return: the new generated variant
+        """
+        op_net.quantity = self.root_quantity.genereate_quantity()
+        new_op_net = self.do_specific_perturb(instance, op_net)
+        self.check_machine_usage(new_op_net, instance)
+        self.update_delivery_date(new_op_net)
+
+        if self.renumerotation_operations.apply:
+            map = {id: index + 1 for index, id in enumerate(new_op_net.metainfo['operations_list'])}
+            new_op_net.metainfo['operations_list'] = list(map.values())
+            for operation in PreOrderIter(new_op_net):
+                operation.operationid = map[operation.operationid]
+                operation.parentid = map[operation.parentid] if operation.parentid is not None else None
+
+        if self.renumerotation_machines.apply:
+            map = {id: index+1 for index,id in enumerate(new_op_net.metainfo['machines_list'])}
+            new_op_net.metainfo['machines_list'] = list(map.values())
+            for maintenance in new_op_net.metainfo['maintenances']:
+                maintenance["machineid"] = map[maintenance["machineid"]]
+            for op in PreOrderIter(new_op_net):
+                for machine in op.machines:
+                    machine["id"] = map[machine["id"]]
+                    machine["name"] = f"Machine_{machine["id"]}"
+        return  new_op_net
+
+    def do_specific_perturb(self, instanc: Instance, op_net : Node):
+        """
+        Method that is defined in subclasses, adds specific behaviour
+        :param instance: the perturbation variant properties
+        :param new_op_net: the operation graph
+        :return: the new generated variant
+        """
+        pass
+
+
+    def update_delivery_date(self, op_net : Node):
+        max_path_exec_time = 0
+        for leaf in PreOrderIter(op_net, filter_=lambda node: node.is_leaf):
+            execution_time = 0
+            quantity = 1
+            for operation in leaf.path:
+                quantity *= operation.quantity
+                max_exec_time = 0
+                for machine in operation.machines:
+                    exec_time =  machine['setup_time'] + quantity * machine['execution_time']
+                    if exec_time > max_exec_time:
+                        max_exec_time = exec_time
+
+                execution_time += max_exec_time
+            if max_path_exec_time < execution_time:
+                max_path_exec_time = execution_time
+            print(len(list(leaf.path)), max_exec_time)
+
+
+            print("path:", leaf.path)
+        start = datetime.strptime(op_net.start_date, datemask())
+        stop = datetime.strptime(op_net.delivery_date, datemask())
+        print("length: ", (stop-start).total_seconds())
+        if (stop-start).total_seconds() < max_path_exec_time:
+            print("(stop-start).total_seconds()", (stop-start).total_seconds(), "max_path_exec_time",max_path_exec_time)
+            stop = start + timedelta(seconds=max_path_exec_time + 1)
+            op_net.delivery_date = stop.strftime(datagen.common.scampdate.datemask())
+
+    def check_machine_usage(self, op_net : Node, instance : Instance):
+        """
+        Repair the instance by:
+         - removing maintenance intervals for unused machines and
+         - removing unused machines from metainfo
+        :param instance: the perturbation variant properties
+        :param op_net: the operation graph
+        """
+        used_machine = set()
+        for operation in [node for node in PreOrderIter(op_net)]:
+            for machine in operation.machines:
+                used_machine.add(machine["id"])
+
+        op_net.metainfo['maintenances'] = [maintenance for maintenance in instance.maintenances_list if
+                                               maintenance["machineid"] in used_machine]
+        op_net.metainfo['machines_list'] = list(used_machine)
+
+
+class PerturbationOperationGraph(PerturbationVariant):
     """
     The perturbation is done on operation graph structure.
     """
@@ -59,16 +180,24 @@ class PertubationOperationGraph(PerturbationVariant):
     def __init__(self,
                  initial_instance_path: str,
                  seed: int,
+                 root_quantity_min: int,
+                 root_quantity_max: int,
                  generated_instances_number: int,
                  generated_instances_path : str,
                  generated_instances_name: str,
-                 perturb_operations_graph: OperationGraphPerturbationParam
+                 perturb_operations_graph: OperationGraphPerturbationParam,
+                 operations_renumerotation: Renumerotation,
+                 machines_renumerotation: Renumerotation
                  ):
         super().__init__(initial_instance_path,
                          seed,
+                         root_quantity_min,
+                         root_quantity_max,
                          generated_instances_number,
                          generated_instances_path,
                          generated_instances_name,
+                         operations_renumerotation,
+                         machines_renumerotation
                          )
         self.perturb_operations_graph: OperationGraphPerturbationParam = perturb_operations_graph
         random.seed(self.seed)
@@ -94,6 +223,8 @@ class PertubationOperationGraph(PerturbationVariant):
             machines_list = []
             for it in range(random.randint(1, instance.machines_alternatives)):
                 machine_id = random.randint(min(instance.machine_id_list), max(instance.machine_id_list))
+                while machine_id in [m['id'] for m in machines_list]:
+                    machine_id = random.randint(min(instance.machine_id_list), max(instance.machine_id_list))
                 machines_list.append({'id': machine_id,
                                       'name': f'Machine_{machine_id:02d}',
                                       'oee': 1,
@@ -102,12 +233,12 @@ class PertubationOperationGraph(PerturbationVariant):
                                       })
 
             s0 = Node(parent=initial_nodes[selected_node_index],
-                      name=f's_{operationid}',
+                      name=f'product_{operationid}',
                       operationid=operationid,
                       productid=operationid,
                       quantity=Quantity.get_quantity(instance.quantity.min, 1, instance.quantity.max),
                       code=f"code_{operationid}",
-                      pname=f"prod_{operationid}",
+                      pname=f"operation_{operationid}",
                       parentid=initial_nodes[selected_node_index].operationid,
                       machines=machines_list)
 
@@ -130,7 +261,13 @@ class PertubationOperationGraph(PerturbationVariant):
             children.remove(node_to_remove)
             parent.children = children
 
-    def perturb(self, instance: Instance, new_op_net: Node) -> Node:
+    def do_specific_perturb(self, instance: Instance, new_op_net: Node) -> Node:
+        """
+        Perturbs the operations
+        :param instance: the perturbation variant properties
+        :param new_op_net: the operation graph
+        :return: the new generated variant
+        """
         if self.perturb_operations_graph.type == OperationGraphPerturbationParam.OPERATION_GRAPH_PERTUBATION.ADD_LEAF_OPERATION:
             new_nodes_no = None
             if self.perturb_operations_graph.value_type == VALUE_TYPE.ABSOLUTE:
@@ -156,6 +293,7 @@ class PertubationOperationGraph(PerturbationVariant):
             self.__remove_nodes(remove_nodes_no, new_op_net)
         else:
             raise Exception(f"Unknown graph structure modification: {self.type} available options: {str(self.GRAPH_PERTUBATION.ADD_LEAF_OPERATION)}, {str(self.GRAPH_PERTUBATION.REMOVE_LEAF_OPERATION)}")
+
         return new_op_net
 
 class PerturbationMachines(PerturbationVariant):
@@ -165,16 +303,24 @@ class PerturbationMachines(PerturbationVariant):
 
     def __init__(self, initial_instance_path: str,
                  seed: int,
+                 root_quantity_min: int,
+                 root_quantity_max: int,
                  generated_instances_number: int,
                  generated_instances_path: str,
                  generated_instances_name: str,
-                 machine_assignment_perturbation: MachinesAssignmentPerturbationsParams
+                 machine_assignment_perturbation: MachinesAssignmentPerturbationsParams,
+                 operations_renumerotation: Renumerotation,
+                 machines_renumerotation: Renumerotation
                  ):
         super().__init__(initial_instance_path,
                          seed,
+                         root_quantity_min,
+                         root_quantity_max,
                          generated_instances_number,
                          generated_instances_path,
                          generated_instances_name,
+                         operations_renumerotation,
+                         machines_renumerotation
                          )
         self.machine_assignment_perturbation: MachinesAssignmentPerturbationsParams = machine_assignment_perturbation
         random.seed(self.seed)
@@ -209,7 +355,7 @@ class PerturbationMachines(PerturbationVariant):
                     operation.machines = operation.machines[no_machines_to_remove:]
 
             else:
-                #add machines if the number of alternatives is less than the max_alternative number
+                #add   if the number of alternatives is less than the max_alternative number
                 if current_op_no < instance.machines_alternatives:
                     no_machines_to_add = random.randint(0, max_machines_alternatives - current_op_no)
                     machines_list = operation.machines
@@ -270,14 +416,13 @@ class PerturbationMachines(PerturbationVariant):
                                           })
         op_net.metainfo['machines_list'] = current_machines
 
-    def perturb(self, instance: Instance, new_op_net: Node) -> Node:
+    def do_specific_perturb(self, instance: Instance, new_op_net: Node) -> Node:
         """
-        Select perturbation variant strategy
+        Perturbs the machines
         :param instance: the perturbation variant properties
         :param new_op_net: the operation graph
         :return: the new generated variant
         """
-
         if self.machine_assignment_perturbation.type == MachinesAssignmentPerturbationsParams.MACHINE_ASSIGNMENT_PERTUBATION.REASSIGN:
            self.__reassign(instance, new_op_net)
 
@@ -285,6 +430,7 @@ class PerturbationMachines(PerturbationVariant):
             self.__modify_machine_number(instance, new_op_net)
         else:
             raise Exception(f"Unknown machine perturbation type: {self.type} available options: {str(self.MACHINE_ASSIGMENT_PERTUBATION.REASSIGN)}, {str(self.MACHINE_ASSIGMENT_PERTUBATION.NEW_MACHINE_CONFIGURATION)}")
+
         return new_op_net
 
 class PerturbationVariants(object):
@@ -337,6 +483,17 @@ class PerturbationVariantDecoder(JSONDecoder):
 
         for v in variants:
             vals = []
+
+            if RenumeratorionType.RENUMEROTATE_OPERATIONS_STARTING_WITH in v.keys():
+                operations_renumerotate= Renumerotation(True, v[RenumeratorionType.RENUMEROTATE_OPERATIONS_STARTING_WITH])
+            else:
+                operations_renumerotate = Renumerotation(False)
+
+            if RenumeratorionType.RENUMEROTATE_MACHINES_STARTING_WITH in v.keys():
+                machines_renumerotate = Renumerotation(True, v[RenumeratorionType.RENUMEROTATE_MACHINES_STARTING_WITH])
+            else:
+                machines_renumerotate = Renumerotation(False)
+
             for key in v.keys():
                 if key == PerturbationsTypes.OPERATIONS_GRAPH_PERTURBATION:
                     vals.append(OperationGraphPerturbationParam(v[key]))
@@ -344,11 +501,14 @@ class PerturbationVariantDecoder(JSONDecoder):
                 elif key == PerturbationsTypes.MACHINE_ASSIGNMENT_PERTURBATION:
                     vals.append(MachinesAssignmentPerturbationsParams(v[key]))
                     is_operation_graph_variance = False
-                else:
+                elif not (key == RenumeratorionType.RENUMEROTATE_MACHINES_STARTING_WITH or
+                      key == RenumeratorionType.RENUMEROTATE_OPERATIONS_STARTING_WITH):
                     vals.append(v[key])
 
+            vals.extend([operations_renumerotate, machines_renumerotate])
+            print("vals", vals)
             if is_operation_graph_variance:
-                PerturbationVariants.add_variant(PertubationOperationGraph(*vals))
+                PerturbationVariants.add_variant(PerturbationOperationGraph(*vals))
             else:
                 PerturbationVariants.add_variant(PerturbationMachines(*vals))
 
@@ -363,7 +523,7 @@ class PerturbationVariantDecoder(JSONDecoder):
     def build(cls, configuration_file_path: str):
         try:
             log.info("Importing the variants config file...")
-            #with open(get_abs_file_path("config/variants-config.json")) as f:
+            #with open(get_abs_file_path("config/variants-config-add-nodes.json")) as f:
             with open(get_abs_file_path(configuration_file_path)) as f:
                 encoded_variants = json.load(f)
                 cls.variants = cls.decode(encoded_variants)

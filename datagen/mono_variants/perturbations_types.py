@@ -21,7 +21,7 @@ class MachinesAssignmentPerturbationsParams(object):
     """
 
     class MACHINE_ASSIGNMENT_PERTUBATION(StrEnum):
-        REASSIGN = auto()  # gets information regarding machine number and alternatives from initial instance and generates new assigment
+        REASSIGN = auto()  # gets information regarding machine number and alternatives from initial instance and generates new assignment
         NEW_MACHINE_CONFIGURATION = auto()  # (machine no, min_alternatives, max_alternatives)
 
     def __init__(self, dct):

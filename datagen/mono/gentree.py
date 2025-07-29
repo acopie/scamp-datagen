@@ -53,7 +53,7 @@ def export_tree(n: Node, file_path: str, onscreen: bool = True) -> None:
     :return: None
     """
     exporter = JsonExporter(indent=2, sort_keys=False)
-
+    print(n)
     if onscreen:
         print(exporter.export(n))
 

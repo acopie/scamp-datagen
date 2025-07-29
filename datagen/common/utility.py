@@ -17,6 +17,8 @@ def get_abs_file_path(file: str) -> str:
     parent_dir = os.path.abspath(os.path.join(module_dir, os.pardir))
     config_path = os.path.abspath(os.path.join(parent_dir, file))
 
+    print("config_path",config_path)
+
     return config_path
 
 

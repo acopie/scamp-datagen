@@ -31,19 +31,22 @@ class Instance(object):
         """
         Load existing information from the instance input file
         """
-
         self.any_tree = self.get_any_tree()
         quantities = []
         setup_times = []
         execution_times = []
         machine_alternatives = []
         for node in PreOrderIter(self.any_tree):
-            self.nodes_number += 1
-            quantities.append(node.quantity)
+
+            if self.nodes_number > 0:
+                # the root node quantity represents the number of product pieces for current command
+                quantities.append(node.quantity)
             machine_alternatives.append(len(node.machines))
             for m in node.machines:
                 setup_times.append(m['setup_time'])
                 execution_times.append(m['execution_time'])
+
+            self.nodes_number += 1
 
         self.quantity = Quantity({'min':min(quantities), 'step':1, 'max':max(quantities)}, seed= self.seed)
         self.machines_alternatives = max(machine_alternatives)
