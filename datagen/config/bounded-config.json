@@ -1,0 +1,37 @@
+{
+  "boms_bounded_children": [
+    {
+      "outputs": [
+        { "name": "BOM_Test",
+          "output_file": "bom_bounded_test.json",
+          "quantity": { "min": 1, "step": 1, "max": 3 } }
+      ],
+      "n_nodes": 157,
+      "k_trees": 2,
+
+      "min_children": 1,
+      "max_children": 5,
+
+      "vertical_tree": { "enabled": true, "probability": 0.4, "min_depth": 1, "max_depth": 3 },
+
+      "products_source": "C:/Users/User/scamp-datagen/datasets/mixed_boms/set1/rand_products.json",
+      "output_root": "boms/bounded_generated_location",
+
+      "machines_info": { 
+        "start_date": "2025-08-12 00:00:00.000000",
+        "prod_number": 50,
+        "machines_number": 5,
+        "max_alternatives_machines_number": 2,
+        "randomize_alternative_machines": false,
+        "allow_identical_machines": false,
+        "percent_of_identical_machines": 0.6,
+        "unit_assembly_time": { "min": 60, "step": 60, "max": 600, "time_units": "seconds" },
+        "maintenance_duration": { "min_duration": 60, "max_duration": 300, "step": 60, "time_units": "minutes" },
+        "maintenance_interval": { "duration": 72, "time_units": "hours" },
+        "maintenance_probability": 0.1,
+        "oee": { "min": 0.75, "max": 1, "distribution": "normal" },
+        "setup_time": { "min": 60, "step": 60, "max": 600, "time_units": "seconds" }
+      }
+    }
+  ]
+}

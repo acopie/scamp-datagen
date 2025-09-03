@@ -9,3 +9,11 @@ datagen/boms/*
 datagen/multiboms/*
 datagen/boms/machines.json
 datagen/boms/products.json
+
+!datagen/boms/*
+!datagen/boms/bounded_generated_location/
+!datagen/boms/bounded_generated_location/**
+!datagen/boms/fixed_generated_location/
+!datagen/boms/fixed_generated_location/**
+!datagen/boms/variants-auto-generated/
+!datagen/boms/variants-auto-generated/**

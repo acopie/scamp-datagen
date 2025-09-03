@@ -42,8 +42,10 @@ def process_perturbation(perturbation: PerturbationVariant):
                     rendered_tree += f"{line.pre} [{line.node.operationid}]  [{line.node.parentid}] [{line.node.code}]\n"
                     print(
                         f"{line.pre} [{line.node.operationid}]  [{line.node.parentid}] [{line.node.code}]")
-                with open(f'{final_file_name}.tree', "w") as f:
+            
+                with open(f'{final_file_name}.tree', "w", encoding="utf-8") as f:
                     f.write(rendered_tree)
+
 
 def variate_instance(configuration_file_path : str):
     #generate the list of all the perturbations variants
