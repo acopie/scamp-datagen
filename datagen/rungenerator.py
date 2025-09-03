@@ -1,35 +1,68 @@
-import os
-import sys
+#
+import os, sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+
 import argparse
-
-# Get the parent directory of the current file
-current_dir = os.path.dirname(os.path.realpath(__file__))
-parent_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
-
-# Add the parent directory to the Python path
-sys.path.append(parent_dir)
 
 from datagen.multi.main import start
 from datagen.mono.main_all import nary_trees
 from datagen.mono_variants.main import variate_instance
-
+from datagen.fixed.main import start_fixed
+from datagen.bounded.main import start_bounded
+from datagen.izomorf import cli_iso   
 
 def errored_action() -> None:
-    print("Invalid mode. Please use one of the following modes: multi, mono")
+    print("Invalid mode. Please use one of: multi, mono, variate, fixed, iso")
 
-
-actions = {"multi": start, "mono": nary_trees, "variate": variate_instance}
+actions = {
+    "multi": start,
+    "mono": nary_trees,
+    "variate": variate_instance,
+    "fixed": start_fixed,
+    "bounded": start_bounded,
+    # "iso" NU intra aici pt pentru ca nu foloseste configFilePath
+}
 
 parser = argparse.ArgumentParser(description="SCAMP-ML data generator")
 
-# Define your command line parameters
-parser.add_argument("mode", help="The working mode of the data generator")
-parser.add_argument('-c', '--configFilePath', help='the configuration file path', type=str)
+# mode + argumente comune
+parser.add_argument("mode", help="Working mode: multi | mono | variate | fixed | iso")
 
-# Parse the command line arguments
+# pentru modurile existente: config path
+parser.add_argument("-c", "--configFilePath", type=str, help="Configuration file path")
+
+# pentru iso: doua fisiere si eticheta (productid|pname|none)
+parser.add_argument("--bomA", type=str, help="Path to first BOM (.json) for iso mode")
+parser.add_argument("--bomB", type=str, help="Path to second BOM (.json) for iso mode")
+parser.add_argument(
+    "--label",
+    choices=["productid", "pname", "none"],
+    default="productid",
+    help="Label attribute for isomorphism (default: productid). Use 'none' for structural-only."
+)
+
 args = parser.parse_args()
 
-# Access the parsed arguments
-action = actions.get(args.mode, errored_action)
+# pentru ISO (nu foloseste configFilePath)
+if args.mode == "iso":
+    if not args.bomA or not args.bomB:
+        print("For 'iso' mode you must provide both --bomA and --bomB paths.")
+        sys.exit(2)
+    labelkey = None if args.label == "none" else args.label
+    cli_iso(args.bomA, args.bomB, labelkey=labelkey)
+    sys.exit(0)
 
+# Restul modurilor raman neschimbate
+action = actions.get(args.mode, errored_action)
 action(args.configFilePath)
+
+
+"""
+py datagen\rungenerator.py bounded -c config\bounded-config.json
+py datagen\rungenerator.py iso --bomA ... --bomB ... --label pname| none
+py datagen\rungenerator.py bounded -c config\fixed-config.json
+py datagen\config\generate_variants_config.py --help
+
+"""
+
