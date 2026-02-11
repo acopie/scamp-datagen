@@ -1,0 +1,76 @@
+{ "instance_variants" : 
+  [
+    {
+      "initial_instance_path": ["/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_6_3_16_4_No1.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/boms_tubes",
+      "generated_instances_name": "boms_test1_variate_6_3_16_4_remove",
+      "operations_graph_perturbation" : {
+        "type" : "remove_leaf_operation",
+        "value_type": "absolute",
+        "value": 2
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+     {
+      "initial_instance_path": ["/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_6_3_16_4_No1.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/boms_tubes",
+      "generated_instances_name": "boms_test1_variate_6_3_16_4_add_per",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 80
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+    {
+      "initial_instance_path": ["/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_6_3_16_4_No1.json"],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 2,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/boms_tubes",
+      "generated_instances_name": "boms_test1_variate_6_3_16_4_add_abs",
+      "operations_graph_perturbation" : {
+        "type" : "add_leaf_operation",
+        "value_type": "absolute",
+        "value": 2
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    },
+
+     {
+      "initial_instance_path": [
+        "/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_6_4_40_15_No1.json",
+        "/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_6_4_40_15_No2.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/boms_tubes",
+      "generated_instances_name": "boms_test1_variate_6_3_16_4_mach_mult",
+      "machine_assignment_perturbation" : {
+        "type" : "new_machine_configuration",
+        "machine_no": 10,
+        "min_alternatives": 1,
+        "max_alternatives": 4
+      },
+      "renumerotate_operations_starting_with": 1,
+      "renumerotate_machines_starting_with": 1
+    }
+  ]
+}
+

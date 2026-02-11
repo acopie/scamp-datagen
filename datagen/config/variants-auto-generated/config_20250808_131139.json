@@ -1,0 +1,40 @@
+{
+  "instance_variants": [
+    {
+      "initial_instance_path": [
+        "/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_6_5_30_15_No1.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 3,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/variants-auto-generated-location",
+      "generated_instances_name": "auto_bom_deep_6_5_30_15_No1_remove_leaf_operation_percentage_80",
+      "operations_graph_perturbation": {
+        "type": "remove_leaf_operation",
+        "value_type": "percentage",
+        "value": 80
+      },
+      "renumerotate_operations_starting_with": 2,
+      "renumerotate_machines_starting_with": 2
+    },
+    {
+      "initial_instance_path": [
+        "/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_7_3_15_5_No1.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/variants-auto-generated-location",
+      "generated_instances_name": "auto_bom_deep_7_3_15_5_No1_add_leaf_operation_percentage_80",
+      "operations_graph_perturbation": {
+        "type": "add_leaf_operation",
+        "value_type": "percentage",
+        "value": 80
+      },
+      "renumerotate_operations_starting_with": 2,
+      "renumerotate_machines_starting_with": 2
+    }
+  ]
+}

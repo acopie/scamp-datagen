@@ -1,0 +1,23 @@
+{
+  "instance_variants": [
+    {
+      "initial_instance_path": [
+        "/Users/User/scamp-datagen/datasets/ASP-DEEP/bom_deep_7_3_10_5_No2.json"
+      ],
+      "seed": 110,
+      "root_quantity_min": 100,
+      "root_quantity_max": 500,
+      "generated_instances_number": 5,
+      "generated_instances_path": "/Users/User/scamp-datagen/datagen/boms/variants-auto-generated-location",
+      "generated_instances_name": "auto_bom_deep_7_3_10_5_No2_new_machine_configuration_None_None",
+      "machine_assignment_perturbation": {
+        "type": "new_machine_configuration",
+        "machine_no": 20,
+        "min_alternatives": 1,
+        "max_alternatives": 3
+      },
+      "renumerotate_operations_starting_with": 2,
+      "renumerotate_machines_starting_with": 1
+    }
+  ]
+}

@@ -1,0 +1,942 @@
+{
+  "operationid": 1,
+  "productid": 27,
+  "code": "TQEX",
+  "pname": "TQEX",
+  "parentid": null,
+  "start_date": "2025-08-12 00:00:00.000000",
+  "delivery_date": "2025-08-12 00:00:00.000000",
+  "priority": 10,
+  "quantity": 3,
+  "name": "root",
+  "operations_list": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "children": [
+    {
+      "parentid": 1,
+      "operationid": 2,
+      "productid": 59,
+      "code": "PMWH",
+      "pname": "PMWH",
+      "quantity": 1,
+      "machines": [
+        {
+          "id": 37,
+          "name": "Machine_37",
+          "oee": 0.936,
+          "setup_time": 300,
+          "execution_time": 180
+        },
+        {
+          "id": 40,
+          "name": "Machine_40",
+          "oee": 0.925,
+          "setup_time": 300,
+          "execution_time": 180
+        },
+        {
+          "id": 58,
+          "name": "Machine_58",
+          "oee": 0.915,
+          "setup_time": 300,
+          "execution_time": 180
+        },
+        {
+          "id": 59,
+          "name": "Machine_59",
+          "oee": 0.928,
+          "setup_time": 300,
+          "execution_time": 180
+        },
+        {
+          "id": 80,
+          "name": "Machine_80",
+          "oee": 0.904,
+          "setup_time": 300,
+          "execution_time": 180
+        }
+      ],
+      "children": [
+        {
+          "parentid": 2,
+          "operationid": 3,
+          "productid": 37,
+          "code": "JCXG",
+          "pname": "JCXG",
+          "quantity": 1,
+          "machines": [
+            {
+              "id": 3,
+              "name": "Machine_03",
+              "oee": 0.986,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 5,
+              "name": "Machine_05",
+              "oee": 0.953,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 8,
+              "name": "Machine_08",
+              "oee": 0.989,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 9,
+              "name": "Machine_09",
+              "oee": 0.959,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 11,
+              "name": "Machine_11",
+              "oee": 0.934,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 14,
+              "name": "Machine_14",
+              "oee": 0.98,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 30,
+              "name": "Machine_30",
+              "oee": 0.992,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 37,
+              "name": "Machine_37",
+              "oee": 0.936,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 41,
+              "name": "Machine_41",
+              "oee": 0.97,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 42,
+              "name": "Machine_42",
+              "oee": 0.989,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 47,
+              "name": "Machine_47",
+              "oee": 0.874,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 59,
+              "name": "Machine_59",
+              "oee": 0.928,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 64,
+              "name": "Machine_64",
+              "oee": 0.988,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 68,
+              "name": "Machine_68",
+              "oee": 0.908,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 73,
+              "name": "Machine_73",
+              "oee": 0.893,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 80,
+              "name": "Machine_80",
+              "oee": 0.904,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 86,
+              "name": "Machine_86",
+              "oee": 0.94,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 88,
+              "name": "Machine_88",
+              "oee": 0.864,
+              "setup_time": 300,
+              "execution_time": 240
+            },
+            {
+              "id": 90,
+              "name": "Machine_90",
+              "oee": 0.905,
+              "setup_time": 300,
+              "execution_time": 240
+            }
+          ],
+          "children": [
+            {
+              "parentid": 3,
+              "operationid": 4,
+              "productid": 96,
+              "code": "SDCN",
+              "pname": "SDCN",
+              "quantity": 1,
+              "machines": [
+                {
+                  "id": 54,
+                  "name": "Machine_54",
+                  "oee": 0.956,
+                  "setup_time": 300,
+                  "execution_time": 120
+                }
+              ],
+              "children": [
+                {
+                  "parentid": 4,
+                  "operationid": 5,
+                  "productid": 73,
+                  "code": "MTIB",
+                  "pname": "MTIB",
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 89,
+                      "name": "Machine_89",
+                      "oee": 0.969,
+                      "setup_time": 300,
+                      "execution_time": 60
+                    }
+                  ]
+                },
+                {
+                  "parentid": 4,
+                  "operationid": 6,
+                  "productid": 94,
+                  "code": "YKPG",
+                  "pname": "YKPG",
+                  "quantity": 1,
+                  "machines": [
+                    {
+                      "id": 5,
+                      "name": "Machine_05",
+                      "oee": 0.953,
+                      "setup_time": 300,
+                      "execution_time": 60
+                    },
+                    {
+                      "id": 46,
+                      "name": "Machine_46",
+                      "oee": 0.893,
+                      "setup_time": 300,
+                      "execution_time": 60
+                    },
+                    {
+                      "id": 70,
+                      "name": "Machine_70",
+                      "oee": 0.937,
+                      "setup_time": 300,
+                      "execution_time": 60
+                    },
+                    {
+                      "id": 81,
+                      "name": "Machine_81",
+                      "oee": 0.976,
+                      "setup_time": 300,
+                      "execution_time": 60
+                    }
+                  ],
+                  "children": [
+                    {
+                      "parentid": 6,
+                      "operationid": 7,
+                      "productid": 46,
+                      "code": "RUUR",
+                      "pname": "RUUR",
+                      "quantity": 1,
+                      "machines": [
+                        {
+                          "id": 6,
+                          "name": "Machine_06",
+                          "oee": 0.941,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 37,
+                          "name": "Machine_37",
+                          "oee": 0.936,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 41,
+                          "name": "Machine_41",
+                          "oee": 0.97,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 43,
+                          "name": "Machine_43",
+                          "oee": 0.896,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 63,
+                          "name": "Machine_63",
+                          "oee": 0.963,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 70,
+                          "name": "Machine_70",
+                          "oee": 0.937,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 78,
+                          "name": "Machine_78",
+                          "oee": 0.906,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 80,
+                          "name": "Machine_80",
+                          "oee": 0.904,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        },
+                        {
+                          "id": 89,
+                          "name": "Machine_89",
+                          "oee": 0.969,
+                          "setup_time": 300,
+                          "execution_time": 60
+                        }
+                      ],
+                      "children": [
+                        {
+                          "parentid": 7,
+                          "operationid": 8,
+                          "productid": 11,
+                          "code": "TPWW",
+                          "pname": "TPWW",
+                          "quantity": 1,
+                          "machines": [
+                            {
+                              "id": 31,
+                              "name": "Machine_31",
+                              "oee": 0.974,
+                              "setup_time": 300,
+                              "execution_time": 300
+                            },
+                            {
+                              "id": 43,
+                              "name": "Machine_43",
+                              "oee": 0.896,
+                              "setup_time": 300,
+                              "execution_time": 300
+                            },
+                            {
+                              "id": 65,
+                              "name": "Machine_65",
+                              "oee": 0.912,
+                              "setup_time": 300,
+                              "execution_time": 300
+                            }
+                          ],
+                          "children": [
+                            {
+                              "parentid": 8,
+                              "operationid": 9,
+                              "productid": 15,
+                              "code": "KFZS",
+                              "pname": "KFZS",
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 5,
+                                  "name": "Machine_05",
+                                  "oee": 0.953,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 26,
+                                  "name": "Machine_26",
+                                  "oee": 0.946,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 28,
+                                  "name": "Machine_28",
+                                  "oee": 0.947,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 29,
+                                  "name": "Machine_29",
+                                  "oee": 0.952,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 33,
+                                  "name": "Machine_33",
+                                  "oee": 0.962,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 35,
+                                  "name": "Machine_35",
+                                  "oee": 0.936,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 39,
+                                  "name": "Machine_39",
+                                  "oee": 0.944,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 45,
+                                  "name": "Machine_45",
+                                  "oee": 0.935,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 47,
+                                  "name": "Machine_47",
+                                  "oee": 0.874,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 54,
+                                  "name": "Machine_54",
+                                  "oee": 0.956,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 63,
+                                  "name": "Machine_63",
+                                  "oee": 0.963,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 71,
+                                  "name": "Machine_71",
+                                  "oee": 0.934,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 72,
+                                  "name": "Machine_72",
+                                  "oee": 0.895,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 81,
+                                  "name": "Machine_81",
+                                  "oee": 0.976,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                },
+                                {
+                                  "id": 96,
+                                  "name": "Machine_96",
+                                  "oee": 0.869,
+                                  "setup_time": 300,
+                                  "execution_time": 180
+                                }
+                              ],
+                              "children": [
+                                {
+                                  "parentid": 9,
+                                  "operationid": 11,
+                                  "productid": 53,
+                                  "code": "OUNG",
+                                  "pname": "OUNG",
+                                  "quantity": 1,
+                                  "machines": [
+                                    {
+                                      "id": 73,
+                                      "name": "Machine_73",
+                                      "oee": 0.893,
+                                      "setup_time": 300,
+                                      "execution_time": 240
+                                    },
+                                    {
+                                      "id": 76,
+                                      "name": "Machine_76",
+                                      "oee": 0.959,
+                                      "setup_time": 300,
+                                      "execution_time": 240
+                                    }
+                                  ],
+                                  "children": [
+                                    {
+                                      "parentid": 11,
+                                      "operationid": 12,
+                                      "productid": 61,
+                                      "code": "XANY",
+                                      "pname": "XANY",
+                                      "quantity": 1,
+                                      "machines": [
+                                        {
+                                          "id": 1,
+                                          "name": "Machine_01",
+                                          "oee": 0.91,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 3,
+                                          "name": "Machine_03",
+                                          "oee": 0.986,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 6,
+                                          "name": "Machine_06",
+                                          "oee": 0.941,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 8,
+                                          "name": "Machine_08",
+                                          "oee": 0.989,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 21,
+                                          "name": "Machine_21",
+                                          "oee": 0.934,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 24,
+                                          "name": "Machine_24",
+                                          "oee": 0.968,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 25,
+                                          "name": "Machine_25",
+                                          "oee": 0.988,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 32,
+                                          "name": "Machine_32",
+                                          "oee": 0.906,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 35,
+                                          "name": "Machine_35",
+                                          "oee": 0.936,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 54,
+                                          "name": "Machine_54",
+                                          "oee": 0.956,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 55,
+                                          "name": "Machine_55",
+                                          "oee": 0.99,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 60,
+                                          "name": "Machine_60",
+                                          "oee": 0.964,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 67,
+                                          "name": "Machine_67",
+                                          "oee": 0.899,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 69,
+                                          "name": "Machine_69",
+                                          "oee": 0.982,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        },
+                                        {
+                                          "id": 85,
+                                          "name": "Machine_85",
+                                          "oee": 0.965,
+                                          "setup_time": 300,
+                                          "execution_time": 120
+                                        }
+                                      ],
+                                      "children": [
+                                        {
+                                          "parentid": 12,
+                                          "operationid": 13,
+                                          "productid": 52,
+                                          "code": "ZIAV",
+                                          "pname": "ZIAV",
+                                          "quantity": 1,
+                                          "machines": [
+                                            {
+                                              "id": 30,
+                                              "name": "Machine_30",
+                                              "oee": 0.992,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 39,
+                                              "name": "Machine_39",
+                                              "oee": 0.944,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 50,
+                                              "name": "Machine_50",
+                                              "oee": 0.894,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 60,
+                                              "name": "Machine_60",
+                                              "oee": 0.964,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 74,
+                                              "name": "Machine_74",
+                                              "oee": 0.978,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 77,
+                                              "name": "Machine_77",
+                                              "oee": 0.885,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 81,
+                                              "name": "Machine_81",
+                                              "oee": 0.976,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 82,
+                                              "name": "Machine_82",
+                                              "oee": 0.861,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            },
+                                            {
+                                              "id": 88,
+                                              "name": "Machine_88",
+                                              "oee": 0.864,
+                                              "setup_time": 300,
+                                              "execution_time": 300
+                                            }
+                                          ],
+                                          "children": [
+                                            {
+                                              "parentid": 13,
+                                              "operationid": 14,
+                                              "productid": 30,
+                                              "code": "BLQR",
+                                              "pname": "BLQR",
+                                              "quantity": 1,
+                                              "machines": [
+                                                {
+                                                  "id": 10,
+                                                  "name": "Machine_10",
+                                                  "oee": 0.931,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 16,
+                                                  "name": "Machine_16",
+                                                  "oee": 0.943,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 19,
+                                                  "name": "Machine_19",
+                                                  "oee": 0.982,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 32,
+                                                  "name": "Machine_32",
+                                                  "oee": 0.906,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 34,
+                                                  "name": "Machine_34",
+                                                  "oee": 0.902,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 36,
+                                                  "name": "Machine_36",
+                                                  "oee": 0.908,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 62,
+                                                  "name": "Machine_62",
+                                                  "oee": 0.951,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 65,
+                                                  "name": "Machine_65",
+                                                  "oee": 0.912,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 66,
+                                                  "name": "Machine_66",
+                                                  "oee": 0.926,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 75,
+                                                  "name": "Machine_75",
+                                                  "oee": 0.899,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 77,
+                                                  "name": "Machine_77",
+                                                  "oee": 0.885,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 78,
+                                                  "name": "Machine_78",
+                                                  "oee": 0.906,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                },
+                                                {
+                                                  "id": 95,
+                                                  "name": "Machine_95",
+                                                  "oee": 0.893,
+                                                  "setup_time": 300,
+                                                  "execution_time": 60
+                                                }
+                                              ],
+                                              "children": [
+                                                {
+                                                  "parentid": 14,
+                                                  "operationid": 15,
+                                                  "productid": 65,
+                                                  "code": "LDCF",
+                                                  "pname": "LDCF",
+                                                  "quantity": 1,
+                                                  "machines": [
+                                                    {
+                                                      "id": 14,
+                                                      "name": "Machine_14",
+                                                      "oee": 0.98,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 20,
+                                                      "name": "Machine_20",
+                                                      "oee": 0.959,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 23,
+                                                      "name": "Machine_23",
+                                                      "oee": 0.893,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 26,
+                                                      "name": "Machine_26",
+                                                      "oee": 0.946,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 29,
+                                                      "name": "Machine_29",
+                                                      "oee": 0.952,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 36,
+                                                      "name": "Machine_36",
+                                                      "oee": 0.908,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 39,
+                                                      "name": "Machine_39",
+                                                      "oee": 0.944,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 42,
+                                                      "name": "Machine_42",
+                                                      "oee": 0.989,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 44,
+                                                      "name": "Machine_44",
+                                                      "oee": 0.934,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    },
+                                                    {
+                                                      "id": 62,
+                                                      "name": "Machine_62",
+                                                      "oee": 0.951,
+                                                      "setup_time": 300,
+                                                      "execution_time": 120
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "parentid": 8,
+                              "operationid": 10,
+                              "productid": 47,
+                              "code": "UWQF",
+                              "pname": "UWQF",
+                              "quantity": 1,
+                              "machines": [
+                                {
+                                  "id": 56,
+                                  "name": "Machine_56",
+                                  "oee": 0.907,
+                                  "setup_time": 300,
+                                  "execution_time": 240
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
